@@ -1,0 +1,72 @@
+<!doctype html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--[if IE]>
+	<script src="../../../html5.js" type="text/javascript"></script>
+	<script src="../../../excanvas.compiled.js" type="text/javascript"></script>
+	<![endif]-->
+	<style type="text/css">
+	body{background:#000;}
+	#c1{background:#fff;}
+	</style>
+</head>
+<body>
+	<canvas id="c1" width="400" height="400">
+		<span>不支持canvas</span>
+	</canvas>
+	<script type="text/javascript">
+	window.onload = function(){ 
+		var oC = document.getElementById("c1");
+		var oGC = oC.getContext("2d");
+		var yImg = new Image();
+        yImg.onload = function(){
+            draw(this);
+        };
+        yImg.src = "../images/start.png";
+        function draw(obj){
+            oC.width = obj.width;
+            oGC.drawImage(obj, 0, 0);
+            var oImg = oGC.getImageData(0, 0, obj.width, obj.height);
+            var w = oImg.width;
+            var h = oImg.height;
+
+            for(var i = 0; i < h; i++){
+                for(var j = 0; j < w; j++){
+                    var result = [];
+                    var color = getXY(oImg, j, i);
+                    color[0] = 255 - color[0];
+                    color[1] = 255 - color[1];
+                    color[2] = 255 - color[2];
+                    color[3] = 255;
+                    setXY(oImg, j, i, result);
+                }
+            }
+            oGC.putImageData(oImg, 0, 100);
+        }
+
+        function setXY(obj, x, y, color){
+            var w = obj.width;
+            var h = obj.height;
+            var d = obj.data;
+            d[4*(y*w+x)] = color[0];
+            d[4*(y*w+x) + 1] = color[1];
+            d[4*(y*w+x) + 2] = color[2];
+            d[4*(y*w+x) + 3] = color[3];
+        }
+
+        function getXY(obj, x, y){
+            var w = obj.width;
+            var h = obj.height;
+            var d = obj.data;
+            var color = [];
+            color[0] = d[4*(y*w+x)];
+            color[1] = d[4*(y*w+x) + 1];
+            color[2] = d[4*(y*w+x) + 2];
+            color[3] = d[4*(y*w+x) + 3];
+            return color;
+        }
+	};
+	</script>
+</body>
+</html>

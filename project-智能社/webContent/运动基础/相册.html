@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>相册</title>
+	<link rel="stylesheet" type="text/css" href="../../../base.css">
+	<style type="text/css">
+	.album{ position: relative; z-index: 1; width: 900px; height: 600px; overflow: hidden;}
+	.album .albumLeft,
+	.album .albumRight{ position: absolute; z-index: 2; top: 0; left: 0; width: 50%; height: 300px; background: red; opacity: 0; filter:alpha(opacity:0);}
+	.album .albumRight{ left: 50%; background: yellow;}
+	.album .btnLeft,
+	.album .btnRight{ position: absolute; z-index: 2; top: 150px; margin-top: -25px; width: 50px; height: 50px; background: blue; opacity: 0; filter:alpha(opacity:0);}
+	.album .btnRight{ right:0; background: green; }
+	.album .albumBig{ position: relative; z-index: 1; width: 900px; height: 300px; }
+	.album .albumBig li{ position: absolute; z-index: 1; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden;}
+	.album .albumBig li a{ display: block;}
+	.album .albumBig li img{ width: 100%; height: 100%;}
+	.album .albumSmall{ width: 100%; height: 150px; overflow: hidden;}
+	.album .albumSmall li{ float:left; width: 300px; height:150px; opacity: 0.7; filter:alpha(opacity:70);}
+	.album .albumSmall li img{ width: 100%; height: 100%;}
+	</style>
+</head>
+
+<body>
+	<div id="album" class="album">
+		<div class="albumLeft"></div>
+		<div class="albumRight"></div>
+		<a class="btnLeft">left</a>
+		<a class="btnRight">right</a>
+		<ol class="albumBig">
+			<li>
+				<a href="#"><img src="../../resource/images/c1.jpg" alt="c1" /></a>
+			</li>
+			<li>
+				<a href="#"><img src="../../resource/images/c2.jpg" alt="c2" /></a>
+			</li>
+			<li>
+				<a href="#"><img src="../../resource/images/c3.jpg" alt="c3" /></a>
+			</li>
+			<li>
+				<a href="#"><img src="../../resource/images/c4.jpg" alt="c4" /></a>
+			</li>
+			<li>
+				<a href="#"><img src="../../resource/images/c5.jpg" alt="c5" /></a>
+			</li>
+		</ol>
+		<ul class="albumSmall clearfix">
+			<li>
+				<img src="../../resource/images/c1.jpg" alt="c1" />
+			</li>
+			<li>
+				<img src="../../resource/images/c2.jpg" alt="c2" />
+			</li>
+			<li>
+				<img src="../../resource/images/c3.jpg" alt="c3" />
+			</li>
+			<li>
+				<img src="../../resource/images/c4.jpg" alt="c4" />
+			</li>
+			<li>
+				<img src="../../resource/images/c5.jpg" alt="c5" />
+			</li>
+		</ul>
+	</div>
+	<script src="../../../base.js"></script>
+	<script type="text/javascript">
+		var GLOBAL = GLOBAL || {};
+		GLOBAL.Album = GLOBAL.Album || {};
+		GLOBAL.Album.init = function(id){ 
+			var oAblum = document.getElementById(id),
+				oOl = GLOBAL.Dom.getElementsByClassName(oAblum, "albumBig")[0],
+				oUl = GLOBAL.Dom.getElementsByClassName(oAblum, "albumSmall")[0],
+				oOlli = oOl.getElementsByTagName("li"),
+				oUlli = oUl.getElementsByTagName("li");
+
+			oAblum.index = 2;
+			oAblum.selectedIndex = 0;
+			oOlli[0].style.zIndex = oAblum.index;
+			oUlli[0].className = "selected";
+			GLOBAL.Dom.animate(oUlli[0], {"opacity": 100});
+
+			//左
+			GLOBAL.Album.aLeft(id);
+			//右
+			GLOBAL.Album.aRight(id);
+			//小图
+			for(var i = 0, iLen = oUlli.length; i < iLen; i++){ 
+				oUlli[i].index = i;
+				GLOBAL.EventUtil.addHandler(oUlli[i], "click", function(){ 
+					GLOBAL.Album.small(id, this);
+				});
+			}
+
+		};
+
+		GLOBAL.Album.aLeft = function(id){ 
+			var oAblum = document.getElementById(id),
+				oAlbumLeft = GLOBAL.Dom.getElementsByClassName(oAblum, "albumLeft")[0],
+				oBtnLeft = GLOBAL.Dom.getElementsByClassName(oAblum, "btnLeft")[0],
+				oUl = GLOBAL.Dom.getElementsByClassName(oAblum, "albumSmall")[0],
+				oUlli = oUl.getElementsByTagName("li");
+
+			GLOBAL.EventUtil.addHandler(oAlbumLeft, "mouseover", function(){ 
+				GLOBAL.Dom.animate(oBtnLeft, {"opacity": 100});
+			});
+			GLOBAL.EventUtil.addHandler(oAlbumLeft, "mouseout", function(){ 
+				GLOBAL.Dom.animate(oBtnLeft, {"opacity": 0});
+			});
+			GLOBAL.EventUtil.addHandler(oBtnLeft, "mouseover", function(){ 
+				GLOBAL.Dom.animate(oBtnLeft, {"opacity": 100});
+			});
+			GLOBAL.EventUtil.addHandler(oBtnLeft, "mouseout", function(){ 
+				GLOBAL.Dom.animate(oBtnLeft, {"opacity": 0});
+			});
+			GLOBAL.EventUtil.addHandler(oBtnLeft, "click", function(){ 
+				oAblum.selectedIndex--;
+				GLOBAL.Album.small(id, oUlli[oAblum.selectedIndex]);
+			});
+		};
+
+		GLOBAL.Album.aRight = function(id){ 
+			var oAblum = document.getElementById(id),
+				oAlbumRight = GLOBAL.Dom.getElementsByClassName(oAblum, "albumRight")[0],
+				oBtnRight = GLOBAL.Dom.getElementsByClassName(oAblum, "btnRight")[0],
+				oUl = GLOBAL.Dom.getElementsByClassName(oAblum, "albumSmall")[0],
+				oUlli = oUl.getElementsByTagName("li");
+
+			GLOBAL.EventUtil.addHandler(oAlbumRight, "mouseover", function(){ 
+				GLOBAL.Dom.animate(oBtnRight, {"opacity": 100});
+			});
+			GLOBAL.EventUtil.addHandler(oAlbumRight, "mouseout", function(){ 
+				GLOBAL.Dom.animate(oBtnRight, {"opacity": 0});
+			});
+			GLOBAL.EventUtil.addHandler(oBtnRight, "mouseover", function(){ 
+				GLOBAL.Dom.animate(oBtnRight, {"opacity": 100});
+			});
+			GLOBAL.EventUtil.addHandler(oBtnRight, "mouseout", function(){ 
+				GLOBAL.Dom.animate(oBtnRight, {"opacity": 0});
+			});
+			GLOBAL.EventUtil.addHandler(oBtnRight, "click", function(){ 
+				oAblum.selectedIndex++;
+				GLOBAL.Album.small(id, oUlli[oAblum.selectedIndex]);
+			});
+		};
+
+		GLOBAL.Album.small = function(id, obj){ 
+			var oAblum = document.getElementById(id),
+				oOl = GLOBAL.Dom.getElementsByClassName(oAblum, "albumBig")[0],
+				oUl = GLOBAL.Dom.getElementsByClassName(oAblum, "albumSmall")[0],
+				oOlli = oOl.getElementsByTagName("li"),
+				oUlli = oUl.getElementsByTagName("li");
+			var height = oOl.clientHeight;
+			var iCurrentHeight = oOlli[obj.index].clientHeight;
+			if(obj.className != "selected" && iCurrentHeight == height){
+				for(var j = 0, jLen = oUlli.length; j < jLen; j++){ 
+					oUlli[j].className = "";
+					GLOBAL.Dom.animate(oUlli[j], {"opacity": 70});
+				}
+				obj.className = "selected";
+				oOlli[obj.index].style.opacity = 0;
+				oOlli[obj.index].style.zIndex = oAblum.index++;
+				GLOBAL.Dom.animate(obj, {"opacity": 100});
+				GLOBAL.Dom.animate(oOlli[obj.index], {"opacity": 100});
+				oAblum.selectedIndex = obj.index;
+			}
+		};
+
+		GLOBAL.Album.init("album");
+	</script>
+</body>
+</html>

@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://diagramo.com/editor/editor.php -->
+<html>
+<!--Copyright 2010 Scriptoid s.r.l-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>HTML5 diagram editor</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <script type="text/javascript" src="./HTML5 diagram editor_files/dropdownmenu.js"></script>
+
+    <link rel="stylesheet" media="screen" type="text/css" href="./HTML5 diagram editor_files/style.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="./HTML5 diagram editor_files/minimap.css">
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/json2.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/ajaxfileupload.js"></script>
+
+    <link type="text/css" href="./HTML5 diagram editor_files/diagramo.css" rel="stylesheet" media="screen">
+    <script type="text/javascript" src="./HTML5 diagram editor_files/jquery.simplemodal.js"></script>
+
+    <script type="text/javascript">
+        "use strict";
+        /*Option 1:
+         *We can use window.location like this:
+         * url = window.location.protocol + window.location.hostname + ":" + window.location.port + ....
+         * @see http://www.w3schools.com/jsref/obj_location.asp
+         *
+         * Option 2:
+         * Use http://code.google.com/p/js-uri/
+         **/
+        var appURL = 'http://diagramo.com';
+        var figureSetsURL = appURL + '/editor/lib/sets';
+        var insertImageURL = appURL + '/editor/data/import/';
+
+        function showImport() {
+            //alert("ok");
+            var r = confirm("Current diagram will be deleted. Are you sure?");
+            if (r === true) {
+                $('#import-dialog').modal(); // jQuery object; this demo
+            }
+        }
+    </script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/dashed.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/canvasprops.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/style.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/primitives.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/ImageFrame.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/matrix.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/util.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/key.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/groups.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/stack.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/connections.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/connectionManagers.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/handles.js"></script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/builder.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/text.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/log.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/text.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/browserReady.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/containers.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/importer.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/main.js"></script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/basic.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/experimental.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/network.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/secondary.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/statemachine.js"></script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/minimap.js"></script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/History.js"></script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/FigureCreateCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/FigureCloneCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/FigureTranslateCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/FigureRotateCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/FigureScaleCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/FigureZOrderCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/FigureDeleteCommand.js"></script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/GroupRotateCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/GroupScaleCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/GroupCreateCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/GroupCloneCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/GroupDestroyCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/GroupDeleteCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/GroupTranslateCommand.js"></script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/ContainerCreateCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/ContainerDeleteCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/ContainerTranslateCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/ContainerScaleCommand.js"></script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/ConnectorCreateCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/ConnectorDeleteCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/ConnectorAlterCommand.js"></script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/ShapeChangePropertyCommand.js"></script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/CanvasChangeColorCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/CanvasChangeSizeCommand.js"></script>
+    <script type="text/javascript" src="./HTML5 diagram editor_files/CanvasFitCommand.js"></script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/InsertedImageFigureCreateCommand.js"></script>
+
+    <script type="text/javascript" src="./HTML5 diagram editor_files/colorPicker_new.js"></script>
+    <link rel="stylesheet" media="screen" type="text/css" href="./HTML5 diagram editor_files/colorPicker_new.css">
+
+    <!--[if IE]>
+    <script src="./assets/javascript/excanvas.js"></script>
+    <![endif]-->
+
+</head>
+<body onload="init(&#39;&#39;);" id="body" style="">
+
+<div id="header">
+    <!--Logo menu-->
+    <div class="dropdown_menu">
+        <a style="padding: 0;" href="http://diagramo.com/" target="blank">
+            <img
+                    src="./HTML5 diagram editor_files/logo-36x36.png"></a>
+    </div>
+    <!-- /File menu-->
+
+    <div id="dropdown">
+
+        <!--File menu-->
+        <div class="dropdown_menu">
+            <a href="http://diagramo.com/editor/editor.php#"
+               onmouseover="dropdownSpace.menuOpen(&#39;file&#39;)"
+               onmouseout="dropdownSpace.menuCloseTime()">File</a>
+
+            <div class="dropdown_menu_panel" id="file" onmouseover="dropdownSpace.menuCancelCloseTime()"
+                 onmouseout="dropdownSpace.menuCloseTime()">
+                <a style="text-decoration: none;"
+                   href="http://diagramo.com/editor/common/controller.php?action=newDiagramExe" title="New diagram">
+                    <img
+                            style="vertical-align:middle; margin-right: 3px;"
+                            src="./HTML5 diagram editor_files/icon_new.jpg" border="0" width="20" height="21">
+						<span
+                                class="menuText">New</span>
+                </a>
+                <a style="text-decoration: none; border-bottom: 1px solid #666;"
+                   href="http://diagramo.com/editor/myDiagrams.php" title="Open diagram">
+                    <img
+                            style="vertical-align:middle; margin-right: 3px;"
+                            src="./HTML5 diagram editor_files/icon_open.jpg" border="0" width="20" height="21">
+						<span
+                                class="menuText">Open...</span>
+                </a>
+                <a style="text-decoration: none;" href="javascript:save();" title="Save diagram (Ctrl-S)">
+                    <img
+                            style="vertical-align:middle; margin-right: 3px;"
+                            src="./HTML5 diagram editor_files/icon_save.jpg" border="0" width="22" height="22">
+						<span
+                                class="menuText">Save</span>
+                </a>
+                <a style="text-decoration: none; border-bottom: 1px solid #666;" href="javascript:saveAs();"
+                   title="Save diagram as...">
+                    <img style="vertical-align:middle; margin-right: 3px;"
+                         src="./HTML5 diagram editor_files/icon_save_as.jpg" border="0"
+                         width="22" height="22">
+                    <span class="menuText">Save as...</span>
+                </a>
+                <a style="text-decoration: none; border-bottom: 1px solid #666;" href="javascript:void(0)"
+                   onclick="showImport();" title="Import diagram">
+                    <img style="vertical-align:middle; margin-right: 3px;"
+                         src="./HTML5 diagram editor_files/icon_import.gif"
+                         border="0" width="25" height="21">
+						<span
+                                class="menuText">Import</span>
+                </a>
+            </div>
+        </div>
+        <!-- /File menu-->
+
+        <!--Settings menu-->
+        <div class="dropdown_menu">
+            <a href="http://diagramo.com/editor/editor.php#"
+               onmouseover="dropdownSpace.menuOpen(&#39;settings&#39;)"
+               onmouseout="dropdownSpace.menuCloseTime()">Settings</a>
+
+            <div class="dropdown_menu_panel" id="settings" onmouseover="dropdownSpace.menuCancelCloseTime()"
+                 onmouseout="dropdownSpace.menuCloseTime()" style="visibility: hidden;">
+                <a href="http://diagramo.com/editor/settings.php">My settings</a>
+            </div>
+        </div>
+        <!--Settings menu-->
+
+        <!--Collaborators menu-->
+        <!--Collaborators menu-->
+
+        <!--Help menu-->
+        <div class="dropdown_menu">
+            <a href="http://diagramo.com/editor/editor.php#"
+               onmouseover="dropdownSpace.menuOpen(&#39;help&#39;)"
+               onmouseout="dropdownSpace.menuCloseTime()">Help</a>
+
+            <div class="dropdown_menu_panel" id="help" onmouseover="dropdownSpace.menuCancelCloseTime()"
+                 onmouseout="dropdownSpace.menuCloseTime()" style="visibility: hidden;">
+                <a href="https://bitbucket.org/scriptoid/diagramo/issues/new" target="new">Report bug</a>
+                <a href="javascript:void(0);" onclick="javascript:DIAGRAMO.switchDebug()">
+                    <img id="iconDebug"
+                         src="./HTML5 diagram editor_files/icon_debug_false.gif"
+                         style="vertical-align: middle;">Debug</a>
+                <!--<a href="./license.php">License</a>
+            -->
+                <a href="javascript:void(0);" onclick="buildNo()">About</a>
+                <script type="text/javascript">
+                    var msg = "Build number: 2.4.0-3c215561787f-2014-07-01";
+                    function buildNo() {
+                        alert(msg);
+                    }
+                </script>
+            </div>
+        </div>
+        <!--Help menu-->
+
+        <!--Direct link-->
+        <!-- //Direct link-->
+
+        <!-- alfa
+            <td valign="middle">
+        <a style="text-decoration: none;" href="javascript:exportCanvas();">
+            <img style="vertical-align:middle; margin-right: 3px;" src="../assets/images/icon_export.jpg" border="0" width="22" height="22"/>
+            <span class="menuText">Debug Export</span>
+        </a>
+    </td>
+    <td width="20" align="center">
+        <img style="vertical-align:middle;" src="../assets/images/upper_bar_separator.jpg" border="0" width="2" height="16"/>
+    </td>
+    -->
+        <script type="text/javascript">
+            //check if browser is ready
+            if (!isBrowserReady()) {
+                document.write('<span style="background-color: red;" >');
+                document.write("No support for HTML5. More <a href=\"http://http://diagramo.com/htm5-support.php\">here</a></a>");
+                document.write("</span>");
+            }
+        </script>
+
+    </div>
+</div>
+<div id="actions">
+
+    <a style="text-decoration: none;" href="http://diagramo.com/editor/editor.php#" onclick="return save();"
+       title="Save diagram (Ctrl-S)">
+        <img src="./HTML5 diagram editor_files/icon_save.jpg" border="0" width="16"
+             height="16"></a>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <a style="text-decoration: none;" href="http://diagramo.com/editor/myDiagrams.php" title="Open diagram">
+        <img
+                src="./HTML5 diagram editor_files/icon_open.jpg" border="0" width="16" height="16"></a>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <a href="javascript:action('connector-straight');" title="Straight connector">
+        <img
+                src="./HTML5 diagram editor_files/icon_connector_straight.gif" border="0"></a>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <a href="javascript:action('connector-jagged');" title="Jagged connector">
+        <img
+                src="./HTML5 diagram editor_files/icon_connector_jagged.gif" border="0"></a>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <a href="javascript:action('connector-organic');" title="Organic connector">
+        <img
+                src="./HTML5 diagram editor_files/icon_connector_organic.gif" border="0" alt="Organic"></a>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <a href="javascript:action('container');" title="Container (Experimental)">
+        <img
+                src="./HTML5 diagram editor_files/container.png" border="0" alt="Container"></a>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <input type="checkbox" onclick="showGrid();" id="gridCheckbox" title="Show grid">
+    <span class="toolbarText">Show grid</span>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <input type="checkbox" onclick="snapToGrid();" id="snapCheckbox" title="Snap elements to grid">
+<span
+        class="toolbarText">Snap to grid</span>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <a href="javascript:action('front');" title="Move to front">
+        <img src="./HTML5 diagram editor_files/icon_front.gif"
+             border="0"></a>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <a href="javascript:action('back');" title="Move to back">
+        <img src="./HTML5 diagram editor_files/icon_back.gif"
+             border="0"></a>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <a href="javascript:action('moveforward');" title="Move (one level) to front">
+        <img
+                src="./HTML5 diagram editor_files/icon_forward.gif" border="0"></a>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <a href="javascript:action('moveback');" title="Move (one level) back">
+        <img
+                src="./HTML5 diagram editor_files/icon_backward.gif" border="0"></a>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+    <a href="javascript:action('group');" title="Group (Ctrl-G)">
+        <img src="./HTML5 diagram editor_files/group.gif"
+             border="0"></a>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+    <a href="javascript:action('ungroup');" title="Ungroup (Ctrl-U)">
+        <img src="./HTML5 diagram editor_files/ungroup.gif"
+             border="0"></a>
+
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <a href="javascript:createFigure(figure_Text, 'assets/images/text.gif');" title="Add text">
+        <img
+                src="./HTML5 diagram editor_files/text.gif" border="0" height="16"></a>
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <a href="javascript:showInsertImageDialog();" title="Add image">
+        <img src="./HTML5 diagram editor_files/image.gif"
+             border="0" height="16" alt="Image"></a>
+    <img class="separator" src="./HTML5 diagram editor_files/toolbar_separator.gif" border="0" width="1" height="16">
+
+    <a href="javascript:action('undo');" title="Undo (Ctrl-Z)">
+        <img src="./HTML5 diagram editor_files/arrow_undo.png"
+             border="0"></a>
+    <!--
+        <img class="separator" src="assets/images/toolbar_separator.gif" border="0" width="1" height="16"/>
+    <a href="javascript:action('redo');" title="Redo (Ctrl-Y)">
+        <img src="assets/images/arrow_redo.png" border="0"/>
+    </a>
+    -->
+    <!-- TODO: From Janis: we have to create a nice icon for duplicate, currently this is the only command without an icon -->
+    <!--
+        <a href="javascript:action('duplicate');">Copy (Ctrl-D)</a>
+    -->
+    <!--
+        <input type="text" id="output" />
+    <img style="vertical-align:middle;" src="../assets/images/toolbar_separator.gif" border="0" width="1" height="16"/>
+    <a href="javascript:action('duplicate');">Copy</a>
+    <img style="vertical-align:middle;" src="../assets/images/toolbar_separator.gif" border="0" width="1" height="16"/>
+    <a href="javascript:action('group');">Group</a>
+    <img style="vertical-align:middle;" src="../assets/images/toolbar_separator.gif" border="0" width="1" height="16"/>
+    <a href="javascript:action('ungroup');">Ungroup</a>
+    -->
+</div>
+
+<div id="editor">
+<div id="figures">
+<select style="width: 120px;" onchange="setFigureSet(this.options[this.selectedIndex].value);">
+    <script>
+        "use strict";
+        for (var setName in figureSets) {
+            var set = figureSets[setName];
+            document.write('<option value="' + setName + '">' + set['name'] + '</option>');
+        }
+    </script>
+    <option value="basic">Basic</option>
+    <option value="experimental">Experimental</option>
+    <option value="network">Network</option>
+    <option value="secondary">Secondary</option>
+    <option value="statemachine">UML: State machine</option>
+</select>
+
+<script>
+    "use strict";
+    /**Builds the figure panel*/
+    function buildPanel() {
+        //var first = true;
+        var firstPanel = true;
+        for (var setName in figureSets) {
+            var set = figureSets[setName];
+
+            //creates the div that will hold the figures
+            var eSetDiv = document.createElement('div');
+            eSetDiv.setAttribute('id', setName);
+            //eSetDiv.style.border = '1px solid green';
+            if (firstPanel) {
+                firstPanel = false;
+            }
+            else {
+                eSetDiv.style.display = 'none';
+            }
+            document.getElementById('figures').appendChild(eSetDiv);
+
+            //add figures to the div
+            for (var figure in set['figures']) {
+                figure = set['figures'][figure];
+
+                var figureFunctionName = 'figure_' + figure.figureFunction;
+                var figureThumbURL = 'HTML5 diagram editor_files/images/' + setName + '/' + figure.image;
+
+                var eFigure = document.createElement('img');
+                eFigure.setAttribute('src', figureThumbURL);
+
+                eFigure.addEventListener('mousedown', function (figureFunction, figureThumbURL) {
+                            return function (evt) {
+                                evt.preventDefault();
+                                //Log.info("editor.php:buildPanel: figureFunctionName:" + figureFunctionName);
+
+                                createFigure(window[figureFunction] /*we need to search for function in window namespace (as all that we have is a simple string)**/
+                                        , figureThumbURL);
+                            };
+                        }(figureFunctionName, figureThumbURL)
+                        , false);
+
+                //in case use drops the figure
+                eFigure.addEventListener('mouseup', function () {
+                            createFigureFunction = null;
+                            selectedFigureThumb = null;
+                            state = STATE_NONE;
+                        }
+                        , false);
+
+
+                eFigure.style.cursor = 'pointer';
+                eFigure.style.marginRight = '5px';
+                eFigure.style.marginTop = '2px';
+
+                eSetDiv.appendChild(eFigure);
+            }
+        }
+    }
+
+    buildPanel();
+
+    //                    var first = true;
+    //                    for(var setName in figureSets){
+    //
+    //                        document.write('<div id="' + setName + '" ' + (!first ? 'style="display: none"' : '')+'>');
+    //                        document.write('<table border="0" cellpadding="0" cellspacing="0" width="120">');
+    //                        var counter = 0;
+    //                        var set = figureSets[setName];
+    //                        for(var figure in set['figures']){
+    //                            figure = set['figures'][figure];
+    //                            if(counter % 3 == 0){
+    //                                document.write('<tr>');
+    //                            }
+    //
+    //                            var figureFunctionName = 'figure_' + figure.figureFunction;
+    //                            var figureThumbURL = 'lib/sets/' + setName + '/' + figure.image;
+    //
+    //                            document.write('<td align="center">');
+    //                            document.write('<a href="javascript:createFigure(' + figureFunctionName + "," + "'" + figureThumbURL + "'" + ');">');
+    //
+    //                            //TODO: how to prevent default behaviour?
+    //                            var figureImageId = 'fig' + setName + '_' + figure.figureFunction;
+    //                            document.write('<img id="' + figureImageId +'" onmousedown="javascript:createFigure(' + figureFunctionName + "," + "'" + figureThumbURL + "'" + ');" src="' + figureThumbURL + '" border="0" alt="'+ figure.figureFunction + '" />');
+    //
+    //                            var figureImageElem = document.getElementById(figureImageId);
+    //                            figureImageId.onMouseDown = function(evt){
+    //                                alert('I am here');
+    //                                evt.preventDefault();
+    //                            }
+    //
+    //                            //document.write('</a>');
+    //                            document.write('</td>');
+    //
+    //                            counter ++;
+    //                            if(counter % 3 == 0){
+    //                                document.write('</tr>');
+    //                            }
+    //                        }
+    //                        if(counter % 3 != 0){
+    //                            document.write('</tr>');
+    //                        }
+    //                        document.write('</table></div>');
+    //                        first = false;
+    //                    }
+</script>
+<div id="basic">
+    <img src="./HTML5 diagram editor_files/rounded_rectangle.png"
+         style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/rectangle.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/square.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/circle.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/diamond.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/parallelogram.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/ellipse.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/right_triangle.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/pentagon.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/hexagon.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/octogon.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/text.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;"></div>
+<div id="experimental" style="display: none;">
+    <img src="./HTML5 diagram editor_files/image_32.gif"
+         style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/image_frame.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/page.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/tango.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/page.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/page.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/page.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/page.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/page.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/page.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/page.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/page.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/dotted.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/dotted_native.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;"></div>
+<div id="network" style="display: none;">
+    <img src="./HTML5 diagram editor_files/1_person.png"
+         style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/2_switch.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/3_router.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/4_cloud.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/5_server.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/6_firewall.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/7_building.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/8_laptop.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/9_desktop.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/10_lock.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/11_pda.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/12_phone.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/13_printer.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/14_database.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/15_ups.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/16_wireless_router.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;"></div>
+<div id="secondary" style="display: none;">
+    <img src="./HTML5 diagram editor_files/page(1).png"
+         style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/page_lower_corner_folded.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/page_upper_corner_folded.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/semi_circle_down.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/semi_circle_up.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/triangle.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;"></div>
+<div id="statemachine" style="display: none;">
+    <img src="./HTML5 diagram editor_files/start.png"
+         style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/end.png" style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/state.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;">
+    <img
+            src="./HTML5 diagram editor_files/note.png"
+            style="cursor: pointer; margin-right: 5px; margin-top: 2px;"></div>
+
+<div style="display:none;" id="more">
+    More sets of figures
+    <a href="http://diagramo.com/figures.php" target="_new">here</a>
+</div>
+</div>
+
+<!--THE canvas-->
+<div style="width: 100%">
+    <div id="container">
+        <canvas id="a" width="800" height="600" style="cursor: default;">
+            Your browser does not support HTML5. Please upgrade your browser to any modern version.
+        </canvas>
+        <div id="text-editor"></div>
+        <div id="text-editor-tools"></div>
+    </div>
+</div>
+
+<!--Right panel-->
+<div id="right">
+    <center>
+        <div id="minimap" style="height: 86.25px; width: 115px;">
+            <canvas width="115" height="86" style="width: 100%; height: 100%;"></canvas>
+            <div id="selection" style="width: 115px; height: 71.5875px;"></div>
+        </div>
+    </center>
+    <div style="overflow: scroll;" id="edit">
+        <div>
+            <div class="label title">Page Setup</div>
+            <hr>
+            <div class="line">
+                <div class="label">
+                    Background
+                    <img class="prop-icon"
+                         src="./HTML5 diagram editor_files/prop-icon-fill.png"></div>
+                <div id="colorSelector1421036172359" class="color-selector">
+                    <input type="text"
+                           id="colorpickerHolder1421036172359"
+                           style="display: none;">
+
+                    <div class="color_picker" style="background-color: rgb(255, 255, 255);">&nbsp;</div>
+                </div>
+            </div>
+            <div class="label">
+                Width
+                <img class="prop-icon"
+                     src="./HTML5 diagram editor_files/prop-icon-h-resize.png">
+                <input
+                        type="text" class="text"></div>
+            <div class="label">
+                Height
+                <img class="prop-icon"
+                     src="./HTML5 diagram editor_files/prop-icon-v-resize.png">
+                <input
+                        type="text" class="text"></div>
+            <div>
+                <input type="button" value="Update">
+                <input type="button" value="Fit"></div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!--The import panel-->
+<div id="import-dialog" style="background-color: white; display: none; margin-top: auto; margin-bottom: auto;">
+    <form action="http://diagramo.com/editor/common/controller.php" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="action" value="importDiagramExe">
+
+        <h2>Import Diagramo file</h2>
+
+        <p>
+            <input type="file" name="diagramFile" id="diagramFile"></p>
+
+        <p>
+            <input type="image" src="./HTML5 diagram editor_files/import.gif"></p>
+    </form>
+</div>
+
+<!--Insert Image dialog content-->
+<div id="insert-image-dialog">
+    <h2>Insert Image</h2>
+
+    <form action="http://diagramo.com/editor/common/controller.php" method="POST" target="upload_target"
+          enctype="multipart/form-data">
+        <input type="hidden" name="action" value="insertImage">
+
+        <div class="insert-image-line">
+            <input type="radio" name="image-group" value="URL" checked="">
+            <label>From URL:</label>
+            <input type="text" class="url-input" name="imageURL" id="imageURL"></div>
+        <div class="insert-image-line">
+            <input type="radio" name="image-group" value="Upload">
+            <label>Upload:</label>
+            <input type="file" class="right-offset" name="imageFile" id="imageFile"></div>
+        <div class="insert-image-line">
+            <input type="radio" name="image-group" value="Reuse" id="insert-image-reuse-group">
+            <label>Reuse:</label>
+            <select id="insert-image-reuse" name="reuseImageFile"></select>
+        </div>
+        <div id="upload-image-error"></div>
+        <div class="submit-container">
+            <input type="submit" value="Insert"></div>
+    </form>
+</div>
+
+<!--Insert Image hidden iframe-->
+<iframe id="upload_target" name="upload_target" style="width:0;height:0;border:0px;"></iframe>
+
+<script type="text/javascript">
+    "use strict";
+    function loadFill(check) {
+        if (check.checked === true) {
+            if ($('#colorpickerHolder3').css('display') === 'none') {
+                $('#colorSelector3').click();
+            }
+        }
+        else {
+            if ($('#colorpickerHolder3').css('display') === 'block') {
+                $('#colorSelector3').click();
+            }
+        }
+    }
+</script>
+<br>
+
+<div id="color_selector" style="display: none;">
+    <div class="color_swatch" style="background-color: rgb(0, 0, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(153, 51, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(51, 51, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(0, 0, 128);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(51, 51, 153);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(51, 51, 51);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(128, 0, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(255, 102, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(128, 128, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(0, 128, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(0, 128, 128);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(0, 0, 255);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(102, 102, 153);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(128, 128, 128);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(255, 0, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(255, 153, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(153, 204, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(51, 153, 102);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(51, 204, 204);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(51, 102, 255);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(128, 0, 128);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(153, 153, 153);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(255, 0, 255);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(255, 204, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(255, 255, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(0, 255, 0);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(0, 255, 255);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(0, 204, 255);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(153, 51, 102);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(192, 192, 192);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(255, 153, 204);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(255, 204, 153);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(255, 255, 153);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(204, 255, 255);">&nbsp;</div>
+    <div class="color_swatch" style="background-color: rgb(255, 255, 255);">&nbsp;</div>
+    <div class="color_swatch"
+         style="background-image: url(http://diagramo.com/editor/assets/images/noColor.png); background-position: 50% 50%; background-repeat: repeat no-repeat;">&nbsp;</div>
+    <div id="color_custom">
+        <label for="color_value">Hex</label>
+        <input type="text" size="8" id="color_value"></div>
+</div>
+</body>
+</html>

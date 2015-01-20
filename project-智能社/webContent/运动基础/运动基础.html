@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>无标题文档</title>
+	<style type="text/css">
+	div{ margin:10px 0 0 0; width:100px; height:100px; background:red;}
+</style>
+</head>
+
+<body>
+	<input id="btn1" type="button" value="开始运动" onClick="startMove()" />
+	<div id="div1"></div>
+	<div id="div2"></div>
+	<div id="div3"></div>
+	<div id="div4"></div>
+	<script type="text/javascript">
+		var oDiv = document.getElementsByTagName("div");
+		for(var i = 0, iLen = oDiv.length; i < iLen; i++){
+			oDiv[i].onmouseover = function(){
+				startMove(this, "width", 400);
+			};
+			oDiv[i].onmouseout = function(){
+					startMove(this, "width", 100);	
+			};
+		}
+    	
+		
+		function startMove(obj, attr, iTarget, fnEnd){
+			clearInterval(obj.timer);
+			obj.timer = setInterval(function(){
+				var currentStyle;
+				if(attr == "opacity"){
+					currentStyle = parseFloat(getStyle(obj, attr)) * 100;	
+				}else{
+					currentStyle = parseInt(getStyle(obj, attr));	
+				}
+				var speed = (iTarget - currentStyle)/10;
+				speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+				if(currentStyle == iTarget){
+					clearInterval(obj.timer);	
+					if(fnEnd){
+						fnEnd();
+					}
+				}else{
+					if(attr == "opacity"){
+						obj.style.filter = "alpha(opacity:" + (currentStyle + speed) + ")";
+						obj.style.opacity = (currentStyle + speed)/100;
+					}else{
+						obj.style[attr] = currentStyle + speed + "px";
+					}
+				}
+			},30);
+		}
+		
+		function getStyle(obj, name){
+			if(obj.currentStyle){
+				return obj.currentStyle[name];	
+			}else{
+				return getComputedStyle(obj, false)[name];	
+			}
+		}
+    </script>
+</body>
+</html>

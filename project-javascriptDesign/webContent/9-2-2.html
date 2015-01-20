@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="../js/interfaceDemo.js"></script>
+</head>
+
+<body>
+	<script type="text/javascript">
+    	var testModule = (function(){
+			var counter = 0;
+			return {
+				incrementCounter:function(){
+					return ++counter;	
+				},
+				resetCounter:function(){
+					console.log("counter value prior to reset:" + counter);	
+					counter = 0;
+				}
+			};	
+		})();
+		
+		//testModule.incrementCounter();
+		//testModule.resetCounter();
+		
+		var myNamespace = (function(){
+            //私有变量计数器
+            var myPrivateVar = 0;
+
+            //记录所有参数的私有函数
+            var myPrivateMethod = function(foo){
+                console.log(foo);
+            };
+
+            return {
+                //共有变量
+                myPublicVar:"foo",
+                //调用私有变量和方法的公有函数
+                myPublicFunction:function(bar){
+                    //增加私有计数器值
+                    myPrivateVar++;
+
+                    //传入bar调用私有方法
+                    myPrivateMethod(bar);
+                }
+            };
+        })();
+
+//        myNamespace.myPublicFunction(sayName);
+//        function sayName(){
+//            console.log("my name is xiaoming.");
+//        }
+
+        var basketModule = (function(){
+            //私有
+            var basket = [];
+
+            function doSomethingPrivate(){
+                //...
+            }
+
+            function doSomethingElsePrivate(){
+                //...
+            }
+
+            //返回一个暴露出的公有对象
+            return {
+                //添加item到购物车
+                addItem:function(values){
+                    basket.push(values);
+                },
+                //获取购物车里的item数
+                getItemCount:function(){
+                    return basket.length;
+                },
+                //私有函数的公有形式别名
+                doSomething:doSomethingPrivate,
+                //获取购物车里所有item的价格总值
+                getTotal:function(){
+                    var itemCount = this.getItemCount(),
+                            total = 0;
+
+                    while(itemCount--){
+                        total += basket[itemCount].price;
+                    }
+
+                    return total;
+                }
+
+            };
+        })();
+
+        basketModule.addItem({
+            item:"bread",
+            price: 0.5
+        });
+
+        basketModule.addItem({
+            item:"butter",
+            price: 0.3
+        });
+
+        console.log(basketModule.getItemCount());
+        console.log(basketModule.getTotal());
+		
+    </script>
+</body>
+</html>

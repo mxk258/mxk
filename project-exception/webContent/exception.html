@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>异常</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var add = function(a, b){
+            if(typeof a !== "number" || typeof b !== "number"){
+                throw{
+                    name:"TypeError",
+                    message:"add needs numbers"
+                };
+            }
+            return a + b;
+        }
+
+        try{
+            add("1", 2);
+        }catch(e){
+            document.write(e.name + ": " + e.message);
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--[if IE]>
+	<script src="../../../html5.js" type="text/javascript"></script>
+	<script src="../../../excanvas.compiled.js" type="text/javascript"></script>
+	<![endif]-->
+	<style type="text/css">
+	body{background:#000;}
+	#c1{background:#fff;}
+	</style>
+</head>
+<body>
+	<canvas id="c1" width="400" height="400">
+		<span>不支持canvas</span>
+	</canvas>
+	<script type="text/javascript">
+	window.onload = function(){ 
+		var oC = document.getElementById("c1");
+		var oGC = oC.getContext("2d");
+		oGC.fillRect(0, 0, 100, 100);
+
+        //获取图像数据
+        var a = oGC.getImageData(0, 0, 100, 100);
+        //alert(a.width);
+        //alert(a.height);
+        //alert(a.data);
+
+        for(var i = 0, iLen = a.width * a.height; i < iLen; i++){
+            a.data[4 * i] = 255;
+            a.data[4 * i + 1] = 0;
+            a.data[4 * i + 2] = 0;
+            a.data[4 * i + 3] = 100;
+        }
+
+        //设置新的图像数据
+        oGC.putImageData(a, 100, 100);
+	};
+	</script>
+</body>
+</html>

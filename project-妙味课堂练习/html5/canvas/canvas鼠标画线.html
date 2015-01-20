@@ -1,0 +1,38 @@
+<!doctype html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--[if IE]>
+	<script src="../../../html5.js" type="text/javascript"></script>
+	<script src="../../../excanvas.compiled.js" type="text/javascript"></script>
+	<![endif]-->
+	<style type="text/css">
+	body{background:#000;}
+	#c1{background:#fff;}
+	</style>
+</head>
+<body>
+	<canvas id="c1" width="400" height="400">
+		<span>不支持canvas</span>
+	</canvas>
+	<script type="text/javascript">
+	window.onload = function(){ 
+		var oC = document.getElementById("c1");
+		var oGC = oC.getContext("2d");
+		oC.onmousedown = function(ev){
+			var ev = ev || window.event;
+			oGC.moveTo(ev.clientX - oC.offsetLeft, ev.clientY - oC.offsetTop);	
+			document.onmousemove = function(ev){
+				var ev = ev || window.event;
+				oGC.lineTo(ev.clientX - oC.offsetLeft, ev.clientY - oC.offsetTop);	
+				oGC.stroke();
+			};
+			document.onmouseup = function(){
+				document.onmousemove = null;
+				document.onmouseup = null;	
+			};
+		};
+	};
+	</script>
+</body>
+</html>

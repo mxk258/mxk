@@ -1,0 +1,91 @@
+﻿@charset "utf-8";
+/* CSS reset css mxk 2014-9-22 */
+html, body, div, span, applet, object, iframe, hr, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; outline: 0; font-size: 12px; vertical-align: baseline; background: transparent; color: #333; font-family: Arial, Verdana, "微软雅黑"; -webkit-text-size-adjust: none; /* 修改google浏览器默认字体大小 */ word-break: break-all; }
+table { border-collapse: collapse; border-spacing: 0; font-size: 12px; }
+fieldset, img { border: 0; display: block; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; }
+strong { font-weight: normal; }
+ol, ul, li { list-style: none; }
+caption, th { text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: 100%; }
+q:before, q:after { content: ''; }
+textarea, input { outline: 0; resize: none; /* 兼容google浏览器 */ }
+del, ins { text-decoration: none; }
+q:before, q:after { content: ''; }
+abbr, acronym { border: 0; font-variant: normal; }
+sup { vertical-align: baseline; }
+sub { vertical-align: baseline; }
+input, button, textarea, select, optgroup, option { padding: 0; font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+input, button, textarea, select { font-size: 100%; }
+a { text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+.hover:hover { filter: alpha(opacity=70); /* For IE */ -moz-opacity: 0.7; /* For Mozilla */ opacity: 0.7; /* For FF */ }
+.hide { overflow: hidden; }
+.noBor { border: none !important; }
+.arrowDown { width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 4px solid #383b3c; }
+/* 未访问的链接 */
+/* a:link { color: #333; }
+*/
+/* 已访问的链接 */
+/* a:visited { color: #800080; }
+*/
+/* 鼠标移动到链接上 */
+a:hover { color: #4594fd; }
+/* 选定的链接 */
+/* a:active { color: #0000FF; }
+*/
+
+/* 火狐长字段换行 */
+.breakWord { word-break: break-all; word-wrap: break-word; }
+/* 背景半透明 */
+.opacity { filter: alpha(opacity=70); /* For IE */ -moz-opacity: 0.7; /* For Mozilla */ opacity: 0.7; /* For FF */ }
+/* 长字符变省略号 */
+.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* 文字排版 */
+.f14 { font-size: 14px !important; }
+.f16 { font-size: 16px !important; }
+.f18 { font-size: 18px; }
+.f20 { font-size: 20px; }
+.fb { font-weight: bold; }
+.fn { font-weight: normal; }
+.t2 { text-indent: 2em; }
+.lh150 { line-height: 150%; }
+.lh180 { line-height: 180%; }
+.lh200 { line-height: 200%; }
+.unl { text-decoration: underline; }
+.no_unl { text-decoration: none; }
+.fm_s, .fm_s * { font-family: "宋体", Arial; }
+.fm_w, .fm_w * { font-family: "微软雅黑", Arial !important; }
+
+/* background */
+/* 定位 */
+.tl { text-align: left; }
+.tc { text-align: center; }
+.tr { text-align: right; }
+.bc { margin-left: auto; margin-right: auto; }
+.fl { float: left; display: inline; }
+.fr { float: right; display: inline; }
+.cb { clear: both; }
+.cl { clear: left; }
+.cr { clear: right; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; *display: inline-block; }
+.vm, .vm * { vertical-align: middle; }
+.pr { position: relative; z-index: 1; }
+.pa { position: absolute; z-index: 1; }
+.abs-right { position: absolute; right: 0; }
+.zoom { zoom: 1; }
+.hidden { overflow: hidden; }
+.show { display: block !important; }
+.none { display: none; }
+.d-i-b { display: inline-block; }
+.ls_fl li { float: left; }
+.ma { margin: 0 auto; }
+/* width height */
+.w { width: 100% !important; }
+.h { height: 100%; }
+/* margin padding */
+.m0 { margin: 0px !important; }
+
+

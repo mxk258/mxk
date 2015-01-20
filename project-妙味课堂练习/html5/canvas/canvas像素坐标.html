@@ -1,0 +1,54 @@
+<!doctype html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--[if IE]>
+	<script src="../../../html5.js" type="text/javascript"></script>
+	<script src="../../../excanvas.compiled.js" type="text/javascript"></script>
+	<![endif]-->
+	<style type="text/css">
+	body{background:#000;}
+	#c1{background:#fff;}
+	</style>
+</head>
+<body>
+	<canvas id="c1" width="400" height="400">
+		<span>不支持canvas</span>
+	</canvas>
+	<script type="text/javascript">
+	window.onload = function(){ 
+		var oC = document.getElementById("c1");
+		var oGC = oC.getContext("2d");
+		oGC.fillRect(0, 0, 100, 100);
+        var oImg = oGC.getImageData(0, 0, 100, 100);
+
+        //alert(getXY(oImg, 3, 5));
+        for(var i = 0; i < oImg.width; i++){
+            setXY(oImg, i, 5 ,[255, 0, 0, 255]);
+        }
+        oGC.putImageData(oImg, 100, 100);
+        function setXY(obj, x, y, color){
+            var w = obj.width;
+            var h = obj.height;
+            var d = obj.data;
+            d[4*(y*w+x)] = color[0];
+            d[4*(y*w+x) + 1] = color[1];
+            d[4*(y*w+x) + 2] = color[2];
+            d[4*(y*w+x) + 3] = color[3];
+        }
+
+        function getXY(obj, x, y){
+            var w = obj.width;
+            var h = obj.height;
+            var d = obj.data;
+            var color = [];
+            color[0] = d[4*(y*w+x)];
+            color[1] = d[4*(y*w+x) + 1];
+            color[2] = d[4*(y*w+x) + 2];
+            color[3] = d[4*(y*w+x) + 3];
+            return color;
+        }
+	};
+	</script>
+</body>
+</html>

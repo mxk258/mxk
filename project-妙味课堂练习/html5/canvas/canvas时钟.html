@@ -1,0 +1,100 @@
+<!doctype html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--[if IE]>
+	<script src="../../../html5.js" type="text/javascript"></script>
+	<script src="../../../excanvas.compiled.js" type="text/javascript"></script>
+	<![endif]-->
+	<style type="text/css">
+	body{background:#000;}
+	#c1{background:#fff;}
+	</style>
+</head>
+<body>
+	<canvas id="c1" width="400" height="400">
+		<span>不支持canvas</span>
+	</canvas>
+	<script type="text/javascript">
+	window.onload = function(){ 
+		var oC = document.getElementById("c1"),
+			oGC = oC.getContext("2d");
+			
+		setInterval(function(){
+			toDraw();	
+		},1000);
+		
+		function toDraw(){
+			oGC.clearRect(0, 0, oC.width, oC.height);
+			var x = 200,
+				y = 200,
+				r = 150,
+				oDate = new Date(),
+				oHours = oDate.getHours(),
+				oMin = oDate.getMinutes(),
+				oSec = oDate.getSeconds(),
+				oHoursValue = (-90 + oHours * 30)*Math.PI/180,
+				oMinValue = (-90 + oMin * 6)*Math.PI/180,
+				oSecValue = (-90 + oSec * 6)*Math.PI/180;
+			
+			//分针指标
+			oGC.beginPath();
+			for(var i = 0; i < 60; i++){
+				oGC.moveTo(x, y);	
+				oGC.arc(x, y, r, 6*i*Math.PI/180, 6*(i + 1)*Math.PI/180);
+			}
+			oGC.closePath();
+			oGC.stroke();
+			oGC.fillStyle = "white";
+			
+			//圆盘
+			oGC.beginPath();
+			oGC.moveTo(x, y);
+			oGC.arc(x, y, r*19/20, 0, 360*Math.PI/180);
+			oGC.closePath();
+			oGC.fill();
+			
+			oGC.beginPath();
+			oGC.lineWidth = 3;
+			for(var i = 0; i < 12; i++){
+				oGC.moveTo(x, y);	
+				oGC.arc(x, y, r, 30*i*Math.PI/180, 30*(i + 1)*Math.PI/180);
+			}
+			oGC.closePath();
+			oGC.stroke();
+			
+			//圆盘
+			oGC.beginPath();
+			oGC.moveTo(x, y);
+			oGC.arc(x, y, r*18/20, 0, 360*Math.PI/180);
+			oGC.closePath();
+			oGC.fill();
+			
+			//时针
+			oGC.beginPath();
+			oGC.lineWidth = 5;
+			oGC.moveTo(x, y);
+			oGC.arc(x, y, r*10/20, oHoursValue, oHoursValue);
+			oGC.closePath();
+			oGC.stroke();
+			
+			//分针
+			oGC.beginPath();
+			oGC.lineWidth = 3;
+			oGC.moveTo(x, y);
+			oGC.arc(x, y, r*14/20, oMinValue, oMinValue);
+			oGC.closePath();
+			oGC.stroke();
+			
+			//秒针
+			oGC.beginPath();
+			oGC.lineWidth = 1;
+			oGC.moveTo(x, y);
+			oGC.arc(x, y, r*18/20, oSecValue, oSecValue);
+			oGC.closePath();
+			oGC.stroke();
+		}
+	};
+	</script>
+</body>
+</html>

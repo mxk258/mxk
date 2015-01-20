@@ -1,0 +1,67 @@
+<!doctype html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--[if IE]>
+	<script src="../../../html5.js" type="text/javascript"></script>
+	<script src="../../../excanvas.compiled.js" type="text/javascript"></script>
+	<![endif]-->
+	<style type="text/css">
+	body{background:#000;}
+	#c1{background:#fff;}
+        ul li{color: #fff;}
+	</style>
+</head>
+<body>
+	<canvas id="c1" width="400" height="400">
+		<span>不支持canvas</span>
+	</canvas>
+    <ul>
+        <li>妙</li>
+        <li>味</li>
+        <li>课</li>
+        <li>堂</li>
+    </ul>
+	<script type="text/javascript">
+	window.onload = function(){ 
+		var oC = document.getElementById("c1");
+		var oGC = oC.getContext("2d");
+        var aLi = document.getElementsByTagName("li");
+        for(var i = 0, iLen = aLi.length; i < iLen; i++){
+            aLi[i].onclick = function(){
+                var str = this.innerHTML;
+                oGC.clearRect(0, 0, oC.width, oC.height);
+                oGC.font = "180px impact";
+                oGC.textBaseline = "top";
+                var w = oGC.measureText(str).width;
+                var h = 180;
+                oGC.fillText(str, (oC.width - w)/2, (oC.height - h)/2);
+                var oImg = oGC.getImageData((oC.width - w)/2, (oC.height - h)/2, w, h);
+                var arr = randomArr(w*h, w*h/2);
+                var newImg = oGC.createImageData(w, h);
+                for(var i = 0,iLen = arr.length; i < iLen; i++){
+                    newImg.data[4*arr[i]] = oImg.data[4*arr[i]];
+                    newImg.data[4*arr[i] + 1] = oImg.data[4*arr[i] + 1];
+                    newImg.data[4*arr[i] + 2] = oImg.data[4*arr[i] + 2];
+                    newImg.data[4*arr[i] + 3] = oImg.data[4*arr[i] + 3];
+                }
+                oGC.putImageData(newImg,(oC.width - w)/2, (oC.height - h)/2);
+            };
+        }
+
+        function randomArr(iAll, iNow){
+            var arr = [];
+            var newArr = [];
+            for(var i = 0; i < iAll; i++){
+                arr.push(i);
+            }
+            for(var i = 0; i < iNow; i++){
+                newArr.push(arr.splice(Math.floor(Math.random()*arr.length),1));
+            }
+            return newArr;
+        }
+
+	};
+	</script>
+</body>
+</html>

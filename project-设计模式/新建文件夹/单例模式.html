@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>单例模式</title>
+</head>
+
+<body>
+	<script type="text/javascript">
+		var singleton = function(fn){
+			var result;
+			return function(){
+				return result || (result = fn.apply(this,arguments));	
+			}
+		}
+		
+		var createMask = singleton(function(){
+			return document.body.appendChild(document.createElement("div"));	
+		});
+		
+		createMask();
+	</script>
+</body>
+</html>

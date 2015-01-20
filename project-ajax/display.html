@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	.span1{ display:inline-block; width:100px; height:100px; background:red;}
+</style>
+</head>
+
+<body>
+	<span class="span1"></span>
+    <div id="div">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<div>
+    <script type="text/javascript">
+    	var xmlhttp;
+
+		if(window.XMLHttpRequest){
+			xmlhttp = new XMLHttpRequest();	
+		}else{
+			xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		
+		xmlhttp.onreadystatechange = function(){
+			if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+				var str = xmlhttp.responseText;
+				document.getElementById("div").innerHTML = str;					
+			}else{
+				//alert(xmlhttp.readyState + "..." + xmlhttp.status);	
+				//alert(xmlhttp.responseText);
+			}
+		}
+		xmlhttp.open("GET","http://www.baidu.com",true);
+		xmlhttp.send();		
+    </script>
+</body>
+</html>
