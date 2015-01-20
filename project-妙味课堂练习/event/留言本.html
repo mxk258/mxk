@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<label>Enter提交</label><input id="input01" type="text"/>
+<label>Ctrl+Enter提交</label><input id="input02" type="text"/>
+<ul id="content"></ul>
+<script type="text/javascript">
+    var oInput01 = document.getElementById("input01"),
+        oInput02 = document.getElementById("input02"),
+        oContent = document.getElementById("content");
+
+    oInput01.addEventListener("keyup", function(e){
+        e = e || event;
+        if(e.keyCode == 13){
+            var oLi = document.createElement("li");
+            oLi.innerHTML = this.value;
+            oContent.appendChild(oLi);
+        }else{
+            //...
+        }
+    });
+
+    oInput02.addEventListener("keyup", function(e){
+        e = e || event;
+        if(e.keyCode == 13 && e.ctrlKey){
+            var oLi = document.createElement("li");
+            oLi.innerHTML = this.value;
+            oContent.appendChild(oLi);
+        }else{
+            //...
+        }
+    });
+</script>
+</body>
+</html>
