@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>event-事件对象和clientX,clientY</title>
+    <style type="text/css">
+        body{ height: 2000px;}
+        div{ position: absolute; z-index: 1; top: 0; left: 0; width:100px; height: 100px; background: red;}
+    </style>
+</head>
+<body>
+    <div id="div"></div>
+    <script type="text/javascript">
+        document.onmousemove = function(e){
+            e = e || event;
+            var scrollTop = document.documentElement.scrollTop || document.body.scrollTop,
+                    oDiv = document.getElementById("div");
+            document.title = scrollTop;
+            oDiv.style.left = e.clientX + "px";
+            oDiv.style.top = e.clientY + scrollTop + "px";
+        };
+    </script>
+</body>
+</html>
