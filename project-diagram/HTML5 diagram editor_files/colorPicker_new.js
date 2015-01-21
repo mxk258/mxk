@@ -26,7 +26,7 @@
         control.css('background-color', $(element).val());
     }
     
-    //bind click event to color picker
+    //bind click 第五课：事件深入应用 to color picker
     control.bind("click", toggleSelector);
     
     //add the color picker section
@@ -127,7 +127,7 @@
     $("input#color_value").val(hexColor);
     selector.show();
     
-    //bind close event handler
+    //bind close 第五课：事件深入应用 handler
     $(document).bind("mousedown", checkMouse);
     selectorShowing = true 
    }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>拖拽</title>
+    <style type="text/css">
+        #div1{ position: absolute; z-index: 1; top:0; left: 0; width: 100px; height: 100px; background: red;}
+        #img1{ position: absolute;}
+    </style>
+</head>
+<body>
+    1111111111111111111111111111111
+    <div id="div1"></div>
+    <img id="img1" src="test1.png" />
+
+    <script type="text/javascript" src="../../js/base.js"></script>
+    <script type="text/javascript">
+        /**
+         * 1.鼠标点下
+         * 2.鼠标移动
+         * 3.鼠标弹起
+         */
+        GLOBAL.EventUtil.addHandler(window, "load", function(){
+            var oDiv = document.getElementById("div1");
+            var oImg = document.getElementById("img1");
+            drag(oDiv);
+            drag(oImg);
+
+            function drag(obj) {
+                //1.
+                GLOBAL.EventUtil.addHandler(obj, "mousedown", function (e) {
+                    e = e || event;
+                    var disX = e.clientX - this.offsetLeft;
+                    var disY = e.clientY - this.offsetTop;
+
+                    //设置全局捕获
+                    if (obj.setCapture) {
+                        obj.setCapture();
+                    } else {
+                        //...
+                    }
+
+                    //2.
+                    GLOBAL.EventUtil.addHandler(document, "mousemove", move);
+
+                    //3
+                    GLOBAL.EventUtil.addHandler(document, "mouseup", function(){
+                        GLOBAL.EventUtil.removeHandler(document, "mousemove", move);
+                        //释放全局捕获
+                        if(obj.releaseCapture){
+                            obj.releaseCapture();
+                        }else{
+                            //..
+                        }
+                    });
+
+                    function move(e){
+                        e = e || event;
+                        obj.style.left = e.clientX - disX + "px";
+                        obj.style.top = e.clientY - disY + "px";
+                    };
+                });
+                return false;
+            }
+        });
+    </script>
+</body>
+</html>

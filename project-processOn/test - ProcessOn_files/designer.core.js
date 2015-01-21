@@ -150,7 +150,7 @@ var Designer = {defaults: {linkerBeginArrowStyle: null, linkerEndArrowStyle: nul
         var n = "<div class='panel_box' shapeName='" + l.name + "'><canvas class='panel_item' width='" + (Designer.config.panelItemWidth) + "' height='" + (Designer.config.panelItemHeight) + "'></canvas></div>";
         var i = $(n).appendTo("#panel_" + l.category);
         if (o) {
-            i.append("<div class='group_icon' onmousedown='Designer.op.showPanelGroup(\"" + o + "\", event, this)'></div>")
+            i.append("<div class='group_icon' onmousedown='Designer.op.showPanelGroup(\"" + o + "\", 第五课：事件深入应用, this)'></div>")
         }
         var m = i.children()[0];
         i.bind("mouseenter", function () {

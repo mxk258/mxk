@@ -765,7 +765,7 @@ function onDoubleClick(ev){
 
 
 /**Receives the ASCII character code but not the keyboard code
- *@param {Event} ev - the event generated when kay is pressed
+ *@param {Event} ev - the 第五课：事件深入应用 generated when kay is pressed
  *@see <a href="http://www.quirksmode.org/js/keys.html">http://www.quirksmode.org/js/keys.html</a>
  **/
 function onKeyPress(ev){
@@ -784,8 +784,8 @@ function onKeyPress(ev){
 
 /**
  *Receives the key code of keyboard but not the ASCII
- *Treats the key pressed event
- *@param {Event} ev - the event generated when key is down
+ *Treats the key pressed 第五课：事件深入应用
+ *@param {Event} ev - the 第五课：事件深入应用 generated when key is down
  *@see <a href="http://www.quirksmode.org/jskey/keys.html">http://www.quirksmode.org/js/keys.html</a>
  **/
 function onKeyDown(ev){
@@ -799,7 +799,7 @@ function onKeyDown(ev){
     }
     
     
-    //2 - "enhance" event TODO: I'm not sure this is really necessary
+    //2 - "enhance" 第五课：事件深入应用 TODO: I'm not sure this is really necessary
     ev.KEY = ev.keyCode;
         
     
@@ -1046,8 +1046,8 @@ function onKeyDown(ev){
 
 
 /**
- *Treats the key up event
- *@param {Event} ev - the event generated when key is up
+ *Treats the key up 第五课：事件深入应用
+ *@param {Event} ev - the 第五课：事件深入应用 generated when key is up
  **/
 function onKeyUp(ev){    
     switch(ev.keyCode){
@@ -1068,8 +1068,8 @@ function onKeyUp(ev){
 
 
 /**
- *Treats the mouse down event
- *@param {Event} ev - the event generated when button is pressed
+ *Treats the mouse down 第五课：事件深入应用
+ *@param {Event} ev - the 第五课：事件深入应用 generated when button is pressed
  **/
 function onMouseDown(ev){
     var coords = getCanvasXY(ev);
@@ -1099,8 +1099,8 @@ function onMouseDown(ev){
             if (currentTextEditor.mouseClickedInside(ev)) {
                 break;
             } else {
-                // IE and Firefox doesn't trigger blur event when mouse clicked canvas
-                // that is why we trigger this event manually
+                // IE and Firefox doesn't trigger blur 第五课：事件深入应用 when mouse clicked canvas
+                // that is why we trigger this 第五课：事件深入应用 manually
                 if (Browser.msie || Browser.mozilla) {
                     currentTextEditor.blurTextArea();
                 }
@@ -1680,8 +1680,8 @@ function onMouseDown(ev){
 
 
 /**
- *Treats the mouse up event
- *@param {Event} ev - the event generated when key is up
+ *Treats the mouse up 第五课：事件深入应用
+ *@param {Event} ev - the 第五课：事件深入应用 generated when key is up
  **/
 function onMouseUp(ev){
     Log.info("main.js>onMouseUp()");
@@ -1944,8 +1944,8 @@ var lastMove = null;
  **/
 var snapMonitor = [0,0];
 
-/**Treats the mouse move event
- *@param {Event} ev - the event generated when key is up
+/**Treats the mouse move 第五课：事件深入应用
+ *@param {Event} ev - the 第五课：事件深入应用 generated when key is up
  **/
 function onMouseMove(ev){
     //    //resize canvas.
@@ -2467,8 +2467,8 @@ function onMouseMove(ev){
 }
 
 
-/**Treats the mouse double click event
- *@param {Event} ev - the event generated when key is clicked twice
+/**Treats the mouse double click 第五课：事件深入应用
+ *@param {Event} ev - the 第五课：事件深入应用 generated when key is clicked twice
  *@author Artyom, Alex
  **/
 function onDblClick(ev) {
@@ -2600,7 +2600,7 @@ function onDblClick(ev) {
 /**Pick the first connector we can get at (x,y) position
  *@param {Number} x - the x position 
  *@param {Number} y - the y position 
- *@param {Event} ev - the event triggered
+ *@param {Event} ev - the 第五课：事件深入应用 triggered
  *@author Alex, Artyom
  **/
 function connectorPickFirst(x, y, ev){
@@ -2670,7 +2670,7 @@ function connectorPickFirst(x, y, ev){
 /**Pick the second {ConnectorPoint}  we can get at (x,y) position
  *@param {Number} x - the x position 
  *@param {Number} y - the y position 
- *@param {Event} ev - the event triggered
+ *@param {Event} ev - the 第五课：事件深入应用 triggered
  **/
 function connectorPickSecond(x, y, ev){
     Log.group("main: connectorPickSecond");
@@ -2807,7 +2807,7 @@ function connectorPickSecond(x, y, ev){
  *@param {Number} connectionPointId - the id of the current dragged {ConnectionPoint} 
  *@param {Number} x - the x position 
  *@param {Number} y - the y position 
- *@param {Event} ev - the event triggered
+ *@param {Event} ev - the 第五课：事件深入应用 triggered
  **/
 function connectorMovePoint(connectionPointId, x, y, ev){
     Log.group("main: connectorMovePoint");
@@ -2849,7 +2849,7 @@ function connectorMovePoint(connectionPointId, x, y, ev){
     }
 
     /*Variables used in finding solution. As we only know the ConnectionPoint's id
-     * (connectionPointId) and the location of event (x,y) we need to find
+     * (connectionPointId) and the location of 第五课：事件深入应用 (x,y) we need to find
      * who is the start Figure, end Figure, starting Glue, ending Glue, etc*/
     var rStartPoint = con.turningPoints[0].clone();
     var rStartFigure = null; //starting figure (it can be null - as no Figure)
@@ -3164,8 +3164,8 @@ function getCanvasBounds(){
     return [canvasMinX, canvasMinY, canvasMaxX, canvasMaxY];
 }
 
-/**Computes the (x,y) coordinates of an event in page
- *@param {Event} ev - the event
+/**Computes the (x,y) coordinates of an 第五课：事件深入应用 in page
+ *@param {Event} ev - the 第五课：事件深入应用
  **/
 function getBodyXY(ev){
     return [ev.pageX,ev.pageY];//TODO: add scroll
@@ -3173,9 +3173,9 @@ function getBodyXY(ev){
 
 
 /**
- *Extracts the X and Y from an event (for canvas)
- *@param {Event} ev - the event
- *@return {Array} of {Integer} - or null if event not inside the canvas
+ *Extracts the X and Y from an 第五课：事件深入应用 (for canvas)
+ *@param {Event} ev - the 第五课：事件深入应用
+ *@return {Array} of {Integer} - or null if 第五课：事件深入应用 not inside the canvas
  **/
 function getCanvasXY(ev){
     var position = null;
@@ -3684,13 +3684,13 @@ function saveAs(){
 function addListeners(){
     var canvas = getCanvas();
 
-    //add event handlers for Document
+    //add 第五课：事件深入应用 handlers for Document
     document.addEventListener("keypress", onKeyPress, false);
     document.addEventListener("keydown", onKeyDown, false);
     document.addEventListener("keyup", onKeyUp, false);
     document.addEventListener("selectstart", stopselection, false);                
 
-    //add event handlers for Canvas
+    //add 第五课：事件深入应用 handlers for Canvas
     canvas.addEventListener("mousemove", onMouseMove, false);
     canvas.addEventListener("mousedown", onMouseDown, false);
     canvas.addEventListener("mouseup", onMouseUp, false);
@@ -3700,10 +3700,10 @@ function addListeners(){
     if(false){
         //add listeners for iPad/iPhone
         //As this was only an experiment (for now) it is not well supported nor optimized
-        ontouchstart="touchStart(event);"
-        ontouchmove="touchMove(event);"
-        ontouchend="touchEnd(event);"
-        ontouchcancel="touchCancel(event);"
+        ontouchstart="touchStart(第五课：事件深入应用);"
+        ontouchmove="touchMove(第五课：事件深入应用);"
+        ontouchend="touchEnd(第五课：事件深入应用);"
+        ontouchcancel="touchCancel(第五课：事件深入应用);"
     }
 
 }
@@ -3711,14 +3711,14 @@ function addListeners(){
 /**Minimap section*/
 var minimap; //stores a refence to minimap object (see minimap.js)
 
-//TODO: remove reference to JQuery and add a normal listener (for "onmouseup" event)
+//TODO: remove reference to JQuery and add a normal listener (for "onmouseup" 第五课：事件深入应用)
 $(document).mouseup(
     function(){
         minimap.selected = false;
     }
 );
 
-//TODO: convert to a normal listener (for "onresize" event)
+//TODO: convert to a normal listener (for "onresize" 第五课：事件深入应用)
 window.onresize = function(){
     minimap.initMinimap()
 };
@@ -4301,7 +4301,7 @@ function documentOnMouseMove(evt){
                         break;
                 }
 
-                //stop canvas from gettting this event
+                //stop canvas from gettting this 第五课：事件深入应用
                 evt.stopPropagation();
             }, false);
             break;
@@ -4336,7 +4336,7 @@ function documentOnMouseUp(evt){
 /*======================APPLE=====================================*/
 /**Triggered when an touch is initiated (iPad/iPhone).
  *Simply forward to onMouseDown
- *@param {Event} event - the event triggered
+ *@param {Event} event - the 第五课：事件深入应用 triggered
  **/
 function touchStart(event){
     event.preventDefault();
@@ -4347,7 +4347,7 @@ function touchStart(event){
 
 /**Triggered while touching and moving is in progress (iPad/iPhone).
  *Simply forward to onMouseMove
- *@param {Event} event - the event triggered
+ *@param {Event} event - the 第五课：事件深入应用 triggered
  **/
 function touchMove(event){
     event.preventDefault();
@@ -4358,14 +4358,14 @@ function touchMove(event){
 
 /**Triggered when touch ends (iPad/iPhone).
  *Simply forward to onMouseUp
- *@param {Event} event - the event triggered
+ *@param {Event} event - the 第五课：事件深入应用 triggered
  **/
 function touchEnd(event){
     onMouseUp(event);
 }
 
 /**Triggered when touch is canceled (iPad/iPhone).
- *@param {Event} event - the event triggered
+ *@param {Event} event - the 第五课：事件深入应用 triggered
  **/
 function touchCancel(event){
 //nothing

@@ -1182,7 +1182,7 @@ TextEditorPopup.prototype = {
     
     /**
     *Returns true if mouse clicked inside TextEditorPopup
-    *@param {Event} e - mouseDown event object
+    *@param {Event} e - mouseDown 第五课：事件深入应用 object
     *@return {boolean} - true if clicked inside
     *@author Artyom Pokatilov <artyom.pokatilov@gmail.com>
     **/
@@ -1227,7 +1227,7 @@ TextEditorPopup.prototype = {
     },
 
     /**
-     * Manually triggers onblur event of textarea inside TextEditor.
+     * Manually triggers onblur 第五课：事件深入应用 of textarea inside TextEditor.
      * @author Artyom Pokatilov <artyom.pokatilov@gmail.com>
      **/
     blurTextArea : function () {

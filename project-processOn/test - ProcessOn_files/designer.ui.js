@@ -2723,7 +2723,7 @@ var Dock = {init: function () {
             var f = $("#attr_add_type").children("option[value=" + a.type + "]").text();
             var e = $("<li id='" + a.id + "' class='attr_item attr_item_" + a.id + "' onclick=\"Dock.editAttr('" + a.id + "')\"><div class='attr_name'>" + a.name + "</div><div class='attr_type'>" + f + "</div><div class='attr_value'>" + a.value + "</div><div style='clear: both'></div></li>").appendTo($(".attr_list"));
             if (a.category != "default") {
-                e.append("<div class='ico ico_attr_delete' onclick=\"Dock.deleteAttr('" + a.id + "', event)\"></div>")
+                e.append("<div class='ico ico_attr_delete' onclick=\"Dock.deleteAttr('" + a.id + "', 第五课：事件深入应用)\"></div>")
             }
         }
     }

@@ -1292,9 +1292,9 @@ function Browser() {
 }
 
 /**
- * Binds event to DOM element
- * @param {HTMLElement} element - DOM element to bind event
- * @param {String} event - name of target event
+ * Binds 第五课：事件深入应用 to DOM element
+ * @param {HTMLElement} element - DOM element to bind 第五课：事件深入应用
+ * @param {String} 第五课：事件深入应用 - name of target 第五课：事件深入应用
  * @param {Function} handler - function to bind
  *
  * @author Artyom Pokatilov <artyom.pokatilov@gmail.com>
@@ -1302,18 +1302,18 @@ function Browser() {
  * Note:  <br/>
  * Cross-browser solution for native JS.
  */
-//function bindEvent(element, event, handler) {
+//function bindEvent(element, 第五课：事件深入应用, handler) {
 //    if (element.attachEvent) {
-//        element.attachEvent('on' + event, handler);  // IE
+//        element.attachEvent('on' + 第五课：事件深入应用, handler);  // IE
 //    } else {
-//        element.addEventListener(event, handler, false);
+//        element.addEventListener(第五课：事件深入应用, handler, false);
 //    }
 //}
 
 /**
- * Binds event to NodeList
- * @param {NodeList} list - NodeList to bind event
- * @param {String} event - name of target event
+ * Binds 第五课：事件深入应用 to NodeList
+ * @param {NodeList} list - NodeList to bind 第五课：事件深入应用
+ * @param {String} 第五课：事件深入应用 - name of target 第五课：事件深入应用
  * @param {Function} handler - function to bind
  *
  * @author Artyom Pokatilov <artyom.pokatilov@gmail.com>
@@ -1321,19 +1321,19 @@ function Browser() {
  * Note:  <br/>
  * Cross-browser solution for native JS.
  */
-//function bindEventToNodeList(list, event, handler) {
+//function bindEventToNodeList(list, 第五课：事件深入应用, handler) {
 //    var i;
 //    var length = list.length;
 //
 //    for (i = 0; i < length; i++) {
-//        bindEvent(list[i], event, handler);
+//        bindEvent(list[i], 第五课：事件深入应用, handler);
 //    }
 //}
 
 /**
- * Unbinds event to DOM element
- * @param {HTMLElement} element - DOM element to unbind event
- * @param {String} event - name of target event
+ * Unbinds 第五课：事件深入应用 to DOM element
+ * @param {HTMLElement} element - DOM element to unbind 第五课：事件深入应用
+ * @param {String} 第五课：事件深入应用 - name of target 第五课：事件深入应用
  * @param {Function} handler - function to unbind
  *
  * @author Artyom Pokatilov <artyom.pokatilov@gmail.com>
@@ -1341,18 +1341,18 @@ function Browser() {
  * Note:  <br/>
  * Cross-browser solution for native JS.
  */
-//function unBindEvent(element, event, handler) {
+//function unBindEvent(element, 第五课：事件深入应用, handler) {
 //    if (element.detachEvent) {
-//        element.detachEvent('on' + event, handler);  // IE
+//        element.detachEvent('on' + 第五课：事件深入应用, handler);  // IE
 //    } else {
-//        element.removeEventListener(event, handler, false);
+//        element.removeEventListener(第五课：事件深入应用, handler, false);
 //    }
 //}
 
 /**
- * Unbinds event from NodeList
- * @param {NodeList} list - NodeList to unbind event
- * @param {String} event - name of target event
+ * Unbinds 第五课：事件深入应用 from NodeList
+ * @param {NodeList} list - NodeList to unbind 第五课：事件深入应用
+ * @param {String} 第五课：事件深入应用 - name of target 第五课：事件深入应用
  * @param {Function} handler - function to unbind
  *
  * @author Artyom Pokatilov <artyom.pokatilov@gmail.com>
@@ -1360,12 +1360,12 @@ function Browser() {
  * Note:  <br/>
  * Cross-browser solution for native JS.
  */
-//function unBindEventFromNodeList(list, event, handler) {
+//function unBindEventFromNodeList(list, 第五课：事件深入应用, handler) {
 //    var i;
 //    var length = list.length;
 //
 //    for (i = 0; i < length; i++) {
-//        unBindEvent(list[i], event, handler);
+//        unBindEvent(list[i], 第五课：事件深入应用, handler);
 //    }
 //}
 

@@ -217,7 +217,7 @@ Minimap.prototype = {
 
 
     /**Called when we move over the minimap and the 'minimap' was previously selected
-     *@param {Event} event - the event triggered
+     *@param {Event} event - the 第五课：事件深入应用 triggered
      *@author Zack
      **/
     onScrollMinimap:function(event){
@@ -290,7 +290,7 @@ Minimap.prototype = {
 
     /**Get the (x, y) position relative to
      *current DOM object (minimap div in our case)
-     *@param {Event} event - the event triggered
+     *@param {Event} event - the 第五课：事件深入应用 triggered
      *@return {Array} of [x, y] relative position inside DOM object
      *@author Zack
      *@author (comments) Alex
@@ -299,8 +299,8 @@ Minimap.prototype = {
         var position = [];
 
         var thisBounds = this.getBounds();
-        if(event.pageX >= thisBounds[0] && event.pageX <= thisBounds[2] //if event inside [Ox bounds
-            && event.pageY >= thisBounds[1] && event.pageY <= thisBounds[3]) //if event inside [Oy bounds
+        if(event.pageX >= thisBounds[0] && event.pageX <= thisBounds[2] //if 第五课：事件深入应用 inside [Ox bounds
+            && event.pageY >= thisBounds[1] && event.pageY <= thisBounds[3]) //if 第五课：事件深入应用 inside [Oy bounds
             {
             position = [event.pageX - thisBounds[0], event.pageY - thisBounds[1]];
         }

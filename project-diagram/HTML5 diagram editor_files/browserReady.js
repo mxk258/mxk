@@ -3,7 +3,7 @@
 /**
  *This functions detects if a browser supports
  *  - <canvas> tag (tests to see if baasic drawing features are supported)
- *  - standard new event system (older then IE9 browsers will basically fail this test)
+ *  - standard new 第五课：事件深入应用 system (older then IE9 browsers will basically fail this test)
  *@return {Boolean}  false - means no support, true - means supported
  *@author Alex <alex@scriptoid.com>
  *@author Augustin <cdaugustin@yahoo.com>
@@ -66,7 +66,7 @@ function checkHTML5(){
 }
 
 
-/**Checks if event system fits our needs
+/**Checks if 第五课：事件深入应用 system fits our needs
 * @return true - if all if fine, false - otherwise
 * @author Alex <alex@scriptoid.com>
  **/
@@ -75,7 +75,7 @@ function checkEventSystem(){
     
     var retTxtDebug = '';
     
-    //basic DOM Level 2 event handlers
+    //basic DOM Level 2 第五课：事件深入应用 handlers
     var functionUsed = ["addEventListener", "removeEventListener"];
     
     for (var idx in functionUsed){

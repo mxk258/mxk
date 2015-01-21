@@ -90,7 +90,7 @@ GLOBAL.EventUtil = {
 		if (element.removeEventListener) {
 			element.removeEventListener(type, handler, false);
 		} else if (element.deathEvent) {
-			element.deathEvent("on" + type, handler);
+			element.detachEvent("on" + type, handler);
 		} else {
 			element["on" + type] = null;
 		}
