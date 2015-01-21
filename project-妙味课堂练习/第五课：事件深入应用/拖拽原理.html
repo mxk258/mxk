@@ -5,7 +5,7 @@
     <title>拖拽</title>
     <style type="text/css">
         #div1{ position: absolute; z-index: 1; top:0; left: 0; width: 100px; height: 100px; background: red;}
-        #img1{ position: absolute;}
+        #img1{ position: absolute; z-index: 0; top: 300px; left: 300px;}
     </style>
 </head>
 <body>
@@ -56,8 +56,42 @@
 
                     function move(e){
                         e = e || event;
-                        obj.style.left = e.clientX - disX + "px";
-                        obj.style.top = e.clientY - disY + "px";
+                        var l = e.clientX - disX;
+                        var t = e.clientY - disY;
+                        var maxL = document.documentElement.offsetWidth - obj.offsetWidth;
+                        var maxT = document.documentElement.scrollHeight - obj.offsetHeight;
+                        var l1 = l;
+                        var r1 = l + obj.offsetWidth;
+                        var t1 = t;
+                        var b1 = t + obj.offsetHeight;
+                        var l2 = oImg.offsetLeft;
+                        var r2 = l2 + oImg.offsetWidth;
+                        var t2 = oImg.offsetTop;
+                        var b2 = t2 + oImg.offsetHeight;
+                        document.title = l1 + " : " + r2;
+                        if(r1 < l2 || l1 > r2 || b1 < t2 || t1 > b2){
+                            oImg.src = "test1.png";
+                        }else{
+                            oImg.src = "test2.png";
+                        }
+
+                        //磁性吸附
+                        if(l < 25){
+                            l = 0;
+                        }else if(l > maxL - 25){
+                            l = maxL;
+                        }else{
+                            //...
+                        }
+                        if(t < 25){
+                            t = 0;
+                        }else if(t > maxT - 25){
+                            t = maxT;
+                        }else{
+                            //..
+                        }
+                        obj.style.left = l + "px";
+                        obj.style.top = t + "px";
                     };
                 });
                 return false;
