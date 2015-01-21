@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>拖拽改变大小</title>
+    <style type="text/css">
+        #div1{ position: absolute; top: 50%; left: 50%; z-index: 1; width: 100px; height: 100px; background: red;}
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <script type="text/javascript" src="../../js/base.js"></script>
+    <script type="text/javascript">
+        /**
+         * 1.鼠标点下
+         * 2.鼠标移动
+         * 3.鼠标松开
+         */
+        GLOBAL.EventUtil.addHandler(window, "load", function(){
+            var oDiv = document.getElementById("div1");
+            //1
+            GLOBAL.EventUtil.addHandler(oDiv, "mousedown", function(e){
+                e = e || event;
+                var flag = false;
+                var x = e.clientX;
+                var y = e.clientY;
+                var l = this.offsetLeft;
+                var t = this.offsetTop;
+                var width = this.offsetWidth;
+                var height = this.offsetHeight;
+                var disY = y - t;
+                var disX = x - l;
+                if(x > l + width - 10){
+                    flag = "right";
+                }else if(x < l + 10){
+                    flag = "left";
+                }else if(y < t + 10){
+                    flag = "top";
+                }else if(y > t - 10){
+                    flag = "bottom";
+                }else{
+                    flag = false;
+                }
+                //2
+                GLOBAL.EventUtil.addHandler(document, "mousemove", move);
+                function move(e){
+                    e = e || event;
+                    switch (flag) {
+                        case "top":
+                            oDiv.style.height = height + (y - e.clientY) + "px";
+                            oDiv.style.top = e.clientY - disY + "px";
+                            break;
+                        case "right":
+                            oDiv.style.width = width + (e.clientX - x) + "px";
+                            break;
+                        case "bottom":
+                            oDiv.style.height = height + (e.clientY - y) + "px";
+                            break;
+                        case "left":
+                            oDiv.style.width = width + (x - e.clientX) + "px";
+                            oDiv.style.left = e.clientX - disX + "px";
+                            break;
+                    }
+                }
+                //3
+                GLOBAL.EventUtil.addHandler(document, "mouseup", function(){
+                    GLOBAL.EventUtil.removeHandler(document, "mousemove", move);
+                });
+
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>

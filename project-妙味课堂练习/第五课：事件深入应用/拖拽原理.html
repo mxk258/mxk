@@ -60,6 +60,7 @@
                         var t = e.clientY - disY;
                         var maxL = document.documentElement.offsetWidth - obj.offsetWidth;
                         var maxT = document.documentElement.scrollHeight - obj.offsetHeight;
+                        //碰撞检测
                         var l1 = l;
                         var r1 = l + obj.offsetWidth;
                         var t1 = t;
@@ -68,7 +69,6 @@
                         var r2 = l2 + oImg.offsetWidth;
                         var t2 = oImg.offsetTop;
                         var b2 = t2 + oImg.offsetHeight;
-                        document.title = l1 + " : " + r2;
                         if(r1 < l2 || l1 > r2 || b1 < t2 || t1 > b2){
                             oImg.src = "test1.png";
                         }else{
