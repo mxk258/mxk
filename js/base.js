@@ -417,4 +417,3 @@ GLOBAL.identity = function(){
     }
     return result;
 }
-  		
