@@ -11,12 +11,12 @@ var url = require("url");
 }).listen(8888);
 console.log("8888服务器启动成功");*/
 
-function start(route){
+function start(route, handle){
     function onRequest(request, response){
         var pathname = url.parse(request.url).pathname;
         console.log("Request for " + pathname + " received.");
 
-        route(pathname);
+        route(handle, pathname);
 
         response.writeHead(200, {"Content-Type": "text/plain"});
         response.write("Hello World!");

@@ -1,7 +1,7 @@
 /**
  * Created by kun on 2015/1/22.
  */
-function route(pathname){
+function route(handler, pathname){
     console.log("About to route a request for " + pathname);
 }
 exports.route = route;
