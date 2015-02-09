@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>缓存布局信息</title>
+    <style type="text/css">
+        #div1{ position: absolute; top:0; left:0; width: 100px; height: 100px; background:red;}
+    </style>
+    <script type="text/javascript">
+        window.onload = function(){
+            var oDiv = document.getElementById("div1");
+            /*setInterval(function(){
+                oDiv.style.left = oDiv.offsetLeft + 1 + "px";
+                oDiv.style.top = oDiv.offsetTop + 1 + "px";
+            },30);*/
+
+            var L = oDiv.offsetLeft;
+            var T = oDiv.offsetTop;
+            setInterval(function(){
+                L++;
+                T++;
+                 oDiv.style.left = L + "px";
+                 oDiv.style.top = T + "px";
+             },30);
+        };
+    </script>
+</head>
+<body>
+   <div id="div1"></div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>文档碎片</title>
+    <style type="text/css">
+        ul{ float: left;}
+    </style>
+    <script type="text/javascript">
+        window.onload = function(){
+            var oUl1 = document.getElementById("ul1");
+            var oUl2 = document.getElementById("ul2");
+            var str = "";
+            console.time("hello");
+            for(var i = 0; i < 5000; i++){
+                var oLi= document.createElement("li");
+                oLi.style.width = "100px";
+                oLi.style.height = "100px";
+                oLi.style.background = "red";
+                oLi.innerHTML = i;
+                oUl1.appendChild(oLi);
+            }
+            console.timeEnd("hello");
+            console.time("hello");
+            var oFrag = document.createDocumentFragment();
+            for(var j = 0; j < 500; j++){
+                var oLi2= document.createElement("li");
+                oLi2.style.width = "100px";
+                oLi2.style.height = "100px";
+                oLi2.style.background = "red";
+                oLi2.innerHTML = j;
+                oFrag.appendChild(oLi2);
+            }
+            oUl2.appendChild(oFrag);
+            console.timeEnd("hello");
+        };
+    </script>
+</head>
+<body>
+    <ul id="ul1"></ul>
+    <ul id="ul2"></ul>
+    <ul id="ul3"></ul>
+</body>
+</html>

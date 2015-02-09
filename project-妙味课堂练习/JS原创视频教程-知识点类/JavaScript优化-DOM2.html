@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        window.onload = function(){
+            var oUl1 = document.getElementById("ul1");
+            var oUl2 = document.getElementById("ul2");
+            var oUl3 = document.getElementById("ul3");
+            var str = "";
+            console.time("hello");
+            for(var i = 0; i < 5000; i++){
+                var oLi= document.createElement("li");
+                oLi.innerHTML = i;
+                oUl1.appendChild(oLi);
+            }
+            console.timeEnd("hello");
+            console.time("hello");
+            var oLi2 = document.createElement("li");
+            for(var i = 0; i < 5000; i++){
+                var newLi = oLi.cloneNode(oLi2);
+                newLi.innerHTML = i;
+                oUl2.appendChild(newLi);
+            }
+            console.timeEnd("hello");
+            console.time("hello");
+            for(var i = 0; i < 5000; i++){
+                str += ("<li> " + i + " </li>");
+            }
+            oUl3.innerHTML = str;
+            console.timeEnd("hello");
+        };
+    </script>
+</head>
+<body>
+    <ul id="ul1"></ul>
+    <ul id="ul2"></ul>
+    <ul id="ul3"></ul>
+</body>
+</html>
