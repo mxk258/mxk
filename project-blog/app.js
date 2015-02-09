@@ -8,6 +8,8 @@ var routes = require('./routes');
 //var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
+var MongoStore = require("connect-mongo")(express);
+var settings = require("./settings.js");
 
 var app = express();
 
@@ -27,6 +29,22 @@ app.use(express.static(path.join(__dirname, 'public')));    //connect内建的�
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
+
+/**
+ *会话支持
+ * express.cookieParser()是Cookie解析的中间件。express.session()则提供会话支持，secret用来防止篡改Cookie，
+ * key的值为Cookie的名字，通过设置Cookie的maxAge值来设定Cookie的生存期，这里我们设置Cookie的生存期为30天，
+ * 设置它的store参数为MongoStore实例，把会话消息存储到数据库中，以避免丢失。
+ */
+app.use(express.cookieParser());
+app.use(express.session({
+    secret:settings.cookieSecret,
+    key:settings.db,//cookie name
+    cookie:{maxAge:1000 * 60 * 60 *24 * 30}, //30 days
+    store: new MongoStore({
+        db: settings.db
+    })
+}));
 
 //app.get('/', routes.index); //路由控制器，如果用户访问/(主页)，则由routes.index来处理
 //app.get('/users', user.list);

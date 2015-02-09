@@ -5,12 +5,10 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <%- include header %>
+    这是主页
+    <%- include footer %>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
-    <ul>
-    <% for(var i = 0; i < 10; i++) { %>
-    <li><%= i %></li>
-    <% } %>
-    </ul>
   </body>
 </html>
