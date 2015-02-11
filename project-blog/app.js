@@ -9,6 +9,7 @@ var routes = require('./routes/index');
 //var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
+var cookieParser = require("cookie-parser");
 var MongoStore = require("connect-mongo")(express);
 var settings = require("./settings.js");
 var flash = require("connect-flash");
