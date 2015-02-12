@@ -1,0 +1,2 @@
+127.0.0.1 - - [Thu, 12 Feb 2015 07:53:42 GMT] "GET / HTTP/1.1" 200 828 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [Thu, 12 Feb 2015 07:53:42 GMT] "GET /stylesheets/style.css HTTP/1.1" 200 702 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
