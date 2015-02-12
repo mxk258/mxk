@@ -1,0 +1,131 @@
+[Thu Feb 12 2015 16:03:43 GMT+0800 (中国标准时间)]/login
+ReferenceError: d:\workSpace\mxk\project-blog\views\login.ejs:16
+
+
+user is not defined
+    at buf.push..
+<form method="post">
+    用户名：<input type="text" name="name" /><br />
+    密码：<input type="password" name="password" /><br />
+    <input type="submit" value="登录" />
+</form>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:30:398)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.get.res.render.title (d:\workSpace\mxk\project-blog\routes\index.js:56:13)
+[Thu Feb 12 2015 16:03:46 GMT+0800 (中国标准时间)]/reg
+ReferenceError: d:\workSpace\mxk\project-blog\views\reg.ejs:16
+    14|         <input type="submit" value="注册" />
+    15|     </form>
+ >> 16|     <%- include footer %>
+    17| </body>
+    18| </html>
+
+user is not defined
+    at buf.push.<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+    .
+    <form method="post">
+        用户名：<input type="text" name="name" /><br />
+        密码：<input type="password" name="password" /><br />
+        确认密码：<input type="password" name="password-repeat" /><br />
+        邮箱：<input type="email" name="email" /><br />
+        <input type="submit" value="注册" />
+    </form>
+    .buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:30:398)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:53)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.name (d:\workSpace\mxk\project-blog\routes\index.js:18:13)
+[Thu Feb 12 2015 16:08:00 GMT+0800 (中国标准时间)]/login
+ReferenceError: d:\workSpace\mxk\project-blog\views\login.ejs:16
+
+
+user is not defined
+    at buf.push..
+<form method="post">
+    用户名：<input type="text" name="name" /><br />
+    密码：<input type="password" name="password" /><br />
+    <input type="submit" value="登录" />
+</form>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:30:398)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.get.res.render.title (d:\workSpace\mxk\project-blog\routes\index.js:56:13)
+[Thu Feb 12 2015 16:09:14 GMT+0800 (中国标准时间)]/login
+ReferenceError: d:\workSpace\mxk\project-blog\views\login.ejs:16
+
+
+user is not defined
+    at buf.push..
+<form method="post">
+    用户名：<input type="text" name="name" /><br />
+    密码：<input type="password" name="password" /><br />
+    <input type="submit" value="登录" />
+</form>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:30:398)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.get.res.render.title (d:\workSpace\mxk\project-blog\routes\index.js:56:13)
+[Thu Feb 12 2015 16:11:00 GMT+0800 (中国标准时间)]/reg
+ReferenceError: d:\workSpace\mxk\project-blog\views\reg.ejs:16
+    14|         <input type="submit" value="注册" />
+    15|     </form>
+ >> 16|     <%- include footer %>
+    17| </body>
+    18| </html>
+
+user is not defined
+    at buf.push.<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+    .
+    <form method="post">
+        用户名：<input type="text" name="name" /><br />
+        密码：<input type="password" name="password" /><br />
+        确认密码：<input type="password" name="password-repeat" /><br />
+        邮箱：<input type="email" name="email" /><br />
+        <input type="submit" value="注册" />
+    </form>
+    .buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:30:398)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:23)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:53)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.name (d:\workSpace\mxk\project-blog\routes\index.js:18:13)
