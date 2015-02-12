@@ -66,15 +66,35 @@ module.exports = function (app) {
         });
     });
     app.post("/login", function (req, res) {
-
+        //生成密码的md5值
+        var md5 = crypto.createHash("md5");
+        var password = md5.update(req.body.password).digest("hex");
+        //检查用户是否存在
+        User.get(req.body.name, function(error, user){
+            if (!user) {
+                req.flash("error", "用户不存在！");
+                return res.redirect("/login");  //用户不存在则跳转到登录页
+            }
+            //检查密码是否一致
+            if (user.password != password) {
+                req.flash("error", "密码错误！");
+                return res.redirect("/login");  //密码错误则跳转到登录页
+            }
+            //用户名和密码都匹配后，将用户信息存入session
+            req.session.user = user;
+            req.flash("success", "登录成功！");
+            res.redirect("/");  //登录成功后挑换到首页
+        });
     });
-    app.get("/post", function (res, req) {
+    app.get("/post", function (req, res) {
         res.render("post", {title: "发表"});
     });
-    app.post("/post", function (res, req) {
+    app.post("/post", function (req, res) {
 
     });
-    app.get("/logout", function (res, req) {
-
+    app.get("/logout", function (req, res) {
+        req.session.user = null;
+        req.flash("success", "登出成功！");
+        res.redirect("/");  //登出成功后跳转到主页
     });
 };
