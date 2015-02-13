@@ -4,14 +4,21 @@
 
 var crypto = require("crypto");
 var User = require("../models/user.js");
+var Post = require("../models/post.js");
 
 module.exports = function (app) {
     app.get("/", function (req, res) {
-        res.render("index", {
-            title: "主页",
-            user: req.session.user,
-            success: req.flash("success").toString(),
-            error: req.flash("error").toString()
+        Post.get(null, function(err, posts){
+            if(err){
+                posts = [];
+            }
+            res.render("index", {
+                title: "主页",
+                user: req.session.user,
+                posts: posts,
+                success: req.flash("success").toString(),
+                error: req.flash("error").toString()
+            });
         });
     });
     app.get("/reg", checkNotLogin);
@@ -38,7 +45,7 @@ module.exports = function (app) {
         var password = md5.update(req.body.password).digest("hex");
         var newUsere = new User({
             name: req.body.name,
-            password: req.body.password,
+            password: password,
             email: req.body.email
         });
         //检查用户名是否已经存在
@@ -92,11 +99,26 @@ module.exports = function (app) {
     });
     app.get("/post", checkLogin);
     app.get("/post", function (req, res) {
-        res.render("post", {title: "发表"});
+        res.render("post", {
+            title: "发表",
+            user: req.session.user,
+            success: req.flash("success").toString(),
+            error: req.flash("error").toString()
+        });
+
     });
     app.post("/post", checkLogin);
     app.post("/post", function (req, res) {
-
+        var currentUser = req.session.user;
+        var post = new Post(currentUser.name, req.body.title, req.body.post);
+        post.save(function(err){
+            if(err){
+                req.flash("error", err);
+                return res.redirect("/");
+            }
+            req.flash("succes", "发布成功！");
+            res.redirect("/");  //发布成功跳转到主页
+        });
     });
     app.get("/logout", function (req, res) {
         req.session.user = null;

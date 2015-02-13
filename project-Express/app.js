@@ -4,7 +4,7 @@
  */
 
 var express = require('express');
-var session =require("express-session");    //如果要使用session，需要单数包含这个模块
+var session = require("express-session");    //如果要使用session，需要单数包含这个模块
 var cookieParser = require("cookie-parser");    //如果要使用cookie，需要显示包含这个模块
 var RedisStore = require("connect-redis")(session);
 var routes = require('./routes');

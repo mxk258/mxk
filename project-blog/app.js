@@ -15,7 +15,7 @@ var accessLog = fs.createWriteStream("access.log", {flags: "a"});
 var errorLog = fs.createWriteStream("error.log", {flags: "a"});
 var app = express();
 
-app.set("port", process.env.PORT || 3000);  //设置端口
+app.set("port", process.env.PORT || 8080);  //设置端口
 app.set("views", path.join(__dirname, "views"));    //设置views文件夹为存放视图文件的目录，即存放模板文件的地方，_dirname为全局变量，存储当前正在执行的脚本所在的目录
 app.set("view engine", "ejs");  //设置视图模板引擎为ejs
 app.use(favicon(__dirname + "/public/images/favicon.ico")); //connect内建的中间件，使用默认的favicon图标，如果想使用自己的图标，须改为app.use(express.favicon(_dirname + '/public/images/favicon.icon'));这里我们把自定义的favicon.ico放到/public/images文件夹下

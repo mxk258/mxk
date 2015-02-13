@@ -2,6 +2,7 @@
  * Created by kun on 2015/2/12.
  */
 var mongodb = require("./db");
+var markdown = require("markdown").markdown;
 
 function Post(name, title, post){
     this.name = name;
@@ -9,7 +10,7 @@ function Post(name, title, post){
     this.post = post;
 }
 
-modules.exports = Post;
+module.exports = Post;
 
 //存储一篇文章及相关信息
 Post.prototype.save = function(callback){
@@ -42,7 +43,7 @@ Post.prototype.save = function(callback){
                 mongodb.close();
                 return callback(err);
             }
-            //将文档写入postjihe
+            //将文档写入posts集合
             collection.insert(post, {
                 safe: true
             },function(err){
@@ -81,6 +82,10 @@ Post.get = function(name, callback){
                 if(err){
                     return callback(err);
                 }
+                //解析 markdown 为 html
+                docs.forEach(function (doc) {
+                    doc.post = markdown.toHTML(doc.post);
+                });
                 callback(null, docs);   //成功！以数组形式返回查询的结果
             });
         });
