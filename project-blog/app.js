@@ -29,6 +29,8 @@ app.use(multer({
     }
 }));
 
+//app.use(express.bodyParser({keepExtensions: true, uploadDir: "./public/images"}));
+
 /*会话支持
  * cookieParser()是Cookie解析的中间件。session()则提供会话支持，secret用来防止篡改Cookie，
  * key的值为Cookie的名字，通过设置Cookie的maxAge值来设定Cookie的生存期，这里我们设置Cookie的生存期为30天，

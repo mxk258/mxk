@@ -1053,3 +1053,15 @@ Error: Can't set headers after they are sent.
     at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
     at d:\workSpace\mxk\project-blog\routes\index.js:71:13
     at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+[Wed Feb 25 2015 08:48:19 GMT+0800 (中国标准时间)]/upload
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:691:11)
+    at ServerResponse.header (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:666:10)
+    at ServerResponse.send (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:146:12)
+    at res.render.fn (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:900:10)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:3)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:131:13)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
