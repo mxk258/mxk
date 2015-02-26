@@ -2601,3 +2601,211 @@ Error: db object already connecting, open cannot be called multiple times
     at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
     at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
     at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Thu Feb 26 2015 14:14:51 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/1
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:191:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:126:17)
+[Thu Feb 26 2015 14:16:27 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mongodb%E7%9A%84open%E5%92%8Cclose%E7%96%91%E9%97%AE
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:99:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:186:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Thu Feb 26 2015 14:16:27 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mongodb%E7%9A%84open%E5%92%8Cclose%E7%96%91%E9%97%AE
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:99:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:186:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Thu Feb 26 2015 14:18:19 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mongodb%E7%9A%84open%E5%92%8Cclose%E7%96%91%E9%97%AE
+ReferenceError: thid is not defined
+    at new Comment (d:\workSpace\mxk\project-blog\models\comment.js:7:5)
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:211:26)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Thu Feb 26 2015 14:18:23 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mongodb%E7%9A%84open%E5%92%8Cclose%E7%96%91%E9%97%AE
+ReferenceError: thid is not defined
+    at new Comment (d:\workSpace\mxk\project-blog\models\comment.js:7:5)
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:211:26)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Thu Feb 26 2015 14:20:03 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mongodb%E7%9A%84open%E5%92%8Cclose%E7%96%91%E9%97%AE
+ReferenceError: thid is not defined
+    at new Comment (d:\workSpace\mxk\project-blog\models\comment.js:7:5)
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:211:26)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Thu Feb 26 2015 14:20:44 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mongodb%E7%9A%84open%E5%92%8Cclose%E7%96%91%E9%97%AE
+ReferenceError: thid is not defined
+    at new Comment (d:\workSpace\mxk\project-blog\models\comment.js:7:5)
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:211:26)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Thu Feb 26 2015 14:21:50 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mongodb%E7%9A%84open%E5%92%8Cclose%E7%96%91%E9%97%AE
+ReferenceError: thid is not defined
+    at new Comment (d:\workSpace\mxk\project-blog\models\comment.js:7:5)
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:211:26)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Thu Feb 26 2015 14:21:55 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mongodb%E7%9A%84open%E5%92%8Cclose%E7%96%91%E9%97%AE
+ReferenceError: thid is not defined
+    at new Comment (d:\workSpace\mxk\project-blog\models\comment.js:7:5)
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:211:26)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Thu Feb 26 2015 14:22:12 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mongodb%E7%9A%84open%E5%92%8Cclose%E7%96%91%E9%97%AE
+ReferenceError: thid is not defined
+    at new Comment (d:\workSpace\mxk\project-blog\models\comment.js:7:5)
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:211:26)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Thu Feb 26 2015 14:24:36 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mongodb%E7%9A%84open%E5%92%8Cclose%E7%96%91%E9%97%AE
+ReferenceError: thid is not defined
+    at new Comment (d:\workSpace\mxk\project-blog\models\comment.js:7:5)
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:211:26)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Thu Feb 26 2015 14:25:14 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mongodb%E7%9A%84open%E5%92%8Cclose%E7%96%91%E9%97%AE
+ReferenceError: thid is not defined
+    at new Comment (d:\workSpace\mxk\project-blog\models\comment.js:7:5)
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:211:26)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Thu Feb 26 2015 14:25:34 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mxk
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:191:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:126:17)
+[Thu Feb 26 2015 14:26:24 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mxk
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:191:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:126:17)
+[Thu Feb 26 2015 14:26:29 GMT+0800 (中国标准时间)]/u/mxk/2015-2-26/mxk
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:191:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:126:17)
