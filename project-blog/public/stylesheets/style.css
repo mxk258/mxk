@@ -22,3 +22,5 @@ article a:hover{ color:#333; text-decoration: underline;}
 .tag{background:#f0f0f0; border-radius:3px; font-size:14px; color:#fff; display:inline-block; padding:0 5px; margin-bottom:8px;}
 .tag:hover{ text-decoration:none; background-color:#fff; color:#000; -webkit-transiton:color 0.2s linear; }
 .search{border:0; width:6em; text-align:center; font-size:1em; margin:0.5em 0;}
+.l_head{ float:left; margin-left: -4em; width:40px; height:40px; box-shadow:0 1px 5px #888;}
+.r_head{ float:right; margin-top:-2.5em; box-shadow:0 1px 4px #888;}

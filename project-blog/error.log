@@ -3778,3 +3778,971 @@ Error: db object already connecting, open cannot be called multiple times
     at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
     at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
     at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 14:15:43 GMT+0800 (中国标准时间)]/u/mxk/2015-2-27/12312312
+TypeError: Cannot call method 'toLowerCase' of undefined
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:241:47)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 14:15:53 GMT+0800 (中国标准时间)]/u/mxk/2015-2-27/12312312
+TypeError: Cannot call method 'toLowerCase' of undefined
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:241:47)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 14:16:07 GMT+0800 (中国标准时间)]/u/mxk/2015-2-27/12312312
+TypeError: Cannot call method 'toLowerCase' of undefined
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:241:47)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 14:20:04 GMT+0800 (中国标准时间)]/u/mxk/2015-2-27/12312312
+TypeError: Cannot call method 'toLowerCase' of undefined
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:241:47)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 14:20:10 GMT+0800 (中国标准时间)]/u/mxk/2015-2-27/12312312
+TypeError: Cannot call method 'toLowerCase' of undefined
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:241:47)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 14:20:28 GMT+0800 (中国标准时间)]/u/mxk/2015-2-27/12312312
+TypeError: Cannot call method 'toLowerCase' of undefined
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:241:47)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 14:20:42 GMT+0800 (中国标准时间)]/u/mxk/2015-2-27/12312312
+TypeError: Cannot call method 'toLowerCase' of undefined
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:241:47)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 14:22:03 GMT+0800 (中国标准时间)]/u/mxk/2015-2-27/12312312
+TypeError: Cannot call method 'toLowerCase' of undefined
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:241:47)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 14:23:50 GMT+0800 (中国标准时间)]/u/mxk/2015-2-27/12312312
+TypeError: Cannot call method 'toLowerCase' of undefined
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:241:47)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 14:40:19 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/12312312
+TypeError: Cannot call method 'toLowerCase' of undefined
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:241:47)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 14:41:55 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/12312312
+TypeError: Cannot call method 'toLowerCase' of undefined
+    at module.exports.app.get.currentUser (d:\workSpace\mxk\project-blog\routes\index.js:241:47)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 14:49:47 GMT+0800 (中国标准时间)]/
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getTen (d:\workSpace\mxk\project-blog\models\post.js:69:13)
+    at module.exports.app.get.res.render.title (d:\workSpace\mxk\project-blog\routes\index.js:16:14)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+[Fri Feb 27 2015 14:50:56 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/%FEG
+Error: Bad Request
+    at SendStream.error (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\send\index.js:239:16)
+    at SendStream.pipe (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\send\index.js:411:32)
+    at serveStatic (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\serve-static\index.js:110:12)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:271:13)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:238:9)
+    at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+    at Function.match_layer (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:296:3)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:190:10)
+[Fri Feb 27 2015 14:51:07 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/%FEG
+Error: Bad Request
+    at SendStream.error (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\send\index.js:239:16)
+    at SendStream.pipe (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\send\index.js:411:32)
+    at serveStatic (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\serve-static\index.js:110:12)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:271:13)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:238:9)
+    at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+    at Function.match_layer (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:296:3)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:190:10)
+[Fri Feb 27 2015 14:51:07 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/%FEG
+Error: Bad Request
+    at SendStream.error (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\send\index.js:239:16)
+    at SendStream.pipe (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\send\index.js:411:32)
+    at serveStatic (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\serve-static\index.js:110:12)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:271:13)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:238:9)
+    at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+    at Function.match_layer (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:296:3)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:190:10)
+[Fri Feb 27 2015 14:51:21 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/%FEG
+Error: Bad Request
+    at SendStream.error (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\send\index.js:239:16)
+    at SendStream.pipe (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\send\index.js:411:32)
+    at serveStatic (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\serve-static\index.js:110:12)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:271:13)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:238:9)
+    at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+    at Function.match_layer (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:296:3)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:190:10)
+[Fri Feb 27 2015 14:51:22 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/%FEG
+Error: Bad Request
+    at SendStream.error (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\send\index.js:239:16)
+    at SendStream.pipe (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\send\index.js:411:32)
+    at serveStatic (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\serve-static\index.js:110:12)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:271:13)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:238:9)
+    at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+    at Function.match_layer (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:296:3)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:190:10)
+[Fri Feb 27 2015 14:52:27 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/%FEG
+Error: Bad Request
+    at SendStream.error (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\send\index.js:239:16)
+    at SendStream.pipe (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\send\index.js:411:32)
+    at serveStatic (d:\workSpace\mxk\project-blog\node_modules\express\node_modules\serve-static\index.js:110:12)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:271:13)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:238:9)
+    at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+    at Function.match_layer (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:296:3)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:190:10)
+[Fri Feb 27 2015 14:53:31 GMT+0800 (中国标准时间)]/
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getTen (d:\workSpace\mxk\project-blog\models\post.js:69:13)
+    at module.exports.app.get.res.render.title (d:\workSpace\mxk\project-blog\routes\index.js:16:14)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+[Fri Feb 27 2015 15:41:31 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/images/psb.jsp
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:41:32 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/images/psb.jsp
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:45:50 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%EF%BC%9A%E4%B8%8D%E5%BF%85%E6%81%90%E6%85%8C%E4%B8%8D%E5%8A%A8%E4%BA%A7%E7%99%BB%E8%AE%B0%20%E4%BD%8F%E6%88%BF%E9%9C%80%E6%B1%82%E8%BF%9C%E6%B2%A1%E9%A5%B1%E5%92%8C
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:45:55 GMT+0800 (中国标准时间)]/archive
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getArchive (d:\workSpace\mxk\project-blog\models\post.js:285:13)
+    at module.exports.app.get.Post.getTags.res.render.title (d:\workSpace\mxk\project-blog\routes\index.js:308:14)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+[Fri Feb 27 2015 15:51:42 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:51:45 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:51:53 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:51:53 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:51:53 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:51:54 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:51:58 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:52:03 GMT+0800 (中国标准时间)]/archive
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getArchive (d:\workSpace\mxk\project-blog\models\post.js:285:13)
+    at module.exports.app.get.Post.getTags.res.render.title (d:\workSpace\mxk\project-blog\routes\index.js:308:14)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+[Fri Feb 27 2015 15:52:09 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:52:10 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:52:10 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:52:11 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:52:11 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:52:11 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:52:28 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:52:39 GMT+0800 (中国标准时间)]/post
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Post.save (d:\workSpace\mxk\project-blog\models\post.js:42:13)
+    at module.exports.app.get.req.session.user (d:\workSpace\mxk\project-blog\routes\index.js:123:14)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+[Fri Feb 27 2015 15:53:21 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:53:23 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:53:23 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:53:25 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/1
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:53:36 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/1005682757@qq.com
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:53:39 GMT+0800 (中国标准时间)]/u/1005682757@qq.com
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.User.get (d:\workSpace\mxk\project-blog\models\user.js:55:13)
+    at module.exports.app.get.Post.getOne.res.render.title (d:\workSpace\mxk\project-blog\routes\index.js:195:14)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:53:48 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:53:49 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:53:49 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:53:49 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:53:50 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:53:50 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:19 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:54:39 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:40 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:41 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:41 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:41 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:42 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:42 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:48 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:49 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:50 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:54 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:55 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:54:55 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:145:13)
+    at d:\workSpace\mxk\project-blog\routes\index.js:222:14
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
+[Fri Feb 27 2015 15:54:55 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:55:04 GMT+0800 (中国标准时间)]/
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.Post.getTen (d:\workSpace\mxk\project-blog\models\post.js:69:13)
+    at module.exports.app.get.res.render.title (d:\workSpace\mxk\project-blog\routes\index.js:16:14)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+[Fri Feb 27 2015 15:55:47 GMT+0800 (中国标准时间)]/u/1005682757@qq.com/2015-2-27/30%E5%B2%81%EF%BC%9A%20%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E7%97%9B?
+TypeError: d:\workSpace\mxk\project-blog\views\article.ejs:2
+    1| <%- include header %>
+ >> 2| <% if(user && (user.name == post.name)){ %>
+    3| <p>
+    4|     <span><a class="edit" href="/edit/<%= post.name %>/<%= post.time.day %>/<%= post.title %>">编辑</a></span>
+    5|     <span><a clas="edit" href="/remove/<%= post.name%>/<%= post.time.day%>/<%= post.title%>">删除</a></span>
+
+Cannot read property 'name' of null
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:81)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:35:37)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:227:17)
+    at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:185:17)
+[Fri Feb 27 2015 15:56:20 GMT+0800 (中国标准时间)]/u/1005682757@qq.com
+Error: db object already connecting, open cannot be called multiple times
+    at Db.open (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:258:11)
+    at Function.User.get (d:\workSpace\mxk\project-blog\models\user.js:55:13)
+    at module.exports.app.get.Post.getOne.res.render.title (d:\workSpace\mxk\project-blog\routes\index.js:195:14)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at next (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:100:13)
+    at Route.dispatch (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\route.js:81:3)
+    at Layer.handle [as handle_request] (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:332:14)
+    at param (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:348:14)
