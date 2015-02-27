@@ -37,6 +37,11 @@
             <a href="/reg" title="注册">register</a>
         </span>
         <% } %>
+        <span>
+            <form action="/search" method="GET">
+                <input type="text" name="keyword" placeholder="SEARCH" class="search" />
+            </form>
+        </span>
     </nav>
     <article>
         <% if(success){ %>
