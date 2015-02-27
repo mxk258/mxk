@@ -347,6 +347,10 @@ module.exports = function (app) {
             });
         });
     });
+
+    app.use(function(req, res){
+        res.render("404");
+    });
 };
 
 function checkLogin(req, res, next){
