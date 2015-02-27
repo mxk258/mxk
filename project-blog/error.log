@@ -2809,3 +2809,509 @@ Cannot read property 'name' of null
     at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
     at module.exports.app.post.time (d:\workSpace\mxk\project-blog\routes\index.js:191:17)
     at Post.getOne (d:\workSpace\mxk\project-blog\models\post.js:126:17)
+[Thu Feb 26 2015 16:43:51 GMT+0800 (中国标准时间)]/archive
+Error: Failed to lookup view "[object Object]" in views directory "d:\workSpace\mxk\project-blog\views"
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+    at Post.getArchive (d:\workSpace\mxk\project-blog\models\post.js:289:17)
+    at Cursor.toArray (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\cursor.js:172:16)
+    at Cursor.nextObject.commandHandler (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\cursor.js:720:16)
+    at Db._executeQueryCommand (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:1912:9)
+    at Server.Base._callHandler (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\connection\base.js:448:41)
+    at Server.connect.connectionPool.on.server._serverState (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\connection\server.js:481:18)
+    at MongoReply.parseBody (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:68:5)
+[Thu Feb 26 2015 16:45:31 GMT+0800 (中国标准时间)]/archive
+Error: Failed to lookup view "[object Object]" in views directory "d:\workSpace\mxk\project-blog\views"
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:519:17)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+    at Post.getArchive (d:\workSpace\mxk\project-blog\models\post.js:289:17)
+    at Cursor.toArray (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\cursor.js:172:16)
+    at Cursor.nextObject.commandHandler (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\cursor.js:720:16)
+    at Db._executeQueryCommand (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\db.js:1912:9)
+    at Server.Base._callHandler (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\connection\base.js:448:41)
+    at Server.connect.connectionPool.on.server._serverState (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\connection\server.js:481:18)
+    at MongoReply.parseBody (d:\workSpace\mxk\project-blog\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:68:5)
+[Thu Feb 26 2015 16:46:39 GMT+0800 (中国标准时间)]/archive
+Error: ENOENT, no such file or directory 'd:\workSpace\mxk\project-blog\views\heeader.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+[Thu Feb 26 2015 16:47:59 GMT+0800 (中国标准时间)]/archive
+Error: ENOENT, no such file or directory 'd:\workSpace\mxk\project-blog\views\heeader.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+[Thu Feb 26 2015 16:49:53 GMT+0800 (中国标准时间)]/archive
+Error: ENOENT, no such file or directory 'd:\workSpace\mxk\project-blog\views\heeader.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+[Thu Feb 26 2015 16:51:47 GMT+0800 (中国标准时间)]/archive
+ReferenceError: d:\workSpace\mxk\project-blog\views\edit.ejs:4
+    2| <form method="post">
+    3|     标题：<br />
+ >> 4|     <input type="text" name="title" value="<%= post.title %>" disabled="disabled" /><br />
+    5|     正文：<br />
+    6|     <textarea name="post" rows="20" cols="100"><%= post.post %></textarea><br />
+    7|     <input type="submit" value="保存修改" />
+
+post is not defined
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:141)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+    at Post.getArchive (d:\workSpace\mxk\project-blog\models\post.js:289:17)
+[Thu Feb 26 2015 16:53:26 GMT+0800 (中国标准时间)]/archive
+Error: ENOENT, no such file or directory 'd:\workSpace\mxk\project-blog\views\heeader.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+[Thu Feb 26 2015 16:57:29 GMT+0800 (中国标准时间)]/archive
+Error: ENOENT, no such file or directory 'd:\workSpace\mxk\project-blog\views\heeader.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+[Thu Feb 26 2015 16:59:44 GMT+0800 (中国标准时间)]/archive
+Error: ENOENT, no such file or directory 'd:\workSpace\mxk\project-blog\views\heeader.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+[Thu Feb 26 2015 16:59:50 GMT+0800 (中国标准时间)]/archive
+Error: ENOENT, no such file or directory 'd:\workSpace\mxk\project-blog\views\heeader.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+[Thu Feb 26 2015 16:59:51 GMT+0800 (中国标准时间)]/archive
+Error: ENOENT, no such file or directory 'd:\workSpace\mxk\project-blog\views\heeader.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+[Thu Feb 26 2015 16:59:51 GMT+0800 (中国标准时间)]/archive
+Error: ENOENT, no such file or directory 'd:\workSpace\mxk\project-blog\views\heeader.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+[Thu Feb 26 2015 16:59:51 GMT+0800 (中国标准时间)]/archive
+Error: ENOENT, no such file or directory 'd:\workSpace\mxk\project-blog\views\heeader.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+[Thu Feb 26 2015 16:59:51 GMT+0800 (中国标准时间)]/archive
+Error: ENOENT, no such file or directory 'd:\workSpace\mxk\project-blog\views\heeader.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:164:19)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:229:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:289:10)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+    at module.exports (d:\workSpace\mxk\project-blog\routes\index.js:283:17)
+[Thu Feb 26 2015 17:01:56 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:5
+    3|     <% var lastYear = 0%>
+    4|     <% posts.forEach(function(post, index){ %>
+ >> 5|         <% if(lastYear != post.time.year){ %>
+    6|             <li>
+    7|                 <h3>
+    8|                     <%= post.time.year %>
+
+Cannot read property 'year' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:237)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:139)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:01:57 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:5
+    3|     <% var lastYear = 0%>
+    4|     <% posts.forEach(function(post, index){ %>
+ >> 5|         <% if(lastYear != post.time.year){ %>
+    6|             <li>
+    7|                 <h3>
+    8|                     <%= post.time.year %>
+
+Cannot read property 'year' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:237)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:139)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:02:19 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:5
+    3|     <% var lastYear = 0%>
+    4|     <% posts.forEach(function(post, index){ %>
+ >> 5|         <% if(lastYear != post.time.year){ %>
+    6|             <li>
+    7|                 <h3>
+    8|                     <%= post.time.year %>
+
+Cannot read property 'year' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:237)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:139)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:02:21 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:5
+    3|     <% var lastYear = 0%>
+    4|     <% posts.forEach(function(post, index){ %>
+ >> 5|         <% if(lastYear != post.time.year){ %>
+    6|             <li>
+    7|                 <h3>
+    8|                     <%= post.time.year %>
+
+Cannot read property 'year' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:237)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:139)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:03:53 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:5
+    3|     <% var lastYear = 0 %>
+    4|     <% posts.forEach(function(post, index){ %>
+ >> 5|         <% if(lastYear != post.time.year){ %>
+    6|             <li>
+    7|                 <h3>
+    8|                     <%= post.time.year %>
+
+Cannot read property 'year' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:238)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:140)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:05:29 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:5
+    3|     <% var lastYear = 0 %>
+    4|     <% posts.forEach(function(post, index){ %>
+ >> 5|         <% if(lastYear != post.time.year){ %>
+    6|             <li>
+    7|                 <h3>
+    8|                     <%= post.time.year %>
+
+Cannot read property 'year' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:238)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:140)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:05:34 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:8
+    6|         <li>
+    7|             <time>
+ >> 8|                 <%= post.time.day %>
+    9|             </time>
+    10|         </li>
+    11|         <li>
+
+Cannot read property 'day' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:283)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:140)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:05:35 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:8
+    6|         <li>
+    7|             <time>
+ >> 8|                 <%= post.time.day %>
+    9|             </time>
+    10|         </li>
+    11|         <li>
+
+Cannot read property 'day' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:283)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:140)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:05:35 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:8
+    6|         <li>
+    7|             <time>
+ >> 8|                 <%= post.time.day %>
+    9|             </time>
+    10|         </li>
+    11|         <li>
+
+Cannot read property 'day' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:283)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:140)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:05:35 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:8
+    6|         <li>
+    7|             <time>
+ >> 8|                 <%= post.time.day %>
+    9|             </time>
+    10|         </li>
+    11|         <li>
+
+Cannot read property 'day' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:283)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:140)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:07:39 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:7
+    5|         
+    6|         <li>
+ >> 7|             <a href="/u/<%= post.name %>/<%= post.time.day %>/<%= post.title %>"><%= post.title %><%= post.title %></a>
+    8|         </li>
+    9|     <% }) %>
+    10| </ul>
+
+Cannot read property 'day' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:318)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:140)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:08:15 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:7
+    5|         <li>
+    6|             <time>
+ >> 7|                 <%= post.time.day %>
+    8|             </time>
+    9|         </li>
+    10|     <% }) %>
+
+Cannot read property 'day' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:274)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:140)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:14:51 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:5
+    3|     <% var lastYear = 0 %>
+    4|     <% posts.forEach(function(post, index){ %>
+ >> 5|         <% if(lastYear != post.time.year){ %>
+    6|             <li>
+    7|                 <h3>
+    8|                     <%= post.time.year %>
+
+Cannot read property 'year' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:238)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:140)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:15:08 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:5
+    3|     <% var lastYear = 0 %>
+    4|     <% posts.forEach(function(post, index){ %>
+ >> 5|         <% if(lastYear != post.time.year){ %>
+    6|             <li>
+    7|                 <h3>
+    8|                     <%= post.time.year %>
+
+Cannot read property 'year' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:238)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:140)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
+[Thu Feb 26 2015 17:17:16 GMT+0800 (中国标准时间)]/archive
+TypeError: d:\workSpace\mxk\project-blog\views\archive.ejs:5
+    3|     <% var lastYear = 0 %>
+    4|     <% posts.forEach(function(post, index){ %>
+ >> 5|         <% if(lastYear != post.time.year){ %>
+    6|             <li>
+    7|                 <h3>
+    8|                     <%= post.time.year %>
+
+Cannot read property 'year' of undefined
+    at buf.push.
+</ul>
+.buf (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:238)
+    at Array.forEach (native)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:31:140)
+    at eval (eval at <anonymous> (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:33:35)
+    at exports.compile (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:255:15)
+    at Object.exports.render (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:293:13)
+    at View.exports.renderFile [as engine] (d:\workSpace\mxk\project-blog\node_modules\ejs\lib\ejs.js:323:20)
+    at View.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\application.js:530:10)
+    at ServerResponse.res.render (d:\workSpace\mxk\project-blog\node_modules\express\lib\response.js:904:7)
