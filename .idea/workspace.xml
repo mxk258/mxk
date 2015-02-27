@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e05400-512d-4932-88ea-bc71243615a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-blog/views/search.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-blog/access.log" afterPath="$PROJECT_DIR$/project-blog/access.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-blog/views/links.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-blog/views/header.ejs" afterPath="$PROJECT_DIR$/project-blog/views/header.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-blog/routes/index.js" afterPath="$PROJECT_DIR$/project-blog/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-blog/models/post.js" afterPath="$PROJECT_DIR$/project-blog/models/post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-blog/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/project-blog/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mxk.iws" />
@@ -31,11 +28,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-blog/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28846154" vertical-offset="2519" max-vertical-offset="5760">
-              <caret line="166" column="58" selection-start-line="166" selection-start-column="58" selection-end-line="166" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2503" max-vertical-offset="5904">
+              <caret line="170" column="48" selection-start-line="170" selection-start-column="48" selection-end-line="170" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="links.ejs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-blog/views/links.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6345609" vertical-offset="0" max-vertical-offset="384">
+              <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+              <folding>
+                <element signature="e#26#50#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-blog/views/header.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.375" vertical-offset="175" max-vertical-offset="960">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -94,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/第五课：事件深入应用/模拟滚动条.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/第五课：事件深入应用/模拟滚动条控制内容滚动.html" />
         <option value="$PROJECT_DIR$/project-node/.idea/request.js" />
         <option value="$PROJECT_DIR$/project-node/.idea/helloworld.js" />
@@ -140,11 +158,12 @@
         <option value="$PROJECT_DIR$/project-blog/views/index.ejs" />
         <option value="$PROJECT_DIR$/project-blog/views/user.ejs" />
         <option value="$PROJECT_DIR$/project-blog/views/article.ejs" />
-        <option value="$PROJECT_DIR$/project-blog/views/header.ejs" />
         <option value="$PROJECT_DIR$/project-blog/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/project-blog/models/post.js" />
         <option value="$PROJECT_DIR$/project-blog/views/search.ejs" />
+        <option value="$PROJECT_DIR$/project-blog/views/header.ejs" />
         <option value="$PROJECT_DIR$/project-blog/routes/index.js" />
+        <option value="$PROJECT_DIR$/project-blog/views/links.ejs" />
       </list>
     </option>
   </component>
@@ -511,7 +530,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21803127" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20148699" sideWeight="0.81435645" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3536" sideWeight="0.49962825" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3536" sideWeight="0.49962825" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20148699" sideWeight="0.18316832" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4656" sideWeight="0.50037175" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
@@ -551,13 +570,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-node/.idea/request.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048484847" vertical-offset="0" max-vertical-offset="330">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-node/.idea/helloworld.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43636364" vertical-offset="0" max-vertical-offset="330">
@@ -872,14 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/views/header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5467422" vertical-offset="463" max-vertical-offset="912">
-          <caret line="41" column="61" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-blog/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7176471" vertical-offset="124" max-vertical-offset="480">
@@ -936,11 +940,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project-blog/views/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.375" vertical-offset="175" max-vertical-offset="960">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project-blog/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28846154" vertical-offset="2519" max-vertical-offset="5760">
-          <caret line="166" column="58" selection-start-line="166" selection-start-column="58" selection-end-line="166" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2503" max-vertical-offset="5904">
+          <caret line="170" column="48" selection-start-line="170" selection-start-column="48" selection-end-line="170" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-blog/views/links.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6345609" vertical-offset="0" max-vertical-offset="384">
+          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+          <folding>
+            <element signature="e#26#50#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
