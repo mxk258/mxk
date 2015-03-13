@@ -1,13 +1,888 @@
-<!DOCTYPE html>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-    <style type="text/css">
-        *{ vertical-align: middle;  }
-    </style>
+<head>
+    <base href="<%=basePath%>">
+
+    <title>机构信息</title>
+
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="This is my page">
+    <!--
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    -->
+    <script type="text/javascript" src="jquery-easyui-1.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-easyui-1.4.1/jquery.easyui.min.js"></script>
+    <link href="jquery-easyui-1.4.1/themes/default/easyui.css" rel="stylesheet" type="text/css"/>
+    <link href="jquery-easyui-1.4.1/themes/icon.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="jquery-easyui-1.4.1/locale/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript" src="JS/Role.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#rain").window("close");
+            $("#rain1").window("close");
+            $("#rain3").window("close");
+            $('#tt').tree({
+                url: 'TreeOne',
+                onClick: function (node) {
+                    var id = node.id;
+                    //alert(id);
+                    $("#rain1").window("open");
+                }
+            });
+        });
+
+        function dataFormat(time) {
+            var format = "yyyy-MM-dd";
+            var t = new Date(time);
+            var tf = function (i) {
+                return (i < 10 ? '0' : '') + i
+            };
+            return format.replace(/yyyy|MM|dd|HH|mm|ss/g, function (a) {
+                switch (a) {
+                    case 'yyyy':
+                        return tf(t.getFullYear());
+                        break;
+                    case 'MM':
+                        return tf(t.getMonth() + 1);
+                        break;
+                    case 'mm':
+                        return tf(t.getMinutes());
+                        break;
+                    case 'dd':
+                        return tf(t.getDate());
+                        break;
+                    case 'HH':
+                        return tf(t.getHours());
+                        break;
+                    case 'ss':
+                        return tf(t.getSeconds());
+                        break;
+                }
+            });
+        }
+
+        $(function () {
+            $("#userDataGrid").datagrid({
+                url: "OrganServlet?str=select",
+                width: 900,
+                columns: [
+                    [
+                        {field: 'orgId', title: '机构ID', width: 100},
+                        {field: 'orgCode', title: '机构编号', width: 100},
+                        {field: 'orgName', title: '机构名称', width: 100},
+                        {field: 'orgDesc', title: '机构排序', width: 100},
+                        {field: 'orgRemark', title: '机构说明', width: 100},
+                        {field: 'operatorName', title: '作者', width: 100},
+                        {field: 'operatorTime', title: '创作时间', width: 100, formatter: function (value) {
+                            return dataFormat(value);
+                        }
+                        },
+                        {field: 'approveName', title: '审批人', width: 100},
+                        {field: 'approveTime', title: '审批时间', width: 100, formatter: function (value) {
+                            return dataFormat(value);
+                        }
+                        }
+                    ]
+                ],
+                //singleSelect: true,
+                pagination: true,//分页控件
+                rownumbers: true,//行号
+                checkbox: true,
+                loadFilter: pagerFilterjg,
+                onselectpage: function (number, size) {
+                    alert(number);
+                },
+
+                onDblClickRow: function (rowIndex, rowData) {
+                    var id = rowData.orgId;
+
+                    $("#orgCode1").val(rowData.orgCode);
+                    $("#orgRemark1").val(rowData.orgRemark);
+                    $("#orgId9").val(rowData.orgId);
+                    $("#orgInstitutionallname1").val(rowData.orgInstitutionallname);
+                    $("#orgRatifytime1").val(rowData.orgRatifytime);
+                    $("#orgRatifycancelnumber1").val(rowData.orgRatifycancelnumber);
+                    $("#orgRatifyagaintype1").val(rowData.orgRatifyagaintype);
+                    $("#orgFinancepassnumber1").val(rowData.orgFinancepassnumber);
+                    $("#orgOpenfilenumber1").val(rowData.orgOpenfilenumber);
+                    $("#stopFileNumber1").val(rowData.orgOpenfilenumber);
+                    $("#orgNumber1").val(rowData.orgNumber);
+                    $("#orgRatifynumber1").val(rowData.orgRatifynumber);
+                    $("#orgBusinesslicence1").val(rowData.orgBusinesslicence);
+                    $("#orgOpentime1").val(rowData.orgOpentime);
+                    $("#orgStoptime1").val(rowData.orgStoptime);
+                    $("#orgExchangenumber1").val(rowData.orgExchangenumber);
+                    $("#rain").window("open");
+                },
+                //onClickRow:getdata,
+                singleSelect: true,
+
+            });
+        });
+
+        function shanchu() {
+            var haha = $("#orgId9").val();
+            $.ajax({
+                type: "Post",
+                url: "OrganServlet?shanchu=" + haha,
+                success: function (data) {
+                    $("#rain").window("close");
+                    $("#userDataGrid").datagrid("reload");
+                }
+            });
+        }
+
+        function close() {
+            $("#rain").window("close");
+        }
+
+        function getDicBy1() {
+            var sousuo1 = $("#sousuo1").val();
+            //$("#sousuo1").val("");
+            if (sousuo1 == null) {
+                $('#tt').tree({
+                    url: 'TreeOne'
+                });
+
+            } else {
+
+                $('#tt').tree({
+                    url: "TreeOne?na1=" + sousuo1
+                });
+                $("#userDataGrid").datagrid('load', {orgName: sousuo1});
+            }
+        }
+        $(function () {
+            $('#ratifyAgainType1').combobox({
+                url: 'ComBo1',
+                valueField: 'dictEntryId',
+                textField: 'dictEntryName'
+            });
+        })
+
+        $(function () {
+            $('#ratifyAgainType').combobox({
+                url: 'ComBo1',
+                valueField: 'dictEntryId',
+                textField: 'dictEntryName'
+            });
+        })
+        function bodyLoad() {
+
+            var dateTime = new Date();
+            var hh = dateTime.getHours();//小时
+            var mm = dateTime.getMinutes();//分钟
+            var ss = dateTime.getSeconds();//秒钟
+            var yy = dateTime.getFullYear();//年份
+            var MM = dateTime.getMonth() + 1;  //月份-因为1月这个方法返回为0，所以加1
+            var dd = dateTime.getDate();//日数
+
+            var week = dateTime.getDay();//周(0~6,0表示星期日)
+            var days = [ "日 ", "一 ", "二 ", "三 ", "四 ", "五 ", "六 ", ]
+
+            document.getElementById("date").innerHTML = yy + "年" + MM + "月" + dd + "日 " + "星期" + days[week];
+            document.getElementById("time").innerHTML = hh + "时" + mm + "分" + ss + "秒";
+
+            setTimeout(bodyLoad, 1000);
+        }
+        function alertt() {
+            $("#rain3").window("open");
+        }
+
+        //<p>The DataGrid toolbar can be defined from a &lt;div&gt; markup, so you can define the layout of toolbar easily.</p>
+    </script>
 </head>
-<body>
+
+<body onload="bodyLoad()">
+<div id="cc" class="easyui-layout" style="width:100%;height:100%;">
+    <div class
+    "panel-titleee" data-options="region:'north',title:'洋葱平台人力资源管理系统',split:true" style="height:100px;width:100%;">
+
+</div>
+
+<body class="easyui-layout">
+<div data-options="region:'south',split:true" style="height:50px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+        color="#FF0000">系统当前时间： <span id="date"></span>
+    <span id="time"></font></span>
+
+
+    <div align="center"><span class="font">
+            Email:hr@hexie.cn 上海合协软件有限公司 <span lang="en">&copy;</span>2015版权所有 <br>
+            <a href="http://www.shmec.gov.cn/web/hdpt/wsgs_detail.php?subject_id=237" target="_blank" class="link-03">沪r2-20150037号</a> </span>
+    </div>
+</div>
+<div data-options="region:'west',title:'组织机构',split:true" style="width:20%;">
+
+    <div style="margin-left:20px;margin-top:60px;">
+        <input class="textbox" style="width:100;height:22" type="text" name="sousuo1" id="sousuo1"
+               data-options="required:true"/>
+        <a class="easyui-linkbutton" iconCls="icon-search" onclick="getDicBy1()">搜索</a>
+    </div>
+
+    <ul id="tt" style="border-bottom:0;width:200px;height:450px;margin-top:100;margin-left:20"></ul>
+</div>
+
+
+<div data-options="region:'center',title:'机构列表'" style="padding:5px;background:#eee;">
+    <div style="margin-left:60px;margin-top:180px;">
+        <table>
+            <tr>
+                <td>
+                    <ul id="" style="margin-top:-120;margin-left:-70">
+                        机构名称: <input class="easyui-textbox" style="width:120" type="text" name="dictTypeName"
+                                     id="dictTypeName" data-options="required:true"/>
+                        机构编号: <input class="easyui-textbox" style="width:120" type="text" name=""
+                                     data-options="required:true"/>
+                        &nbsp;&nbsp;审批时间:
+                        <select class="easyui-combobox" panelHeight="auto" style="width:100px">
+                            <option value="oni"></option>
+                            <option value="gbcode"></option>
+                            <option value="auto"></option>
+                        </select>
+                        <a class="easyui-linkbutton" iconCls="icon-search" onclick="getDicById()">查询</a>
+                        &nbsp;&nbsp;&nbsp;
+                        <!-- 		<a href="#" class="easyui-linkbutton" iconCls="">增加</a> -->
+                        <a class="easyui-linkbutton" iconCls="" onclick="alertt()">变动</a>
+                        <!-- 		<a href="#" class="easyui-linkbutton" iconCls="">删除</a> -->
+                        <div id="ft" style="padding:2px 5px;">
+                            <a href="#" class="easyui-linkbutton" iconCls="" plain="true"></a>
+                            <a href="#" class="easyui-linkbutton" iconCls="" plain="true"></a>
+                            <a href="#" class="easyui-linkbutton" iconCls="" plain="true"></a>
+                            <a href="#" class="easyui-linkbutton" iconCls="" plain="true"></a>
+                            <a href="#" class="easyui-linkbutton" iconCls="" plain="true"></a>
+                        </div>
+                        <table id="userDataGrid" class="easyui-datagrid" title="人员信息" style="width:700px;height:250px"
+                               toolbar:
+                        '#tb',footer:'#ft'">
+        </table>
+        </ul>
+        </td>
+        </tr>
+        </table>
+    </div>
+</div>
+
+
+</body>
+
+
+<div id="rain" class="easyui-window" title="机构详细信息" style="width:1000px;height:520px"
+     data-options="iconCls:'icon-save',modal:true">
+<br>
+<br>
+<font face="基本信息" size="5" color="">基本信息</font>
+<br>
+<hr/>
+<form id="OrganServlet" method="post" action="OrganServlet">
+    <br>
+    <table cellpadding="5">
+        <tr>
+
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;机构编码：</td>
+            <input type="hidden" id="orgId9" name="orgId9"/>
+            <td>&nbsp;<input class="textbox" type="text" style="width:150px;height:20px" name="orgCode1"
+                             id="orgCode1"></input></td>
+        </tr>
+        <tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;机构说明：</td>
+        <td>&nbsp;<input class="textbox" type="text" style="width:150px;height:20px" name="orgRemark1" id="orgRemark1"
+                         data-
+
+                         options="required:true"></input></td>
+        <td>机构全称：</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="text" style="width:150px;height:20px"
+                                           name="orgInstitutionallname1"
+
+                                           id="orgInstitutionallname1" data-
+
+                                           options="required:true"
+
+                ></input></td>
+
+        </tr>
+    </table>
+    <!-- ———————————————————————————————————————————————— -->
+    <br>
+    <font face="人员信息" size="5" color="">批准信息</font>
+    <br>
+    <hr/>
+
+    <br>
+    <table cellpadding="5">
+        <tr>
+
+            <td>批准成立日期：</td>
+            <td><input class="easyui-datetimebox" type="text" name="orgRatifytime1" id="orgRatifytime1" value="3/4/2010"
+                       data-
+
+                       options="required:true,showSeconds:false"/></input></td>
+
+            <td>&nbsp;批准撤销文号：</td>
+            <td><input class="textbox" type="text" style="width:150px;height:20px" name="orgRatifycancelnumber1"
+                       id="orgRatifycancelnumber1" data-
+
+                       options="required:true"></input></td>
+            <td>批准成立文号：</td>
+
+            <td>&nbsp;<input class="textbox" type="text" style="width:150px;height:20px" name="orgRatifynumber1"
+                             id="orgRatifynumber1"></input></td>
+
+        </tr>
+        <tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <td>批复类型：</td>
+        <td><input id="orgRatifyagaintype1" name="orgRatifyagaintype1" style="width:150px;height:20px" value="==请选择==">
+        </td>
+        <td>&nbsp;金融许可证号：</td>
+        <td><input class="textbox" type="text" style="width:150px;height:20px" name="orgFinancepassnumber1"
+                   id="orgFinancepassnumber1" data-
+
+                   options="required:true"
+
+                ></input></td>
+        <td>启用文号：</td>
+
+        <td>&nbsp;<input class="textbox" type="text" style="width:150px;height:20px" name="orgOpenfilenumber1"
+                         id="orgOpenfilenumber1"></input></td>
+
+        </tr>
+
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+
+            <td>停用文号：</td>
+
+            <td><input class="textbox" type="text" style="width:150px;height:20px" name="stopFileNumber1"
+                       id="stopFileNumber1"></input></td>
+        </tr>
+
+
+        <tr>
+            <th colspan="3">
+
+            </th>
+        </tr>
+    </table>
+    <!-- ———————————————————————————————————————————————— -->
+    <br>
+    <font face="人员信息" size="5" color="">登记信息</font>
+    <br>
+    <hr/>
+
+    <br>
+    <table cellpadding="5">
+        <tr>
+
+            <td>组织机构代码：</td>
+            <td><input class="textbox" type="text" style="width:150px;height:20px" name="orgNumber1"
+                       id="orgNumber1"></input></td>
+        </tr>
+
+        <tr>
+            <th colspan="3">
+
+            </th>
+        </tr>
+    </table>
+
+    <!-- ———————————————————————————————————————————————— -->
+    <br>
+    <font face="人员信息" size="5" color="">渠道信息</font>
+    <br>
+    <hr/>
+
+    <br>
+    <table cellpadding="5">
+        <tr>
+
+            <td>&nbsp;营业执照：</td>
+            <td>&nbsp;&nbsp;&nbsp;<input class="textbox" type="text" style="width:150px;height:20px"
+                                         name="orgBusinesslicence1" id="orgBusinesslicence1"
+
+                    ></input></td>
+
+            <td>&nbsp;&nbsp;开业时间：</td>
+            <td>&nbsp;&nbsp;&nbsp;<input class="easyui-datetimebox" type="text" name="orgOpentime1" id="orgOpentime1"
+                                         value="3/4/2010" data-
+                                         options="required:true,showSeconds:false"/></input></td>
+
+
+            <td>&nbsp;&nbsp;&nbsp;结束日期：</td>
+            <td>&nbsp;&nbsp;<input class="easyui-datetimebox" type="text" name="orgStoptime1" id="orgStoptime1"
+                                   value="3/4/2010" data-
+                                   options="required:true,showSeconds:false"/></input></td>
+
+        </tr>
+
+        <tr>
+            <th colspan="3">
+
+            </th>
+        </tr>
+    </table>
+    <!--————————————————————————————————————————————————  -->
+    <br>
+    <font face="人员信息" size="5" color="">会计结算登记信息</font>
+    <br>
+    <hr/>
+
+    <br>
+    <table cellpadding="5">
+        <tr>
+
+            <td>&nbsp;交换号：</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="text" style="width:150px;height:20px"
+                                                     name="orgExchangenumber1"
+
+                                                     id="orgExchangenumber1"></input></td>
+        </tr>
+        <tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <th colspan="3">
+
+            </th>
+        </tr>
+    </table>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" class="easyui-button" value="修改"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="shanchu()" class="easyui-button" value="删除"/>
+</form>
+</div>
+
+
+<div id="rain1" class="easyui-window" title="增加机构" style="width:1000px;height:520px"
+     data-options="iconCls:'icon-save',modal:true">
+    <br>
+    <br>
+    <font face="基本信息" size="5" color="">基本信息</font>
+    <br>
+    <hr/>
+    <form id="AddOrgan" method="post" action="AddOrgan">
+        <br>
+        <table cellpadding="5">
+            <tr>
+
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;机构编码：</td>
+                <td>&nbsp;<input class="textbox" type="text" style="width:150px;height:20px" name="orgCode"
+                                 id="orgCode"></input></td>
+            </tr>
+            <tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+
+
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;机构说明：</td>
+            <td>&nbsp;<input class="textbox" type="text" style="width:150px;height:20px" name="orgRemark" id="orgRemark"
+                             data-
+
+                             options="required:true"></input></td>
+            <td>机构全称：</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="text" style="width:150px;height:20px"
+                                               name="orgInstitutionallname" id="orgInstitutionallname" data-
+
+                                               options="required:true"
+
+                    ></input></td>
+
+            </tr>
+        </table>
+        <!-- ———————————————————————————————————————————————— -->
+        <br>
+        <font face="人员信息" size="5" color="">批准信息</font>
+        <br>
+        <hr/>
+
+        <br>
+        <table cellpadding="5">
+            <tr>
+
+                <td>批准成立日期：</td>
+                <td><input class="easyui-datetimebox" type="text" name="orgRatifytime" id="orgRatifytime"
+                           value="3/4/2010" data-
+
+                           options="required:true,showSeconds:false"/></input></td>
+
+                <td>&nbsp;批准撤销文号：</td>
+                <td><input class="textbox" type="text" style="width:150px;height:20px" name="orgRatifycancelnumber"
+                           id="orgRatifycancelnumber" data-options="required:true"></input></td>
+
+
+                <td>批准成立文号：</td>
+
+                <td>&nbsp;<input class="textbox" type="text" style="width:150px;height:20px" name="orgRatifynumber"
+                                 id="orgRatifynumber"></input></td>
+
+            </tr>
+            <tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <td>批复类型：</td>
+            <td><input id="orgRatifyagaintype" name="orgRatifyagaintype" style="width:150px;height:20px"
+                       value="==请选择=="></td>
+            <td>&nbsp;金融许可证号：</td>
+            <td><input class="textbox" type="text" style="width:150px;height:20px" name="orgFinancepassnumber"
+                       id="orgFinancepassnumber" data-options="required:true"
+
+                    ></input></td>
+            <td>启用文号：</td>
+
+            <td>&nbsp;<input class="textbox" type="text" style="width:150px;height:20px" name="orgOpenfilenumber"
+                             id="orgOpenfilenumber"></input></td>
+
+            </tr>
+
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+
+                <td>停用文号：</td>
+
+                <td><input class="textbox" type="text" style="width:150px;height:20px" name="" id=""></input></td>
+            </tr>
+
+
+            <tr>
+                <th colspan="3">
+
+                </th>
+            </tr>
+        </table>
+        <!-- ———————————————————————————————————————————————— -->
+        <br>
+        <font face="人员信息" size="5" color="">登记信息</font>
+        <br>
+        <hr/>
+
+        <br>
+        <table cellpadding="5">
+            <tr>
+
+                <td>组织机构代码：</td>
+                <td><input class="textbox" type="text" style="width:150px;height:20px" name="orgNumber"
+                           id="orgNumber"></input></td>
+            </tr>
+
+            <tr>
+                <th colspan="3">
+
+                </th>
+            </tr>
+        </table>
+
+        <!-- ———————————————————————————————————————————————— -->
+        <br>
+        <font face="人员信息" size="5" color="">渠道信息</font>
+        <br>
+        <hr/>
+
+        <br>
+        <table cellpadding="5">
+            <tr>
+
+                <td>&nbsp;营业执照：</td>
+                <td>&nbsp;&nbsp;&nbsp;<input class="textbox" type="text" style="width:150px;height:20px"
+                                             name="orgBusinesslicence" id="orgBusinesslicence"></input></td>
+
+                <td>&nbsp;&nbsp;开业时间：</td>
+                <td>&nbsp;&nbsp;&nbsp;<input class="easyui-datetimebox" type="text" name="orgOpentime" id="orgOpentime"
+                                             value="3/4/2010" data-
+                                             options="required:true,showSeconds:false"/></input></td>
+
+
+                <td>&nbsp;&nbsp;&nbsp;结束日期：</td>
+                <td>&nbsp;&nbsp;<input class="easyui-datetimebox" type="text" name="orgStoptime" id="orgStoptime"
+                                       value="3/4/2010" data-
+                                       options="required:true,showSeconds:false"/></input></td>
+
+            </tr>
+
+            <tr>
+                <th colspan="3">
+
+                </th>
+            </tr>
+        </table>
+        <!--————————————————————————————————————————————————  -->
+        <br>
+        <font face="人员信息" size="5" color="">会计结算登记信息</font>
+        <br>
+        <hr/>
+
+        <br>
+        <table cellpadding="5">
+            <tr>
+
+                <td>&nbsp;交换号：</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="textbox" type="text" style="width:150px;height:20px"
+                                                         name="orgExchangenumber" id="orgExchangenumber"></input></td>
+            </tr>
+            <tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <th colspan="3">
+
+                </th>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" class="easyui-button" value="增加"/>
+    </form>
+</div>
+
+
+<div id="rain3" class="easyui-window" title="机构变动" style="width:1000px;height:520px"
+     data-options="iconCls:'icon-save',modal:true">
+    <br>
+    <br>
+
+    <br>
+
+    <form id="" method="post" action="">
+
+        <!-- ———————————————————————————————————————————————— -->
+        <br>
+        <font face="" size="5" color="">变更登记</font>
+        <br>
+        <hr/>
+
+        <br>
+        <table cellpadding="5">
+            <tr>
+
+                <td>机构ID：</td>
+                <td><input class="textbox" type="text" style="width:150px;height:20px" name="orgRatifycancelnumber1"
+                           id="orgRatifycancelnumber1" data-
+
+                           options="required:true"></input></td>
+
+                <td>&nbsp;部门名称：</td>
+                <td><input class="textbox" type="text" style="width:150px;height:20px" name="orgRatifycancelnumber1"
+                           id="orgRatifycancelnumber1" data-
+
+                           options="required:true"></input></td>
+                <td>变更字段：</td>
+
+                <td>&nbsp;<input class="textbox" type="text" style="width:150px;height:20px" name="orgRatifynumber1"
+                                 id="orgRatifynumber1"></input></td>
+
+            </tr>
+            <tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <td>变更依据文件：</td>
+            <td><input class="textbox" type="text" style="width:150px;height:20px" name="orgRatifycancelnumber1"
+                       id="orgRatifycancelnumber1" data-
+
+                       options="required:true"></input></td>
+            <td>&nbsp;生效标识：</td>
+            <td><input class="textbox" type="text" style="width:150px;height:20px" name="orgFinancepassnumber1"
+                       id="orgFinancepassnumber1" data-
+
+                       options="required:true"
+
+                    ></input></td>
+            <td>发布方式：</td>
+
+            <td>&nbsp;<input class="textbox" type="text" style="width:150px;height:20px" name="orgOpenfilenumber1"
+                             id="orgOpenfilenumber1"></input></td>
+
+            </tr>
+
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+
+                <td>变更前内容：</td>
+
+                <td><input class="textbox" type="text" style="width:150px;height:20px" name="stopFileNumber1"
+                           id="stopFileNumber1"></input></td>
+            </tr>
+
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+
+                <td>变更后内容：</td>
+
+                <td><input class="textbox" type="text" style="width:150px;height:20px" name="stopFileNumber1"
+                           id="stopFileNumber1"></input></td>
+            </tr>
+
+            <tr>
+                <th colspan="3">
+
+                </th>
+            </tr>
+        </table>
+        <!-- ———————————————————————————————————————————————— -->
+        <br>
+        <font face="人员信息" size="5" color=""></font>
+        <br>
+        <hr/>
+
+        <br>
+        <table cellpadding="5">
+            <tr>
+                <td>&nbsp;操作者：</td>
+                <td><input class="textbox" type="text" style="width:150px;height:20px" name="orgRatifycancelnumber1"
+                           id="orgRatifycancelnumber1" data-
+
+                           options="required:true"></input></td>
+                <td>操作对象：</td>
+
+                <td>&nbsp;<input class="textbox" type="text" style="width:150px;height:20px" name="orgRatifynumber1"
+                                 id="orgRatifynumber1"></input></td>
+
+            </tr>
+            <tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <td>操作日期：</td>
+            <td><input class="easyui-datetimebox" type="text" name="orgStoptime" id="orgStoptime" value="3/4/2010" data-
+                       options="required:true,showSeconds:false"/></input></td>
+            <td>&nbsp;生效时间：</td>
+            <td><input class="easyui-datetimebox" type="text" name="orgStoptime" id="orgStoptime" value="3/4/2010" data-
+                       options="required:true,showSeconds:false"/></input></td>
+            <td>备注：</td>
+
+            <td>&nbsp;<input class="textbox" type="text" style="width:150px;height:20px" name="orgOpenfilenumber1"
+                             id="orgOpenfilenumber1"></input></td>
+
+            </tr>
+
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+
+        </table>
+
+
+        <br>
+        <br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" class="easyui-button" value="确认"/>
+        &nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="shanchu()" class="easyui-button" value="返回"/>
+    </form>
+</div>
 
 </body>
 </html>
