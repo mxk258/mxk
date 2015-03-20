@@ -1,0 +1,8 @@
+.wrap{
+    border: 1px solid #000;
+    font:14px/28px "宋体";
+    text-indent: 2em;
+    -webkit-column-count:5;
+    -webkit-column-gap:30px;
+    -webkit-column-rule:1px solid red;
+}
