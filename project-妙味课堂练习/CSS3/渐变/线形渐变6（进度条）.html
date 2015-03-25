@@ -8,8 +8,10 @@
             width:200px;
             height:30px;
             border:1px solid #000;
-            background-image:-webkit-linear-gradient(0deg, green 0, green 10px, #fff 10px);
+            background-image:-webkit-repeating-linear-gradient(20deg, green 0, green 10px, #fff 10px, #fff 20px);
+            transition: 3s;
         }
+        .box:hover{ background-position: 200px 0}
     </style>
 </head>
 <body>

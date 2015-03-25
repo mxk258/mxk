@@ -2,20 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e05400-512d-4932-88ea-bc71243615a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/圆角/mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/圆角/miaov.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/圆角/miaov2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/圆角/new_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变5（平铺）.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变6（进度条）.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/圆角/边框背景2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/border.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/bt_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/miaov.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/miaov2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/new_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切/iphone开机动画.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/多背景/多背景1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/多背景/多背景（百度光斑）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/径向渐变1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/径向渐变2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/径向渐变3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变6（进度条2）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线性渐变7（IE兼容）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景图原点设置.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景尺寸/背景尺寸1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景尺寸/背景尺寸2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切/背景裁切.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切/背景裁切（padding-box）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡3（贝塞尔曲线运动）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡4（事件绑定）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡4（多样式过渡）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡4（延时执行）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/遮罩.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="G:\workSpace\mxk\project-妙味课堂练习\CSS3\渐变.html" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/渐变.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变6（进度条）.html" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变6（进度条）.html" />
     </list>
     <ignored path="mxk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,21 +54,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="线形渐变5（平铺）.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变5（平铺）.html">
+      <file leaf-file-name="过渡.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.75" vertical-offset="0" max-vertical-offset="414">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="504">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="线形渐变6（进度条）.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变6（进度条）.html">
+      <file leaf-file-name="过渡2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3035413" vertical-offset="0" max-vertical-offset="593">
-              <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="504">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="过渡3（贝塞尔曲线运动）.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡3（贝塞尔曲线运动）.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="504">
+              <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="过渡4（多样式过渡）.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡4（多样式过渡）.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="504">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="过渡4（延时执行）.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡4（延时执行）.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="504">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="过渡4（事件绑定）.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡4（事件绑定）.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6964587" vertical-offset="73" max-vertical-offset="702">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -76,7 +131,6 @@
         <option value="$PROJECT_DIR$/projet-effects/webcontent/分页.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/圆角/风车.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/圆角/边框背景.html" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/圆角/边框背景2.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/边框颜色/边框颜色1.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/线形渐变.html" />
@@ -87,6 +141,34 @@
         <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变2.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变6（进度条）.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变6（进度条2）.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/多背景/多背景1.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/多背景/多背景（百度光斑）.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线性渐变7.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线性渐变7（IE兼容）.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/径向渐变1.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/径向渐变2.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/径向渐变3.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景尺寸/背景尺寸1.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景尺寸/背景尺寸2.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/多背景/多背景1.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/多背景/多背景（百度光斑）.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景尺寸/背景尺寸1.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景尺寸/背景尺寸2.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景图原点设置.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切（padding-box）.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切/背景裁切（padding-box）.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切/iphone开机动画.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/遮罩.html" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过度.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡2.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡3.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡3（贝塞尔曲线运动）.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡4（贝塞尔曲线运动）.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡4（延时执行）.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡4（事件绑定）.html" />
       </list>
     </option>
   </component>
@@ -159,9 +241,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Changed Files" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,46 +287,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-妙味课堂练习" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-妙味课堂练习" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="CSS3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -270,11 +309,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="渐变" />
+              <option name="myItemId" value="背景" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-妙味课堂练习" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Transition" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Changed Files" />
       </pane>
     </panes>
   </component>
@@ -316,21 +380,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\workSpace\mxk\project-妙味课堂练习\CSS3\渐变" />
-      <recent name="G:\workSpace\mxk\project-妙味课堂练习\CSS3\圆角" />
+      <recent name="G:\workSpace\mxk\project-妙味课堂练习\CSS3\Transition" />
       <recent name="G:\workSpace\mxk\project-妙味课堂练习" />
-      <recent name="D:\workSpace\mxk\project-processOn" />
-      <recent name="D:\workSpace\mxk\project-妙味课堂练习\第五课：事件深入应用" />
+      <recent name="G:\workSpace\mxk\project-妙味课堂练习\CSS3\背景尺寸" />
+      <recent name="G:\workSpace\mxk\project-妙味课堂练习\CSS3" />
+      <recent name="G:\workSpace\mxk\project-妙味课堂练习\CSS3\渐变" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workSpace\mxk\project-妙味课堂练习\CSS3" />
+      <recent name="G:\workSpace\mxk\project-妙味课堂练习\CSS3\背景\背景裁切" />
+      <recent name="G:\workSpace\mxk\project-妙味课堂练习\CSS3\背景" />
       <recent name="G:\workSpace\mxk\project-妙味课堂练习\CSS3\渐变" />
       <recent name="D:\workSpace\mxk\project-妙味课堂练习\JS原创视频教程-知识点类\DOM优化" />
-      <recent name="D:\workSpace\mxk\project-node\.idea" />
-      <recent name="D:\workSpace\mxk\js\html5" />
-      <recent name="D:\workSpace\mxk\js" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.app.js (1)">
+  <component name="RunManager" selected="JavaScript Debug.test.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/mxk/project-node/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -348,6 +412,11 @@
       <browser with-js-debugger="true" />
       <RunnerSettings RunnerId="NodeJS.debug" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="file://$PROJECT_DIR$/test.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -397,17 +466,19 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.app.js (1)" />
       <item index="3" class="java.lang.String" itemvalue="Node.js.app.js (2)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.app.js (2)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.app.js (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.app.js (2)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -496,151 +567,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-blog/views/search.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="384">
-          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/views/header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.375" vertical-offset="175" max-vertical-offset="960">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/views/links.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="384">
-          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/views/404.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="240">
-          <caret line="7" column="96" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="208">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/views/user.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="512">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1328">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/views/comment.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="464">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/public/images/psb.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="512">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.166667" vertical-offset="116" max-vertical-offset="512">
-          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/views/article.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.708333" vertical-offset="31" max-vertical-offset="432">
-          <caret line="18" column="70" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-blog/models/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6768" max-vertical-offset="7376">
-          <caret line="451" column="18" selection-start-line="451" selection-start-column="18" selection-end-line="451" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ajax/ajax.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery/jquery-1.4.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35555556" vertical-offset="48" max-vertical-offset="2768">
-          <caret line="16" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ajax/display.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="672">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ajax/ajax数据库实例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="240">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/第五课：事件深入应用/clientX和clientY.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-按钮特效/webContent/button.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HiChat/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="1056">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HiChat/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/iframe/iframe1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="240">
@@ -764,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.416666" vertical-offset="218" max-vertical-offset="936">
           <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,15 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47682118" vertical-offset="162" max-vertical-offset="7650">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="396">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="450">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,15 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="414">
           <caret line="15" column="27" selection-start-line="10" selection-start-column="12" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/边框颜色/边框颜色1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="414">
-          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="617">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2731872" vertical-offset="0" max-vertical-offset="593">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2731872" vertical-offset="0" max-vertical-offset="593">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2731872" vertical-offset="0" max-vertical-offset="593">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,22 +746,184 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2731872" vertical-offset="0" max-vertical-offset="593">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变5（平铺）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.75" vertical-offset="0" max-vertical-offset="414">
+        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="414">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/边框颜色/边框颜色1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3035413" vertical-offset="0" max-vertical-offset="593">
+          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变6（进度条2）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="594">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线形渐变6（进度条）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3035413" vertical-offset="0" max-vertical-offset="593">
-          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="450">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/线性渐变7（IE兼容）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="414">
+          <caret line="10" column="121" selection-start-line="10" selection-start-column="121" selection-end-line="10" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/径向渐变1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="396">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/径向渐变2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.75" vertical-offset="0" max-vertical-offset="396">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/渐变/径向渐变3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="16" column="7" selection-start-line="9" selection-start-column="71" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/多背景/多背景1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.75" vertical-offset="0" max-vertical-offset="396">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/多背景/多背景（百度光斑）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.75" vertical-offset="0" max-vertical-offset="450">
+          <caret line="9" column="97" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景尺寸/背景尺寸1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.75" vertical-offset="0" max-vertical-offset="486">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景尺寸/背景尺寸2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3946037" vertical-offset="0" max-vertical-offset="593">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景图原点设置.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="504">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切/背景裁切.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="612">
+          <caret line="12" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切/背景裁切（padding-box）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="612">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切/iphone开机动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="576">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.8" vertical-offset="175929" max-vertical-offset="176508">
+          <caret line="9793" column="35" selection-start-line="9793" selection-start-column="35" selection-end-line="9797" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="504">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/mask.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/遮罩.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3946037" vertical-offset="0" max-vertical-offset="593">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="504">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡3（贝塞尔曲线运动）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="504">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡4（多样式过渡）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="504">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡4（延时执行）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="504">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过渡4（事件绑定）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6964587" vertical-offset="73" max-vertical-offset="702">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding />
         </state>
       </provider>
