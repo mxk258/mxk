@@ -1,0 +1,36 @@
+* {
+    appearance: normal;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align:baseline;
+    outline:none;
+    font-size-adjust:none;
+    -webkit-font-size-adjust:none;
+    -moz-font-size-adjust:none;
+    -ms-font-size-adjust:none;
+    -webkit-tap-highligh-color:rgba(0,0,0,0);
+    -webkit-font-smoothing:antialiased;
+}
+
+div, a, p, img, blockquote, form, fieldset, textarea, input, label, iframe, code, pre {
+    display: block;
+    position:relative;
+    overflow:hidden;
+}
+
+body{
+    height:100%;
+    background-color:#ececec;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color:#666;
+    font-size: 12px;
+    line-height: 20px;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
