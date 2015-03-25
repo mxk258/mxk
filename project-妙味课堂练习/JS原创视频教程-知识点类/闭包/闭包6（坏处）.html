@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    IE下会引发内存泄漏
+    <div id="div1">
+        aaa
+    </div>
+    <script type="text/javascript">
+        window.onload = function(){
+            var oDiv = document.getElementById("div1");
+            oDiv.onclick = function(){
+                alert(oDiv.id);
+            };
+
+            window.onunload = function(){
+                oDiv.onclick = null;
+            };
+        };
+    </script>
+</body>
+</html>

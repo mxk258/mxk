@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>什么是闭包</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+    //闭包是指有权限访问另一个函数作用域内的变量的函数，闭包中访问的变量一直存在于内存中
+        function aaa(a){
+            var b = 5;
+            function bbb(){
+                alert(a);
+                alert(b);
+            }
+            return bbb;
+        }
+        var c = aaa(1);
+        c();
+    </script>
+</body>
+</html>
