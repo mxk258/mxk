@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div id="area">
+        <a>北京</a>
+        <a>上海</a>
+        <a>广州</a>
+        <a>深圳</a>
+        <a>杭州</a>
+        <a>成都</a>
+        <a>天津</a>
+    </div>
+    <ul id="list">
+
+    </ul>
+    <script type="text/javascript">
+        var oArea = document.getElementById("area");
+        var oUl = document.getElementById("list");
+        var aLi = oUl.getElementsByTagName("li");
+        oArea.onclick = function(){
+            var event = event || window.event;
+            var oTarget = event.srcElement || event.target;
+            var sStr = oTarget.innerHTML;
+            if(mj(sStr)){
+                var oLi  = document.createElement("li");
+                oLi.innerHTML = sStr;
+                oUl.appendChild(oLi);
+            }else{
+                //已存在，不能添加
+            }
+        };
+
+        function mj(text){
+            var result = true;
+            for(var i = 0; i < aLi.length; i++){
+                if(aLi[i].innerHTML == text){
+                    result = false;
+                    break;
+                }
+            }
+            return result;
+        }
+    </script>
+</body>
+</html>

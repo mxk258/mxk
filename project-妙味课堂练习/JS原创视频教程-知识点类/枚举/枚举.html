@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        div{ width: 150px;}
+        .tr{
+            text-align: right;
+        }
+        .fl{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="tr">
+        <span>枚</span>
+        <span>举</span>
+        <span>算</span>
+        <span>法</span>
+        <span>题</span>
+    </div>
+    <div class="tr">
+        <span class="fl">*</span>
+        <span class="fr" id="span1">枚</span>
+    </div>
+    <div id="box2" class="tr">
+        <span>题</span>
+        <span>题</span>
+        <span>题</span>
+        <span>题</span>
+        <span>题</span>
+        <span>题</span>
+    </div>
+    <script type="text/javascript">
+        var aSpan1 = document.getElementById("box1").getElementsByTagName("span");
+        var oSpan2 = document.getElementById("span1");
+        var aSpan3 = document.getElementById("box2").getElementsByTagName("span");
+        for(var i = 1; i <= 9; i++){
+            for(var j = 0; j <= 9; j++){
+                for(var l = 0; l <= 9; l++){
+                    for(var m = 0; m <= 9; m++){
+                        for(var n = 0; n <= 9; n++){
+                            var a = i*10000 + j*1000 + l*100 + m*10 + n;
+                            var b = i;
+                            var c = n * 111111;
+                            console.log(a + "============" + c);
+                            if(a*b == c){
+                                aSpan1[0].innerHTML = i;
+                                aSpan1[1].innerHTML = j;
+                                aSpan1[2].innerHTML = l;
+                                aSpan1[3].innerHTML = m;
+                                aSpan1[4].innerHTML = n;
+                                oSpan2.innerHTML = i;
+                                for(var k = 0, kLen = aSpan3.length; k < kLen; k++){
+                                    aSpan3[k].innerHTML = n;
+                                }
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
