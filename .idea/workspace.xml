@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e05400-512d-4932-88ea-bc71243615a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/扇形导航/clos.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/firebug/console.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/扇形导航/full.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/扇形导航/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/扇形导航/open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/扇形导航/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/扇形导航/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/firebug/console.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/事件委托/事件委托.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/事件委托/事件委托2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/事件委托/事件委托3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/钟表效果/变换基点.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/钟表效果/变换基点2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/钟表效果/变换基点3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/对象引用/对象引用1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/对象引用/对象引用2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/对象引用/对象引用3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/排序/快速排序.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/扇形导航/扇形导航.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/对象引用/递归.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/排序/递归.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/钟表效果/钟表.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-blog/access.log" afterPath="$PROJECT_DIR$/project-blog/access.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-blog/error.log" afterPath="$PROJECT_DIR$/project-blog/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/函数声明与表达式.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/函数声明与表达式2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/表达式.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/表达式2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mxk.iws" />
@@ -51,11 +30,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="console.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="console.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/firebug/console.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4388489" vertical-offset="231" max-vertical-offset="738">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state vertical-scroll-proportion="-2.9583333" vertical-offset="145" max-vertical-offset="738">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="函数声明与表达式.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/函数声明与表达式.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.958334" vertical-offset="55" max-vertical-offset="648">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="函数声明与表达式2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/函数声明与表达式2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.208334" vertical-offset="289" max-vertical-offset="936">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="表达式.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/表达式.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.5" vertical-offset="0" max-vertical-offset="414">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="表达式2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/表达式2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5463744" vertical-offset="0" max-vertical-offset="593">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -81,10 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景图原点设置.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切（padding-box）.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切/背景裁切（padding-box）.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/背景裁切/iphone开机动画.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/背景/遮罩.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/Transition/过度.html" />
@@ -132,6 +147,10 @@
         <option value="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/对象引用/对象引用3.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/firebug/firebug.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/firebug/console.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/函数声明与表达式.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/函数声明与表达式2.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/表达式.html" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/表达式2.html" />
       </list>
     </option>
   </component>
@@ -250,7 +269,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="firebug" />
+              <option name="myItemId" value="JS原创视频教程-知识点类" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-妙味课堂练习" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS原创视频教程-知识点类" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="函数声明与表达式" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,14 +382,10 @@
       <ConfigurationWrapper RunnerId="debuggableProgram" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -356,6 +393,10 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -444,22 +485,22 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27244583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21803127" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2203514" sideWeight="0.7680851" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.49962825" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2203514" sideWeight="0.2319149" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2203514" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2203514" sideWeight="0.23219815" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4656" sideWeight="0.50037175" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.256" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27244583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.49962825" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.49962825" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -489,34 +530,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/响应式布局/分栏布局.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/2D变换/斜切Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="720">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/响应式布局/响应式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.5" vertical-offset="0" max-vertical-offset="828">
-          <caret line="18" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/闭包/闭包2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="540">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/闭包/闭包3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="450">
@@ -731,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.933775" vertical-offset="7586" max-vertical-offset="10998">
           <caret line="587" column="38" selection-start-line="587" selection-start-column="38" selection-end-line="587" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.5" vertical-offset="0" max-vertical-offset="2286">
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,9 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.1864407" vertical-offset="507" max-vertical-offset="6822">
           <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.25" vertical-offset="0" max-vertical-offset="540">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3186">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14794521" vertical-offset="108" max-vertical-offset="1260">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="288">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.75" vertical-offset="0" max-vertical-offset="666">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.7083335" vertical-offset="769" max-vertical-offset="1170">
           <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.5" vertical-offset="324" max-vertical-offset="1350">
           <caret line="32" column="33" selection-start-line="31" selection-start-column="42" selection-end-line="32" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.708333" vertical-offset="193" max-vertical-offset="684">
           <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.25" vertical-offset="0" max-vertical-offset="702">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.5" vertical-offset="0" max-vertical-offset="486">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.958333" vertical-offset="289" max-vertical-offset="882">
           <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,8 +852,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/firebug/console.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4388489" vertical-offset="231" max-vertical-offset="738">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state vertical-scroll-proportion="-2.9583333" vertical-offset="145" max-vertical-offset="738">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/函数声明与表达式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.958334" vertical-offset="55" max-vertical-offset="648">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/函数声明与表达式2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.208334" vertical-offset="289" max-vertical-offset="936">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/表达式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.5" vertical-offset="0" max-vertical-offset="414">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/表达式2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5463744" vertical-offset="0" max-vertical-offset="593">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>

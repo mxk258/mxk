@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        var a = function aaa(){
+            alert(1);
+            alert(typeof aaa);  //内不能找到
+        }
+
+        a();
+        aaa();//找不到
+    </script>
+</body>
+</html>

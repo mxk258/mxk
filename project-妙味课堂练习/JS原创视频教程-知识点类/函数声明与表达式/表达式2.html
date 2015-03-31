@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        function aaa(){
+            return bbb();
+        }
+
+        /*function bbb(){
+            debugger;
+        }*/
+
+        var bbb = (function(){
+            return function(){
+                debugger;
+            }
+        })();
+
+        aaa();
+    </script>
+</body>
+</html>
