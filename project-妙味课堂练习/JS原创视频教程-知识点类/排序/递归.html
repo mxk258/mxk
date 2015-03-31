@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        function fact(num){
+            if(num <= 1){
+                return 1;
+            }else{
+                return num * arguments.callee(num - 1);
+            }
+        }
+        alert(fact(4));
+    </script>
+</body>
+</html>

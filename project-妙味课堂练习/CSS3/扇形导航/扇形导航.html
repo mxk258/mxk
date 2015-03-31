@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        body{
+            background:#f9f9f9;
+        }
+        #menu{
+            position: fixed;
+            z-index:1;
+            right: 20px;
+            bottom: 20px;
+            width: 50%;
+            height: 50%;
+        }
+        #menu_list{
+            position: relative;
+            margin: 4px;
+            width: 42px;
+            height: 42px;
+        }
+        #menu_list img{
+            position:absolute;
+            top:0;
+            left:0;
+            border-radius: 21px;
+            -webkit-transition: 0.5s all ease;
+        }
+        #home{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            background:url(home.png);
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <div id="menu_list">
+            <img src="prev.png" alt="prev" />
+            <img src="open.png" alt="open" />
+            <img src="close.png" alt="close" />
+            <img src="full.png" alt="full" />
+            <img src="refresh.png" alt="refresh" />
+        </div>
+        <div id="home"></div>
+    </div>
+    <script type="text/javascript">
+        (function(){
+            var oHome = 
+        })();
+    </script>
+</body>
+</html>

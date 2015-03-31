@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        /*
+        //赋值
+        var a = 1;
+        var b = a;
+        b++;
+        alert(a); //1
+        alert(b); //2
+        */
+
+
+       /* //对象和函数都是引用的关系
+        var a = [1,2,3];
+        var b = a;
+        b.push(4);
+        alert(a); //1,2,3,4
+        alert(b); //1,2,3,4*/
+
+        var a = [1,2,3];
+        var b = a;
+        b = [1,2,3,4];
+        alert(a); //1,2,3
+        alert(b);//1,2,3,4
+    </script>
+</body>
+</html>

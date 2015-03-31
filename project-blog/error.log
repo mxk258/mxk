@@ -5161,3 +5161,27 @@ Error: db object already connecting, open cannot be called multiple times
     at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:235:24)
     at Function.proto.process_params (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:313:12)
     at proto.handle.c (d:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:229:12)
+[Mon Mar 30 2015 15:03:43 GMT+0800 (中国标准时间)]/stylesheets/style.css
+Error: Error setting TTL index on collection : sessions
+    at module.exports._get_collection (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\lib\connect-mongo.js:161:23)
+    at Db.ensureIndex (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1404:28)
+    at Db.indexInformation (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1542:30)
+    at Cursor.toArray (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:159:22)
+    at Cursor.nextObject.commandHandler (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:678:48)
+    at Db._executeQueryCommand (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1802:12)
+    at Cursor.nextObject (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:729:13)
+    at Cursor.toArray (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:158:10)
+    at Cursor.toArray (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\scope.js:10:20)
+    at Db.indexInformation (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1541:65)
+[Mon Mar 30 2015 15:03:43 GMT+0800 (中国标准时间)]/stylesheets/style.css
+Error: no open connections
+    at Db._executeQueryCommand (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1802:21)
+    at Cursor.nextObject (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:729:13)
+    at Cursor.nextObject (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\scope.js:22:20)
+    at Collection.findOne (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\collection\query.js:145:10)
+    at module.exports.MongoStore.get (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\lib\connect-mongo.js:214:18)
+    at MongoStore.module.exports._get_collection (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\lib\connect-mongo.js:148:21)
+    at MongoStore.module.exports.MongoStore.get (g:\workSpace\mxk\project-blog\node_modules\connect-mongo\lib\connect-mongo.js:213:10)
+    at session (g:\workSpace\mxk\project-blog\node_modules\express-session\index.js:356:11)
+    at Layer.handle [as handle_request] (g:\workSpace\mxk\project-blog\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (g:\workSpace\mxk\project-blog\node_modules\express\lib\router\index.js:271:13)

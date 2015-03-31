@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <img src="console.png" />
+    <script type="text/javascript">
+        function People(name, age, sex, family){
+            this.name = name;
+            this.age = age;
+            this.sex = sex;
+            this.family = family;
+        }
+
+        function Family(father, mother){
+            this.father = father;
+            this.mother = mother;
+        }
+
+        var f1 = new Family("Tom", "Lili");
+        var p1 = new People("Jack", 12, "boy", f1);
+        console.info("info:" + p1);
+        console.debug("debug:" + p1);
+        console.warn("warn:" + p1);
+        console.error("error:" + p1);
+        console.log("%o:", p1); //占位符
+        console.group("group:p1");
+        console.log(p1.name);
+        console.log(p1.family);
+        console.groupEnd();
+        console.dir("dir:" + p1);
+    </script>
+</body>
+</html>

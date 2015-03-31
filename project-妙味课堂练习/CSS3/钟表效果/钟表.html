@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #wrap {
+            position: relative;
+            z-index: 1;
+            width: 200px;
+            height: 200px;
+            border: 2px solid #000;
+            margin: 100px auto;
+            border-radius: 50%;
+        }
+
+        #list{
+            position:relative;
+            z-index:1;
+            margin:0;
+            padding: 0;
+            width: 200px;
+            height: 200px;
+            list-style:none;
+        }
+
+        #list li{
+            position:absolute;
+            top:0;
+            left:99px;
+            width: 2px;
+            height: 8px;
+            background:#000;
+            -webkit-transform-origin:center 100px;
+        }
+
+        #list li:nth-of-type(1){
+            -webkit-transform:rotate(6deg);
+        }
+
+        #wrap ul li:nth-of-type(5n+1) {
+            height: 14px;
+        }
+
+        #hour {
+            position: absolute;
+            left: 97px;
+            top: 55px;
+            width: 6px;
+            height: 45px;
+            background: #000;
+            -webkit-transform-origin:center bottom;
+        }
+
+        #min{
+            position: absolute;
+            left: 98px;
+            top: 35px;
+            width: 4px;
+            height: 65px;
+            background: #999;
+            -webkit-transform-origin:center bottom;
+        }
+
+        #sec{
+            position: absolute;
+            left: 99px;
+            top: 20px;
+            width: 2px;
+            height: 80px;
+            background:red;
+            -webkit-transform-origin:center bottom;
+        }
+
+        .ico{
+            position: absolute;
+            left: 95px;
+            top: 95px;
+            width: 10px;
+            height: 10px;
+            background: #000;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <ul id="list">
+    </ul>
+    <div id="hour"></div>
+    <div id="min"></div>
+    <div id="sec"></div>
+    <div class="ico"></div>
+    <script type="text/javascript">
+        (function(){
+            var oList = document.getElementById("list");
+            var oHour = document.getElementById("hour");
+            var oMin = document.getElementById("min");
+            var oSec = document.getElementById("sec");
+            var sSec = "";
+            for(var i = 0; i < 60; i++){
+                sSec += "<li style='-webkit-transform:rotate("+ 6*i +"deg)'></li>";
+            }
+            oList.innerHTML = sSec;
+
+            function runTime(){
+                var oTime = new Date();
+                var iSec = oTime.getSeconds();
+                var iMin = oTime.getMinutes() + iSec/60;
+                var iHour = oTime.getHours() + iMin/60;
+                oSec.style.WebkitTransform = "rotate(" + 6*iSec + "deg)";
+                oMin.style.WebkitTransform = "rotate(" + 6*iMin + "deg)";
+                oHour.style.WebkitTransform = "rotate(" + 30*iHour + "deg)";
+            }
+            runTime();
+            var timer = setInterval(runTime, 1000);
+        })();
+    </script>
+</div>
+</body>
+</html>

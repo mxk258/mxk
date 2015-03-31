@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        body{
+            height: 300px;
+            border:1px solid #000;
+        }
+        .box{
+            width:100px;
+            height:100px;
+            background: red;
+            margin:100px auto;
+            transition: 5s;
+            -webkit-transform-origin:right top;
+        }
+        body:hover .box{
+            -webkit-transform: rotate(360deg) scale(0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">111</div>
+</body>
+</html>
