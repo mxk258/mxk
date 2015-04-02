@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        body{ margin:0;}
+        header{ display: block; height: 100px; background: #9f3;}
+        article{ display: block;position:relative; z-index:1; padding: 10px; background: #cf6; overflow:hidden; zoom:1;}
+        aside{display: block; position:absolute; top:10px; left:10px; width:200px; height:300px; background:#f60; }
+        section{display: block; margin-left: 210px; background:#f90; height: 300px;}
+        footer{display: block; height: 100px; background:#c6c;}
+        leo{ background:#f03; height: 100px; display:block;}
+    </style>
+    <script type="text/javascript">
+        document.createElement("header");
+        document.createElement("article");
+        document.createElement("aside");
+        document.createElement("section");
+        document.createElement("footer");
+        document.createElement("leo");
+
+    </script>
+</head>
+<body>
+    <header>页面头部</header>
+    <article>
+        <aside>侧边栏</aside>
+        <section>内容区域</section>
+    </article>
+    <footer>页面底部</footer>
+    <leo>test leo</leo>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <form>
+        <input type="text" required id="text" pattern="\d{1,5}" />
+        <input type="submit" />
+    </form>
+    <script type="text/javascript">
+        var oText = document.getElementById("text");
+        oText.addEventListener("invalid", invalidHandler, false);
+        function invalidHandler(){
+            alert(this.validity.patternMismatch);  //当输入数据与正则不匹配的时候返回true
+            ev.prevenDefault(); //阻止默认事件
+        }
+    </script>
+</body>
+</html>

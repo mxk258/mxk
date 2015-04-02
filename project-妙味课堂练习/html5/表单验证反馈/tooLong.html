@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <form>
+        <input type="text" required id="text" maxlength="5" />
+        <input type="submit" />
+    </form>
+    <script type="text/javascript">
+        var oText = document.getElementById("text");
+        oText.value = "12345678";
+        oText.addEventListener("invalid", invalidHandler, false);
+        function invalidHandler(){
+            alert(this.validity.tooLong);   //多于最大字符长度显示为true
+        }
+    </script>
+</body>
+</html>
