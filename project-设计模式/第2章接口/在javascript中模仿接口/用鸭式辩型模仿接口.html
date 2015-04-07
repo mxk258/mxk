@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        //Interfaces
+        var Composite = new Interface("Composite", ["add","remove","getChild"]);
+        var FormItem = new Interface("FormItem", ["save"]);
+
+        //CompositeForm class
+        var CompositeForm = function(id, method, action){}
+
+        function addForm(formInstance){
+            ensureImplements(formInstance, Composite, FormItem);
+        }
+
+    </script>
+</body>
+</html>

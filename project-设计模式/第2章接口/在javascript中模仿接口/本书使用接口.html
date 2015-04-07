@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript" src="Interface.js"></script>
+    <script type="text/javascript">
+        Function.prototype.method = function(name, fn){
+            this.prototype[name] = fn;
+            return this;
+        };
+
+        //Interfaces
+        var Composite = new Interface("Composite", ["add", "remove", "getChild"]);
+        var FormItem = new Interface("FormItem", ["save"]);
+
+        //CompositeForm class
+        var CompositeForm = function(id, method, action){   //implement Composite, FormItem
+            //...
+        };
+
+        CompositeForm.method("add", function(){
+            console.log("add");
+        }).method("remove", function(){
+            console.log("remove");
+        }).method("getChild", function(){
+            console.log("getChild");
+        });
+
+        function addForm(formInstance){
+            Interface.ensureImplements(formInstance, Composite, FormItem);
+            //...
+        }
+        var cc = new CompositeForm("1", "method", "action");
+        addForm(cc);
+    </script>
+</body>
+</html>

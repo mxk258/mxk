@@ -269,7 +269,7 @@ Math.sum = function () {
     return result;
 };
 
-//接口
+//第2章接口
 GLOBAL.Interface = GLOBAL.Interface || function (name, methods) {
     if (arguments.length != 2) {
         throw new Error("Interface constructor called with " + arguments.length + "arguments, but expected exactly 2.");

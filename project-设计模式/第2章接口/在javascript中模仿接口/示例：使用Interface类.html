@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript" src="Interface.js"></script>
+    <script type="text/javascript">
+        //ResultSet Interface
+        var ResultSet = new Interface("ResultSet", ["getDate", "getResults"]);
+
+        //ResultFormatter class, before we implement interface checking
+        var ResultFormatter = function(resultObject){
+            /*if(!(resultObject instanceof TestResult)){
+                throw new Error("ResultsFormatter: constructor requires an instance of TestResult as an argument.");
+            }*/
+            Interface.ensureImplements(resultObject, ResultSet);
+            this.resultObject = resultObject;
+        };
+
+        ResultFormatter.prototype.renderResults = function(){
+            var dateOfTest = this.resultObject.getDate();
+            var resultsArray = this.resultObject.getResults();
+            var resultContainer = document.createElement("div");
+            var resultHeader = document.createElement("h3");
+            resultHeader.innerHTML = "The Result from " + dateOfTest.toUTCString();
+            resultContainer.appendChild(resultHeader);
+            var resultsList = document.createElement("ul");
+            resultContainer.appendChild(resultsList);
+            for(var i = 0, iLen = resultsArray.length; i < iLen; i++){
+                var listItem = document.createElement("li");
+                listItem.innerHTML = resultsArray[i];
+                resultsList.appendChild(listItem);
+            }
+            return resultContainer;
+        };
+
+        function ResultObject(id, results, date){
+            this.id = id;
+            this.results = results;
+            this.date = date;
+        }
+
+        ResultObject.prototype.getDate = function(){
+            return this.date;
+        };
+
+        ResultObject.prototype.getResults = function(){
+            return this.results;
+        };
+
+        var resultObject = new ResultObject(0, [1,2,3], new Date());
+        debugger
+        var resultFormatter = new ResultFormatter(resultObject);
+        document.body.appendChild(resultFormatter.renderResults());
+    </script>
+</body>
+</html>
