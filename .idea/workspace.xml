@@ -2,49 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e05400-512d-4932-88ea-bc71243615a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/fwjg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/i_circle2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/i_credibleWeb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/i_emblem.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/i_police.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/i_recordWeb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/i_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-qyll.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon_100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon_44.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon_45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon_46_two.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/index.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/logo-shop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/js/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/js/jquery-1.9.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/作用域、嵌套函数和闭包.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/创建对象的基本模式.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/模板.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用命名规范区别私用成员.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用闭包实现私用成员.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-高校.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/css/base.css" afterPath="$PROJECT_DIR$/project-科淘网/css/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html" />
     </list>
     <ignored path="mxk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,7 +42,7 @@
       <file leaf-file-name="用命名规范区别私用成员.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用命名规范区别私用成员.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.916666" vertical-offset="488" max-vertical-offset="1926">
+            <state vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="1926">
               <caret line="67" column="46" selection-start-line="33" selection-start-column="12" selection-end-line="67" selection-end-column="46" />
               <folding />
             </state>
@@ -91,18 +52,38 @@
       <file leaf-file-name="作用域、嵌套函数和闭包.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/作用域、嵌套函数和闭包.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.25" vertical-offset="0" max-vertical-offset="504">
+            <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="504">
               <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="用闭包实现私用成员.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="用闭包实现私用成员.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用闭包实现私用成员.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5750422" vertical-offset="415" max-vertical-offset="1098">
+            <state vertical-scroll-proportion="-14.208333" vertical-offset="415" max-vertical-offset="1098">
               <caret line="42" column="21" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="科淘网-创新主体-高校.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-高校.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="11556">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="科淘网-创新主体-服务机构.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21247892" vertical-offset="0" max-vertical-offset="11556">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -111,7 +92,7 @@
       <file leaf-file-name="示例：使用Interface类.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-设计模式/第2章接口/在javascript中模仿接口/示例：使用Interface类.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.958334" vertical-offset="49" max-vertical-offset="1152">
+            <state vertical-scroll-proportion="0.0" vertical-offset="49" max-vertical-offset="1152">
               <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding />
             </state>
@@ -131,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/低版本兼容/低版本兼容.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/低版本兼容/低版本兼容2.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/表单控件.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/tel.html" />
@@ -176,12 +156,13 @@
         <option value="$PROJECT_DIR$/project-科淘网/webContent/index.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/模板.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/css/base.css" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/创建对象的基本模式.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用命名规范区别私用成员.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/作用域、嵌套函数和闭包.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用闭包实现私用成员.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/css/base.css" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-高校.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html" />
       </list>
     </option>
   </component>
@@ -189,7 +170,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
@@ -356,6 +338,10 @@
               <option name="myItemId" value="project-科淘网" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -368,10 +354,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="project-科淘网" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -422,11 +404,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\workSpace\mxk\project-科淘网\images" />
       <recent name="G:\workSpace\mxk\project-科淘网\webContent" />
+      <recent name="G:\workSpace\mxk\project-科淘网\images" />
+      <recent name="G:\workSpace\mxk\project-科淘网" />
       <recent name="G:\workSpace\mxk\project-科淘网\images\bg" />
       <recent name="G:\workSpace\mxk\project-科淘网\css" />
-      <recent name="G:\workSpace\mxk\project-科淘网\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\workSpace\mxk\project-妙味课堂练习\JS原创视频教程-知识点类\事件委托" />
@@ -463,14 +445,10 @@
       <ConfigurationWrapper RunnerId="debuggableProgram" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -478,6 +456,10 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -560,29 +542,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="0" width="1382" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27244583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21803127" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28330892" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.49962825" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28330892" sideWeight="0.23219815" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4656" sideWeight="0.50037175" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.256" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27244583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.49962825" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.49962825" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -612,13 +594,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单属性/autofocus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/初识html5/datalist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.25" vertical-offset="0" max-vertical-offset="360">
@@ -881,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="738">
           <caret line="33" column="19" selection-start-line="9" selection-start-column="0" selection-end-line="33" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,9 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="342">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="38" selection-end-column="19" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,15 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="918">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#h3#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -929,32 +891,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-64.458336" vertical-offset="973" max-vertical-offset="3078">
           <caret line="182" column="16" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="16" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3432" max-vertical-offset="10098">
-          <caret line="204" column="5" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.916667" vertical-offset="5234" max-vertical-offset="9558">
-          <caret line="304" column="31" selection-start-line="304" selection-start-column="31" selection-end-line="304" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-设计模式/第2章接口/在javascript中模仿接口/示例：使用Interface类.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.958334" vertical-offset="49" max-vertical-offset="1152">
+        <state vertical-scroll-proportion="0.0" vertical-offset="49" max-vertical-offset="1152">
           <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding />
         </state>
@@ -970,7 +912,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/作用域、嵌套函数和闭包.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.25" vertical-offset="0" max-vertical-offset="504">
+        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="504">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding />
         </state>
@@ -978,16 +920,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用命名规范区别私用成员.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.916666" vertical-offset="488" max-vertical-offset="1926">
+        <state vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="1926">
           <caret line="67" column="46" selection-start-line="33" selection-start-column="12" selection-end-line="67" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9238411" vertical-offset="9728" max-vertical-offset="10998">
+          <caret line="605" column="45" selection-start-line="605" selection-start-column="45" selection-end-line="605" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用闭包实现私用成员.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5750422" vertical-offset="415" max-vertical-offset="1098">
+        <state vertical-scroll-proportion="-14.208333" vertical-offset="415" max-vertical-offset="1098">
           <caret line="42" column="21" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-高校.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="11556">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21247892" vertical-offset="0" max-vertical-offset="11556">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding />
         </state>
       </provider>

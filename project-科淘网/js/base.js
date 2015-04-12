@@ -1,5 +1,21 @@
 var GLOBAL = GLOBAL || {};
 
+/*广告*/
+GLOBAL.Ad = GLOBAL.Ad || {};
+GLOBAL.Ad.init = function(){
+	$(".ls-hover a").hover(
+		function(){
+			$(this).find(".title-bg").show();
+			$(this).find(".title").show();
+		},
+		function(){
+			$(this).find(".title-bg").fadeOut();
+			$(this).find(".title").fadeOut();
+		}
+	);
+};
+
+
 GLOBAL.Methods = GLOBAL.Methods || {};
 //事件绑定
 GLOBAL.Methods.eventUtil = {

@@ -143,12 +143,14 @@ a:hover { color: #c00; text-decoration:none; }
 .ls_fl li { float: left; }
 .ma { margin: 0 auto; }
 /* border */
+.bor-t-1-eee{ border-top:1px solid #eee;}
 .bor_b_ddd {border-bottom:1px dashed #ddd;}
 .bor_t_2_c00 {border-top:2px solid #c00;}
 .bor_l_none { border-left: none !important; }
 .bor_r_none { border-right: none !important; }
 .bor_1_ddd{ border:1px solid #ddd!important;}
 .bor_1_f2f { border: 1px solid #f2f2f2; }
+.bor_1_c00 { border: 1px solid #c00; }
 .bor_2_ff6 { border: 2px solid #ff6c0a; }
 .bor_2_bc2 { border: 2px solid #bc252c !important; }
 .bor_2_459 { border: 2px solid #4594fd; }
@@ -192,6 +194,7 @@ a:hover { color: #c00; text-decoration:none; }
 .w373 { width: 373px; }
 .w380 { width: 380px; }
 .w384 { width: 384px; }
+.w385 { width: 385px; }
 .w386 { width: 386px; }
 .w430 { width: 430px; }
 .w458 { width: 458px; }
@@ -213,6 +216,7 @@ a:hover { color: #c00; text-decoration:none; }
 .w786 { width: 786px; }
 .w793 { width: 793px; }
 .w800 { width: 800px; }
+.w805 { width: 805px; }
 .w815 { width: 815px; }
 .w823 { width: 823px; }
 .w848 { width: 848px; }
@@ -229,6 +233,7 @@ a:hover { color: #c00; text-decoration:none; }
 .h80 { height: 80px; }
 .h105 { height: 105px; }
 .h125 { height: 125px !important; }
+.h126 { height: 126px; }
 .h150 { height: 150px; }
 .h178 { height: 178px; }
 .h195 { height: 195px; }
@@ -251,6 +256,7 @@ a:hover { color: #c00; text-decoration:none; }
 .ml0 { margin-left: 0 !important; }
 .mt1 { margin-top: 1px !important; }
 .mt2 { margin-top: 2px !important; }
+.mt3 { margin-top: 3px !important; }
 .mt5 { margin-top: 5px !important; }
 .mt_5{margin-top:-5px;}
 .mt8 { margin-top: 8px; }
@@ -419,7 +425,7 @@ a:hover { color: #c00; text-decoration:none; }
 .box_h2 { position: relative; z-index: 1; height: 56px; line-height: 56px; }
 .box_h2 h2 { font-size: 20px; color: #000; }
 .box_h2 .more { position: absolute; top: 0; right: 0; }
-#returnBack { display: none; position: fixed; z-index: 998; bottom: 300px; right: 100px; width: 50px; height: 51px; background: url(../images/icon_100.png) no-repeat; cursor: pointer; }
+#returnBack { display: none; position: fixed; z-index: 998; bottom: 120px; right: 25px; width: 50px; height: 50px; background: url(../images/icon_100.png) no-repeat; cursor: pointer; }
 #returnBack:hover { opacity: 0.7; filter: alpha(opacity:70); }
 .box_h2More { height: 58px; line-height: 58px; }
 .box_h350 { width: 353px; height: 350px; }
@@ -554,3 +560,82 @@ a:hover { color: #c00; text-decoration:none; }
 .input02,
 .input03{ width:120px; height:40px; line-height:40px; text-align:center; color:#fff; font-size:16px; background:#f60; border:none;}
 .input03{ background:#999;}
+
+/*研究开发*/
+.ls-yjkf li{ margin-left: 10px;}
+.ls-yjkf li a{ display: block; width: 138px; height:38px; line-height: 38px; text-align: center; color:#fff; border:1px solid #ddd; font-size: 16px; background:#f9f9f9; color:#666; text-decoration: none;}
+.ls-yjkf li.selected a,
+.ls-yjkf li a:hover{ border:1px solid #c00; background:#c00; color:#fff;}
+/*企业动态轮播图*/
+.slide-business{ width:400px!important; height: 279px!important;}
+.slide-business .ls_img{ height:100%!important;}
+.slide-business .ls_img a{ display: block; position:relative; z-index:1;}
+.slide-business .ls_img a img{ width: 400px; height:279px;}
+.slide-business .ls_img .title{ position:absolute; z-index:2; bottom:0; left:0; width: 100%; height:40px; line-height: 41px; padding-left:13px; font-family: "宋体"; color:#fff; font-size:14px; font-weight: bold;}
+.slide-business .ls_img .title-bg{position:absolute; z-index:1; bottom:0; left:0; width: 100%; height:40px; background:#000; opacity: 0.5; filter:alpha(opacity:50);}
+.slide-business .ls_btn{left:auto!important; right:20px; bottom:13px!important;}
+/*企业动态 start*/
+.h3-more{ position: relative; z-index:1; height: 34px; line-height: 24px; font-size:21px; border-bottom: 1px solid #ddd;}
+.h3-more .more{ position:absolute;  right: 0; top:0; font-size:14px; font-family: "宋体";}
+.h3-more .more:hover{ text-decoration: none; color:#c00;}
+.ls-article01 li{ height:26px; line-height: 26px;}
+.ls-article01 li a{ font-size:14px; font-family: "宋体";}
+.ls-article01 li a:hover{ color:#c00;}
+.ls-article01 li .time{ color:#999; font-family: "宋体";}
+/*前沿理论*/
+.h-qyll,
+.h-fbxq,
+.h-jrqy{ display: block; height:50px; line-height: 50px; background:url(../images/icon-qyll.png); font-size:18px; color:#fff; text-indent: 17px; font-weight: bold; }
+.h-jrqy{ background:url(../images/icon-jrqy.png);}
+.h-fbxq{ background:url(../images/icon-fbxq.png);}
+.h-qyll:hover{ color:#fff;text-decoration: none;}
+.article-qyll{ padding:0 15px; height: 228px;}
+.article-qyll h4{ height: 43px; line-height:40px;}
+.article-qyll h4 a{ color:#c00;  font-size:16px;}
+.article-qyll{ line-height: 20px; color:#666;}
+/*服务需求*/
+.h-more-red{ position:relative;z-index:1; height:45px; line-height:45px; font-size:20px; color:#fff; text-indent:27px; background:#c00;}
+.h-more-red .more{ position:absolute; top:0; right:17px; height:45px; line-height:49px; color:#fff; font-size:14px; font-family:"宋体"; text-decoration:none;}
+.ls-fwxq li{ width:100%; height:31px; line-height:31px;}
+.ls-fwxq li a{ font-size:14px; font-family:"宋体";}
+.ls-fwxq li a:hover{ color:#c00;}
+/*工业设计*/
+.box-heb{ padding:13px 15px; width:220px; height:224px; background:#c00;}
+.box-heb .icon{ position:relative; z-index:1; display:block; width:220px; height:143px; overflow:hidden;}
+.box-heb .icon img{ width:220px; height:143px;}
+.box-heb .icon .title-bg{ position:absolute; z-index:1; bottom:0; left:0; width:100%; height:31px; background:#000; opacity:0.7; filter:alpha(opacity:70);}
+.box-heb .icon .title{ position:absolute; z-index:2; bottom:0; left:0; height:31px; line-height:31px; width:100%; text-align:center; color:#fff; font-weight:bold; font-size:14px;}
+.box-heb p{ margin-top:13px; line-height:21px; color:#fff;}
+.box-heb p a{ color:#fff;}
+.box-heb p a:hover{ color:#09c;}
+.ls-gysj{ background:#f2f2f2; height:241px;}
+.ls-gysj li{ width:215px; margin:12px 0 0 15px;}
+.ls-gysj li a{ display:block;}
+.ls-gysj li a img{ width:215px; height:141px;}
+.ls-gysj li a.link{ height:38px; line-height:38px; text-align:center; font-size:15px; font-weight:bold;}
+.ls-gysj li p{ line-height:21px; color:#666;}
+
+/*企业*/
+.s-yq{ padding:0 17px;}
+.s-yq li{ margin-top:1px; height:40px; line-height:46px; border-top:1px dashed #c00; color:#c00; font-size:16px; font-weight:bold;}
+.s-yq li *{ color:#c00;font-size:16px; font-weight:bold;}
+/*广告hover*/
+.ls_adac li{ margin-left:15px;}
+.ls_adac li a{ position:relative; z-index:1; display:block; width:226px; height:150px;}
+.ls_adac li a .title-bg{ display:none; position:absolute; z-index:1; bottom:0; left:0; width:100%; height:40px; line-height:40px; background:#000;  opacity:0.7; filter:alpha(opacity:70); }
+.ls_adac li a .title{ display:none; position:absolute; z-index:1; bottom:0; left:0; width:100%; height:40px; line-height:40px;color:#fff; text-align:center;font-size:14px; font-family:"宋体";}
+/*行业类别*/
+.box-hylb{ border:1px solid #eee;}
+.box-hylb .head{ width:98px; height:38px; line-height:38px; text-indent:19px; font-size:14px; font-family:"宋体"; border-right:1px solid #eee; background:#f9f9f9; color:#999;}
+.box-hylb ul{ padding-top:7px;}
+.box-hylb ul li{ margin-left:9px;}
+.box-hylb ul li a{ display:block; height:25px; line-height:25px; padding:0 13px; font-size:14px; font-family:"宋体";}
+.box-hylb ul li.selected{ margin-left:12px;}
+.box-hylb ul li.selected a{ background:#c00; color:#fff;}
+.box-hylb ul li.more a{ color:#c00;}
+/*university*/
+.ls-university li{ margin:17px 18px 0 0; width:250px; height:212px;}
+.ls-university li a{ position:relative; z-index:1; display:block; height:163px;}
+.ls-university li a .title-bg{ position:absolute; z-index:2; bottom:0; left:0; width:100%; height:36px; line-height:36px; color:#fff; background:#000; opacity:0.7; filter:alpha(opacity:70);}
+.ls-university li a .title{position:absolute; z-index:2; bottom:0; left:0; width:100%; height:36px; line-height:36px; color:#fff; text-align:center; font:bold 14px/36px "宋体";}
+.ls-university li p{ padding-top:7px; line-height:18px;}
