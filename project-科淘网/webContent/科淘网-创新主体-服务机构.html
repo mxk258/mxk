@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>科淘网-创新主体-服务机构</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <style type="text/css">
+        /*研究开发*/
+        .ls-yjkf li{ margin-left: 10px;}
+        .ls-yjkf li a{ display: block; width: 138px; height:38px; line-height: 38px; text-align: center; color:#fff; border:1px solid #ddd; font-size: 16px; background:#f9f9f9; color:#666; text-decoration: none;}
+        .ls-yjkf li.selected a,
+        .ls-yjkf li a:hover{ border:1px solid #c00; background:#c00; color:#fff;}
+        /*企业动态轮播图*/
+        .slide-business{ width:400px!important; height: 279px!important;}
+        .slide-business .ls_img{ height:100%!important;}
+        .slide-business .ls_img a{ display: block; position:relative; z-index:1;}
+        .slide-business .ls_img a img{ width: 400px; height:279px;}
+        .slide-business .ls_img .title{ position:absolute; z-index:2; bottom:0; left:0; width: 100%; height:40px; line-height: 41px; padding-left:13px; font-family: "宋体"; color:#fff; font-size:14px; font-weight: bold;}
+        .slide-business .ls_img .title-bg{position:absolute; z-index:1; bottom:0; left:0; width: 100%; height:40px; background:#000; opacity: 0.5; filter:alpha(opacity:50);}
+        .slide-business .ls_btn{left:auto!important; right:20px; bottom:13px!important;}
+        /*企业动态 start*/
+        .h3-more{ position: relative; z-index:1; height: 34px; line-height: 24px; font-size:21px; border-bottom: 1px solid #ddd;}
+        .h3-more .more{ position:absolute;  right: 0; top:0; font-size:14px; font-family: "宋体";}
+        .h3-more .more:hover{ text-decoration: none; color:#c00;}
+        .ls-article01 li{ height:26px; line-height: 26px;}
+        .ls-article01 li a{ font-size:14px; font-family: "宋体";}
+        .ls-article01 li a:hover{ color:#c00;}
+        .ls-article01 li .time{ color:#999; font-family: "宋体";}
+        /*前沿理论*/
+        .h-qyll{ display: block; height:50px; line-height: 50px; background:url(../images/icon-qyll.png); font-size:18px; color:#fff; text-indent: 17px; font-weight: bold; }
+        .h-qyll:hover{ color:#fff;text-decoration: none;}
+        .article-qyll{ padding:0 15px; height: 228px;}
+        .article-qyll h4{ height: 43px; line-height:40px;}
+        .article-qyll h4 a{ color:#c00;  font-size:16px;}
+        .article-qyll{ line-height: 20px; color:#666;}
+		/*服务需求*/
+		.h-more-red{ position:relative;z-index:1; height:45px; line-height:45px; font-size:20px; color:#fff; text-indent:27px;}
+		.h-more-red .more{ position:absolute; top:0; right:17px; height:45px; line-height:49px; color:#fff; font-size:14px; font-family:"宋体"; text-decoration:none;}
+		.ls-fwxq li{ width:100%; height:31px; line-height:31px;}
+		.ls-fwxq li a{ font-size:14px; font-family:"宋体";}
+		.ls-fwxq li a:hover{ color:#c00;}
+		/*工业设计*/
+		.box-heb{ padding:13px 15px; width:220px; height:224px; background:#c00;}
+		.box-heb .icon{ position:relative; z-index:1; display:block; width:220px; height:143px; overflow:hidden;}
+		.box-heb .icon img{ width:220px; height:143px;}
+		.box-heb .icon .title-bg{ position:absolute; z-index:1; bottom:0; left:0; width:100%; height:31px; background:#000; opacity:0.7; filter:alpha(opacity:70);}
+		.box-heb .icon .title{ position:absolute; z-index:2; bottom:0; left:0; height:31px; line-height:31px; width:100%; text-align:center; color:#fff; font-weight:bold; font-size:14px;}
+		.box-heb p{ margin-top:13px; line-height:21px; color:#fff;} 
+		.box-heb p a{ color:#fff;}
+		.box-heb p a:hover{ color:#09c;}
+		.ls-gysj{ background:#f2f2f2; height:241px;}
+		.ls-gysj li{ width:215px; margin:12px 0 0 15px;}
+		.ls-gysj li a{ display:block;}
+		.ls-gysj li a img{ width:215px; height:141px;}
+		.ls-gysj li a.link{ height:38px; line-height:38px; text-align:center; font-size:15px; font-weight:bold;}
+		.ls-gysj li p{ line-height:21px; color:#666;}
+    </style>
+</head>
+<body style="background: url(../images/bg/fwjg.png) -20px 3px;">
+<!-- header start -->
+<div id="header">
+    <div class="pc clearfix fm_s">
+        <div class="fl">
+            <span>您好，欢迎光临科服汇！</span>
+            <a class="fc_c00 ml15" href="#">免费注册</a>
+            <a class="fc_c00 ml12" href="#">登录</a>
+            <a class="pr15 pr15 ml17 pr mykfh" href="#">
+                我的科淘网
+                <b class="arrowDown pa"></b>
+            </a>
+        </div>
+        <div class="fr pr link">
+            <a class="fl pa" href="#">
+                <img src="../images/icon_44.png" alt="微信"/>
+            </a>
+            <a class="fl pa ml40" href="#">
+                <img src="../images/icon_45.png" alt="新浪微博"/>
+            </a>
+            <a class="ml10" href="#">科淘网首页</a>
+            <a class="ml20" href="#">帮助中心</a>
+        </div>
+    </div>
+</div>
+<!-- header end -->
+<!-- content start -->
+<div id="content">
+    <!-- search start -->
+    <div id="box_search" class="clearfix pc pt17">
+        <div class="clearfix">
+            <div class="fl logo">
+                <a class="fl" href="index.html">
+                    <img src="../images/logo-shop.png" alt="科淘网" title="科淘网"/>
+                </a>
+                <a class="fl logo2" href="#">创新主体</a>
+            </div>
+            <div class="fr clearfix w848">
+                <div class="fl">
+                    <ul id="searchList" class="ls_fl ls_search ls_search_c00 clearfix fm_s">
+                        <li>
+                            <a class="selected" value="kjfw">全部</a>
+                        </li>
+                        <li>
+                            <a value="jmjg">成果</a>
+                        </li>
+                        <li>
+                            <a value="zwxx">需求</a>
+                        </li>
+                        <li>
+                            <a value="zwxx">展会</a>
+                        </li>
+                        <li>
+                            <a value="zwxx">专家</a>
+                        </li>
+                    </ul>
+                    <form id="searchForm" action="kjfw" method="post">
+                        <div class="tab_1 bor_2_c00 box_searchInput clearfix">
+                            <input class="text fl" type="text" value="搜索"/>
+                            <input class="submit fl bg_c00 f18" type="submit" value="搜索"/>
+                        </div>
+                    </form>
+                    <ul class="ls_fl clearfix ls-search">
+                        <li>
+                            <a href="#">检验检测</a>
+                        </li>
+                        <li>
+                            <a href="#">技术转移</a>
+                        </li>
+                        <li>
+                            <a href="#">成果公告</a>
+                        </li>
+                        <li>
+                            <a href="#">科技奖励</a>
+                        </li>
+                        <li>
+                            <a href="#">服务信息</a>
+                        </li>
+                        <li>
+                            <a href="#">科技金融</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fr clearfix box03 pt30">
+                    <div class="fl">
+                        <a class="a_sqjm  a_sqjm2 f14 fm_s" href="#">申请加盟</a>
+
+                        <p class="fc_f60 f16">8009-170-114</p>
+                    </div>
+                    <div class="fl ml8">
+                        <a class="a_gxfb f14 fm_s" href="#">供需发布</a>
+
+                        <p class="fc_f60 f16">4008-970-114</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- search end -->
+    <!-- nav start -->
+    <div id="nav">
+        <ul class="ls_fl clearfix pc">
+            <li class="nav-l bor_l_none pr20">
+                <a class="nav-b nav-b-01 pl50" href="#">首页</a>
+            </li>
+            <li class="nav-l">
+                <a class="nav-b nav-b-02" href="#">创新主体</a>
+                <ol>
+                    <li>
+                        <a href="#">企业</a>
+                    </li>
+                    <li>
+                        <a href="#">高校</a>
+                    </li>
+                    <li>
+                        <a href="#">科研院所</a>
+                    </li>
+                    <li>
+                        <a href="#">服务机构</a>
+                    </li>
+                </ol>
+            </li>
+            <li class="nav-l">
+                <a class="nav-b nav-b-03" href="#">科技资源</a>
+                <ol>
+                    <li>
+                        <a href="#">科技成果</a>
+                    </li>
+                    <li>
+                        <a href="#">创新需求</a>
+                    </li>
+                    <li>
+                        <a href="#">科技人才</a>
+                    </li>
+                    <li>
+                        <a href="#">科技服务</a>
+                    </li>
+                </ol>
+            </li>
+            <li class="nav-l">
+                <a class="nav-b nav-b-04" href="#">供需对接</a>
+                <ol>
+                    <li>
+                        <a href="#">在线会展</a>
+                    </li>
+                    <li>
+                        <a href="#">自主推荐</a>
+                    </li>
+                    <li>
+                        <a href="#">系统匹配</a>
+                    </li>
+                    <li>
+                        <a href="#">定制服务</a>
+                    </li>
+                </ol>
+            </li>
+            <li class="nav-l bor_r_none">
+                <a class="nav-b nav-b-05" href="#">作价交易</a>
+                <ol>
+                    <li>
+                        <a href="#">技术评估</a>
+                    </li>
+                    <li>
+                        <a href="#">线下服务</a>
+                    </li>
+                    <li>
+                        <a href="#">在线支付</a>
+                    </li>
+                    <li>
+                        <a href="#">政策支持</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+    <!-- nav end -->
+    <div class="pc">
+        <!-- address start -->
+        <div id="address">
+            <a href="#">首页</a><span>  > </span>
+            <a href="#">创新主体</a><span>  > </span>
+            <a class="current" href="#">服务机构</a>
+        </div>
+        <!-- address end -->
+        <!-- 研究开发 start -->
+        <ul class="ls_fl clearfix ls-yjkf pt5">
+            <li class="m0 selected">
+                <a href="#">研究开发</a>
+            </li>
+            <li>
+                <a href="#">技术转移</a>
+            </li>
+            <li>
+                <a href="#">检验检测</a>
+            </li>
+            <li>
+                <a href="#">创业孵化</a>
+            </li>
+            <li>
+                <a href="#">知识产权</a>
+            </li>
+            <li>
+                <a href="#">科技咨询</a>
+            </li>
+            <li>
+                <a href="#">科技金融</a>
+            </li>
+            <li>
+                <a href="#">科学普及</a>
+            </li>
+        </ul>
+        <!-- 研究开发 end -->
+        <!-- slide start -->
+        <div class="clearfix mt20">
+            <div id="slide" class="fl slide-business">
+                <ul class="ls_img">
+                    <li class="show">
+                        <a href="#">
+                            <img src="../images/banner_05.png" alt="轮播图1"/>
+                            <div class="title-bg"></div>
+                            <p class="title">创新创业主题-企业</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../images/banner_02.png" alt="轮播图2"/></a>
+                        <div class="title-bg"></div>
+                        <p class="title">2222222-企业</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../images/banner_03.png" alt="轮播图3"/></a>
+                        <div class="title-bg"></div>
+                        <p class="title">3333333-企业</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../images/banner_04.png" alt="轮播图4"/></a>
+                        <div class="title-bg"></div>
+                        <p class="title">444444-企业</p>
+                    </li>
+                </ul>
+                <ul class="ls_btn">
+                    <li class="m0 selected">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+            <!-- 企业动态 start -->
+            <div class="fl ml20 w495">
+                <h3 class="h3-more">
+                    企业动态
+                    <a class="more">更多>></a>
+                </h3>
+                <ul class="ls_fl clearfix ls-article01 pt10">
+                    <li>
+                        <a href="#">第五届中国·哈尔滨国际科技成果展交会开幕</a>
+                        <span class="time">2014-7-4</span>
+                    </li>
+                    <li>
+                        <a href="#">第五届中国·哈尔滨国际科技成果展交会开幕</a>
+                        <span class="time">2014-7-4</span>
+                    </li>
+                    <li>
+                        <a href="#">第五届中国·哈尔滨国际科技成果展交会开幕</a>
+                        <span class="time">2014-7-4</span>
+                    </li>
+                    <li>
+                        <a href="#">第五届中国·哈尔滨国际科技成果展交会开幕</a>
+                        <span class="time">2014-7-4</span>
+                    </li>
+                    <li>
+                        <a href="#">第五届中国·哈尔滨国际科技成果展交会开幕</a>
+                        <span class="time">2014-7-4</span>
+                    </li>
+                    <li>
+                        <a href="#">第五届中国·哈尔滨国际科技成果展交会开幕</a>
+                        <span class="time">2014-7-4</span>
+                    </li>
+                    <li>
+                        <a href="#">第五届中国·哈尔滨国际科技成果展交会开幕</a>
+                        <span class="time">2014-7-4</span>
+                    </li>
+                    <li>
+                        <a href="#">第五届中国·哈尔滨国际科技成果展交会开幕</a>
+                        <span class="time">2014-7-4</span>
+                    </li>
+                    <li>
+                        <a href="#">第五届中国·哈尔滨国际科技成果展交会开幕</a>
+                        <span class="time">2014-7-4</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- 企业动态 end -->
+            <!-- 理论前沿 end -->
+            <div class="fl w250 ml25">
+                <a class="h-qyll" href="#">理论前沿</a>
+                <div class="bor_1_ddd article-qyll">
+                    <h4>
+                        <a href="#">讲座：专利分析对企业的重...</a>
+                    </h4>
+                    <p class="pb12 bor_b_ddd">干旱生境作物学重点实验室-省部共建国家重点实验室培育基地于2010年2月经科技部批准组建...</p>
+                    <h4>
+                        <a href="#">如何做好专利申请</a>
+                    </h4>
+                    <p>干旱生境作物学重点实验室-省部共建国家重点实验室培育基地于2010年2月经科技部批准组建...</p>
+                </div>
+            </div>
+            <!-- 理论前沿 end -->
+        </div>
+        <!-- slide end -->
+        <!-- 服务需求 start -->
+        <div class="clearfix mt13">
+        	<div class="fl w587">
+            	<h3 class="h-more-red">
+                	服务需求
+                    <a class="more" href="#">更多>></a>
+                </h3>
+                <div class="p0-30 h278 bor_1_ddd">
+                	<ul class="ls_fl clearfix ls-fwxq pt15">
+                    	<li>
+                        	<a href="#">三江平原农作物育种有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">中药剂型改革实验室</a>
+                        </li>
+                        <li>
+                        	<a href="#">电工仪器仪表工程技术开发有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">哈南科技开发有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">出租车特色服务公司</a>
+                        </li>
+                        <li>
+                            <a href="#">电工仪器仪表工程技术开发有限公司</a>
+                        </li>
+                        <li>
+                            <a href="#">哈南科技开发有限公司</a>
+                        </li>
+                        <li>
+                            <a href="#">出租车特色服务公司</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fr w587">
+            	<h3 class="h-more-red">
+                	成功案例
+                    <a class="more" href="#">更多>></a>
+                </h3>
+                <div class="p0-30 h278 bor_1_ddd">
+                	<ul class="ls_fl clearfix ls-fwxq pt15">
+                    	<li>
+                        	<a href="#">三江平原农作物育种有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">中药剂型改革实验室</a>
+                        </li>
+                        <li>
+                        	<a href="#">电工仪器仪表工程技术开发有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">哈南科技开发有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">出租车特色服务公司</a>
+                        </li>
+                        <li>
+                            <a href="#">电工仪器仪表工程技术开发有限公司</a>
+                        </li>
+                        <li>
+                            <a href="#">哈南科技开发有限公司</a>
+                        </li>
+                        <li>
+                            <a href="#">出租车特色服务公司</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix mt15">
+        	<a class="fl" href="#">
+            	<img src="../images/ad-5.png" />
+            </a>
+            <a class="fr" href="#">
+            	<img src="../images/ad-6.png" />
+            </a>
+        </div>
+        <!-- 服务需求 end -->
+        <!-- 工业设计 start -->
+        <h3 class="box-h3 mt5">
+            工业设计
+            <a class="more" href="#">更多>></a>
+        </h3>
+        <div class="clearfix bor_t_2_c00">
+        	<div class="fl box-heb">
+            	<a class="icon" href="#">
+                	<img alt="哈尔滨工业大学" src="../images/ad-7.png" />
+                    <div class="title-bg"></div>
+                    <div class="title">哈尔滨龙银投资有限公司</div>
+                </a>
+                <p>
+                	哈尔滨工业大学是国内创办最早的省级公共图书馆之一，是面向社会公众开放公众开公众开公...
+                    <a href="#">【详情】</a>
+                </p>
+            </div>
+        	<ul class="fl mt10 ml10 ls_fl clearfix ls-gysj">
+            	<li>
+                	<a href="#">
+                    	<img src="../images/ad-8.png" />
+                    </a>
+                    <a class="link ellipsis" href="#" title="哈尔滨盛世嘉吉融资担保有限公司">哈尔滨盛世嘉吉融资担保有限公司</a>
+                    <p>
+                    	三江平原主要作物育种栽培重点实验室共有大小型仪器设备179台套，其中包...
+                    </p>
+                </li>
+                <li>
+                	<a href="#">
+                    	<img src="../images/ad-9.png" />
+                    </a>
+                    <a class="link ellipsis" href="#" title="哈尔滨盛世嘉吉融资担保有限公司">哈尔滨盛世嘉吉融资担保有限公司</a>
+                    <p>
+                    	三江平原主要作物育种栽培重点实验室共有大小型仪器设备179台套，其中包...
+                    </p>
+                </li>
+                <li>
+                	<a href="#">
+                    	<img src="../images/ad-10.png" />
+                    </a>
+                    <a class="link ellipsis" href="#" title="哈尔滨盛世嘉吉融资担保有限公司">哈尔滨盛世嘉吉融资担保有限公司</a>
+                    <p>
+                    	三江平原主要作物育种栽培重点实验室共有大小型仪器设备179台套，其中包...
+                    </p>
+                </li>
+                <li>
+                	<a href="#">
+                    	<img src="../images/ad-11.png" />
+                    </a>
+                    <a class="link ellipsis" href="#" title="哈尔滨盛世嘉吉融资担保有限公司">哈尔滨盛世嘉吉融资担保有限公司</a>
+                    <p>
+                    	三江平原主要作物育种栽培重点实验室共有大小型仪器设备179台套，其中包...
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <!-- 工业设计 end -->
+        <!-- 大型仪器 start -->
+        <h3 class="box-h3">
+            大型仪器
+            <a class="more" href="#">更多>></a>
+        </h3>
+        <div class="clearfix bor_t_2_c00">
+        	<div class="fl box-heb">
+            	<a class="icon" href="#">
+                	<img alt="哈尔滨工业大学" src="../images/ad-7.png" />
+                    <div class="title-bg"></div>
+                    <div class="title">哈尔滨龙银投资有限公司</div>
+                </a>
+                <p>
+                	哈尔滨工业大学是国内创办最早的省级公共图书馆之一，是面向社会公众开放公众开公众开公...
+                    <a href="#">【详情】</a>
+                </p>
+            </div>
+        	<ul class="fl mt10 ml10 ls_fl clearfix ls-gysj">
+            	<li>
+                	<a href="#">
+                    	<img src="../images/ad-8.png" />
+                    </a>
+                    <a class="link ellipsis" href="#" title="哈尔滨盛世嘉吉融资担保有限公司">哈尔滨盛世嘉吉融资担保有限公司</a>
+                    <p>
+                    	三江平原主要作物育种栽培重点实验室共有大小型仪器设备179台套，其中包...
+                    </p>
+                </li>
+                <li>
+                	<a href="#">
+                    	<img src="../images/ad-9.png" />
+                    </a>
+                    <a class="link ellipsis" href="#" title="哈尔滨盛世嘉吉融资担保有限公司">哈尔滨盛世嘉吉融资担保有限公司</a>
+                    <p>
+                    	三江平原主要作物育种栽培重点实验室共有大小型仪器设备179台套，其中包...
+                    </p>
+                </li>
+                <li>
+                	<a href="#">
+                    	<img src="../images/ad-10.png" />
+                    </a>
+                    <a class="link ellipsis" href="#" title="哈尔滨盛世嘉吉融资担保有限公司">哈尔滨盛世嘉吉融资担保有限公司</a>
+                    <p>
+                    	三江平原主要作物育种栽培重点实验室共有大小型仪器设备179台套，其中包...
+                    </p>
+                </li>
+                <li>
+                	<a href="#">
+                    	<img src="../images/ad-11.png" />
+                    </a>
+                    <a class="link ellipsis" href="#" title="哈尔滨盛世嘉吉融资担保有限公司">哈尔滨盛世嘉吉融资担保有限公司</a>
+                    <p>
+                    	三江平原主要作物育种栽培重点实验室共有大小型仪器设备179台套，其中包...
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <!-- 大型仪器 end -->
+        <!-- 机械制造 start -->
+        <h3 class="box-h3">
+            机械制造
+            <a class="more" href="#">更多>></a>
+        </h3>
+        <div class="clearfix bor_t_2_c00">
+        	<div class="fl box-heb">
+            	<a class="icon" href="#">
+                	<img alt="哈尔滨工业大学" src="../images/ad-7.png" />
+                    <div class="title-bg"></div>
+                    <div class="title">哈尔滨龙银投资有限公司</div>
+                </a>
+                <p>
+                	哈尔滨工业大学是国内创办最早的省级公共图书馆之一，是面向社会公众开放公众开公众开公...
+                    <a href="#">【详情】</a>
+                </p>
+            </div>
+        	<ul class="fl mt10 ml10 ls_fl clearfix ls-gysj">
+            	<li>
+                	<a href="#">
+                    	<img src="../images/ad-8.png" />
+                    </a>
+                    <a class="link ellipsis" href="#" title="哈尔滨盛世嘉吉融资担保有限公司">哈尔滨盛世嘉吉融资担保有限公司</a>
+                    <p>
+                    	三江平原主要作物育种栽培重点实验室共有大小型仪器设备179台套，其中包...
+                    </p>
+                </li>
+                <li>
+                	<a href="#">
+                    	<img src="../images/ad-9.png" />
+                    </a>
+                    <a class="link ellipsis" href="#" title="哈尔滨盛世嘉吉融资担保有限公司">哈尔滨盛世嘉吉融资担保有限公司</a>
+                    <p>
+                    	三江平原主要作物育种栽培重点实验室共有大小型仪器设备179台套，其中包...
+                    </p>
+                </li>
+                <li>
+                	<a href="#">
+                    	<img src="../images/ad-10.png" />
+                    </a>
+                    <a class="link ellipsis" href="#" title="哈尔滨盛世嘉吉融资担保有限公司">哈尔滨盛世嘉吉融资担保有限公司</a>
+                    <p>
+                    	三江平原主要作物育种栽培重点实验室共有大小型仪器设备179台套，其中包...
+                    </p>
+                </li>
+                <li>
+                	<a href="#">
+                    	<img src="../images/ad-11.png" />
+                    </a>
+                    <a class="link ellipsis" href="#" title="哈尔滨盛世嘉吉融资担保有限公司">哈尔滨盛世嘉吉融资担保有限公司</a>
+                    <p>
+                    	三江平原主要作物育种栽培重点实验室共有大小型仪器设备179台套，其中包...
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <!-- 机械制造 end -->
+        <!-- link start -->
+        <h3 class="box-h3 mt10">
+            友情链接
+        </h3>
+        <ul class="ls_fl clearfix ls-friend">
+            <li class="ml5">
+                <a href="#">
+                    <img src="../images/ad-1.png" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../images/ad-2.png" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../images/ad-3.png" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../images/ad-4.png" />
+                </a>
+            </li>
+        </ul>
+        <!-- link end -->
+    </div>
+</div>
+<!-- footer start -->
+<div id="footer" class="w">
+    <div class="pc">
+        <p class="tc f_link pt20">
+            <a href="#">关于我们</a>|
+            <a href="#">网站地图</a>|
+            <a href="#">合作伙伴</a>|
+            <a href="#">法律声明</a>|
+            <a href="#">联系我们</a>
+        </p>
+        <p class="tc">
+            黑龙江省科技成果转化中心&nbsp;&nbsp;&nbsp;&nbsp;联系电话： 0451-51920911 <span class="ml15">黑ICP备047814858</span>
+        </p>
+        <p class="tc f_link_img mt5">
+            <a href="#">
+                <img src="../images/i_police.png" alt="police"/>
+            </a>
+            <a href="#">
+                <img src="../images/i_emblem.png" alt="emblem"/>
+            </a>
+            <a href="#">
+                <img src="../images/i_credibleWeb.png" alt="_credibleWeb"/>
+            </a>
+            <a href="#">
+                <img src="../images/i_recordWeb.png" alt="recordWeb"/>
+            </a>
+        </p>
+    </div>
+</div>
+<!-- footer end -->
+<script src="../js/jquery-1.9.1.js"></script>
+<script src="../js/base.js"></script>
+<script type="text/javascript">
+    $(document).ready(function (e) {
+        //初始化搜索
+        GLOBAL.Search.init();
+        //初始化轮播图
+        GLOBAL.Slide.init("slide");
+    });
+</script>
+</body>
+</html>

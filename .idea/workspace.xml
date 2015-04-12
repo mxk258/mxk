@@ -2,15 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e05400-512d-4932-88ea-bc71243615a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/Interface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-javascriptDesign/webContent/tryCatch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/接口/什么是接口.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/本书使用接口.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/用属性检查模仿接口.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/用注视描述接口.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/用鸭式辩型模仿接口.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/示例：使用Interface类.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-javascriptDesign/js/interface.js" afterPath="$PROJECT_DIR$/project-javascriptDesign/js/interface.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/fwjg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/i_circle2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/i_credibleWeb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/i_emblem.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/i_police.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/i_recordWeb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/i_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-qyll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon_100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon_44.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon_45.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon_46_two.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/index.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/logo-shop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/js/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/js/jquery-1.9.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/作用域、嵌套函数和闭包.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/创建对象的基本模式.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/模板.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用命名规范区别私用成员.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用闭包实现私用成员.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mxk.iws" />
@@ -35,11 +68,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="示例：使用Interface类.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/示例：使用Interface类.html">
+      <file leaf-file-name="创建对象的基本模式.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/创建对象的基本模式.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30185497" vertical-offset="523" max-vertical-offset="1152">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="41" selection-end-column="29" />
+            <state vertical-scroll-proportion="-57.166668" vertical-offset="50" max-vertical-offset="1926">
+              <caret line="79" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="用命名规范区别私用成员.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用命名规范区别私用成员.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.916666" vertical-offset="488" max-vertical-offset="1926">
+              <caret line="67" column="46" selection-start-line="33" selection-start-column="12" selection-end-line="67" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="作用域、嵌套函数和闭包.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/作用域、嵌套函数和闭包.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.25" vertical-offset="0" max-vertical-offset="504">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="用闭包实现私用成员.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用闭包实现私用成员.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5750422" vertical-offset="415" max-vertical-offset="1098">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="示例：使用Interface类.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第2章接口/在javascript中模仿接口/示例：使用Interface类.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.958334" vertical-offset="49" max-vertical-offset="1152">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -58,18 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/firebug/firebug.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/firebug/console.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/函数声明与表达式.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/函数声明与表达式2.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/表达式.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/函数声明与表达式/表达式2.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/枚举/枚举.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/枚举/枚举2.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/初识html5/datalist.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/初识html5/details.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/初识html5/dialog.html" />
-        <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/初识html5/progress.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/低版本兼容/低版本兼容.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/低版本兼容/低版本兼容2.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/表单控件.html" />
@@ -98,7 +159,6 @@
         <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/表单验证反馈/patternMismatch.html" />
         <option value="$PROJECT_DIR$/project-妙味课堂练习/html5/表单验证反馈/tooLong.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第1章富有表现力的javascript/Function.prototype.method.html" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第1章富有表现力的javascript/对象的易变性.html" />
         <option value="$PROJECT_DIR$/project-设计模式/接口/什么是接口.html" />
         <option value="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/用注视描述接口.html" />
@@ -109,6 +169,19 @@
         <option value="$PROJECT_DIR$/project-javascriptDesign/js/interface.js" />
         <option value="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/Interface.js" />
         <option value="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/示例：使用Interface类.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/header.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/js/base.js" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/footer.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/css/index.css" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/index.html" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/模板.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/css/base.css" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html" />
+        <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/创建对象的基本模式.html" />
+        <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用命名规范区别私用成员.html" />
+        <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/作用域、嵌套函数和闭包.html" />
+        <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用闭包实现私用成员.html" />
       </list>
     </option>
   </component>
@@ -116,8 +189,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="20" />
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
@@ -213,39 +285,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第1章富有表现力的javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-设计模式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-设计模式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="接口" />
+              <option name="myItemId" value="第3章封装信息和隐藏" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,7 +303,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="接口" />
+              <option name="myItemId" value="第2章接口" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-设计模式" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第2章接口" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -281,11 +339,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project-javascriptDesign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webContent" />
+              <option name="myItemId" value="project-设计模式" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,11 +353,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project-javascriptDesign" />
+              <option name="myItemId" value="project-科淘网" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="project-科淘网" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,11 +422,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\workSpace\mxk\project-妙味课堂练习\html5\表单验证反馈" />
-      <recent name="G:\workSpace\mxk\project-妙味课堂练习\html5\表单属性" />
-      <recent name="G:\workSpace\mxk\project-妙味课堂练习\html5\表单控件" />
-      <recent name="G:\workSpace\mxk\project-妙味课堂练习\html5\低版本兼容" />
-      <recent name="G:\workSpace\mxk\js\html5" />
+      <recent name="G:\workSpace\mxk\project-科淘网\images" />
+      <recent name="G:\workSpace\mxk\project-科淘网\webContent" />
+      <recent name="G:\workSpace\mxk\project-科淘网\images\bg" />
+      <recent name="G:\workSpace\mxk\project-科淘网\css" />
+      <recent name="G:\workSpace\mxk\project-科淘网\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\workSpace\mxk\project-妙味课堂练习\JS原创视频教程-知识点类\事件委托" />
@@ -492,12 +560,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <frame x="20" y="0" width="1382" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27244583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21803127" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28330892" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
@@ -508,8 +577,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.256" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27244583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -543,111 +612,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/低版本兼容/低版本兼容2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="540">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.75" vertical-offset="0" max-vertical-offset="324">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/tel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="342">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/url.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="324">
-          <caret line="12" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="324">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/range.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="342">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/number.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="324">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/color.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="324">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/datetime.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="324">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/datetime-local.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="324">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/time.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24283305" vertical-offset="0" max-vertical-offset="593">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/date.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="324">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/week.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="324">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单控件/month.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24283305" vertical-offset="0" max-vertical-offset="593">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单属性/placeholder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.75" vertical-offset="0" max-vertical-offset="324">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/表单属性/autofocus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="360">
@@ -746,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="432">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-设计模式/第1章富有表现力的javascript/对象的易变性.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.958334" vertical-offset="199" max-vertical-offset="864">
@@ -760,25 +717,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/接口/什么是接口.html">
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第2章接口/什么是接口.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="306">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/用注视描述接口.html">
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第2章接口/在javascript中模仿接口/用注视描述接口.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.208333" vertical-offset="37" max-vertical-offset="792">
           <caret line="17" column="0" selection-start-line="8" selection-start-column="8" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/用属性检查模仿接口.html">
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第2章接口/在javascript中模仿接口/用属性检查模仿接口.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="469" max-vertical-offset="1062">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.4583335" vertical-offset="67" max-vertical-offset="684">
           <caret line="11" column="10" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.25" vertical-offset="0" max-vertical-offset="396">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,31 +756,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13576159" vertical-offset="134" max-vertical-offset="738">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/用鸭式辩型模仿接口.html">
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第2章接口/在javascript中模仿接口/用鸭式辩型模仿接口.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42495784" vertical-offset="0" max-vertical-offset="593">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/本书使用接口.html">
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第2章接口/在javascript中模仿接口/本书使用接口.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5" vertical-offset="162" max-vertical-offset="810">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/Interface.js">
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第2章接口/在javascript中模仿接口/Interface.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="756">
           <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.21718" vertical-offset="0" max-vertical-offset="1764">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15397082" vertical-offset="121" max-vertical-offset="738">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.22528364" vertical-offset="355" max-vertical-offset="1026">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17504051" vertical-offset="0" max-vertical-offset="617">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2917342" vertical-offset="0" max-vertical-offset="617">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.7622259" vertical-offset="0" max-vertical-offset="2070">
           <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9713322" vertical-offset="0" max-vertical-offset="1638">
           <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17504051" vertical-offset="0" max-vertical-offset="954">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="900">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,14 +847,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6337115" vertical-offset="733" max-vertical-offset="1350">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/新建文件夹/单例模式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2731872" vertical-offset="0" max-vertical-offset="593">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/js/jquery-1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="172638">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/images/banner_04.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1361" max-vertical-offset="6336">
+          <caret line="91" column="19" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/示例：使用Interface类.html">
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30185497" vertical-offset="523" max-vertical-offset="1152">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="41" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="738">
+          <caret line="33" column="19" selection-start-line="9" selection-start-column="0" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="342">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.059602648" vertical-offset="0" max-vertical-offset="604">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15517241" vertical-offset="0" max-vertical-offset="580">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/模板.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="918">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#h3#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-64.458336" vertical-offset="973" max-vertical-offset="3078">
+          <caret line="182" column="16" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="16" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3432" max-vertical-offset="10098">
+          <caret line="204" column="5" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.916667" vertical-offset="5234" max-vertical-offset="9558">
+          <caret line="304" column="31" selection-start-line="304" selection-start-column="31" selection-end-line="304" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第2章接口/在javascript中模仿接口/示例：使用Interface类.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.958334" vertical-offset="49" max-vertical-offset="1152">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/创建对象的基本模式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-57.166668" vertical-offset="50" max-vertical-offset="1926">
+          <caret line="79" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/作用域、嵌套函数和闭包.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.25" vertical-offset="0" max-vertical-offset="504">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用命名规范区别私用成员.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.916666" vertical-offset="488" max-vertical-offset="1926">
+          <caret line="67" column="46" selection-start-line="33" selection-start-column="12" selection-end-line="67" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用闭包实现私用成员.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5750422" vertical-offset="415" max-vertical-offset="1098">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="21" />
           <folding />
         </state>
       </provider>
