@@ -8,11 +8,11 @@
     <script type="text/javascript" src="../第2章接口/在javascript中模仿接口/Interface.js"></script>
     <script type="text/javascript">
         var Publication = new Interface("Publication", ["getIsbn", "setIsbn", "getTitle", "setTitle", "getAuthor", "setAuthor", "display"]);
-        var Book = function(newIsbn, newTitle, newAuthor){  //implements Publication
-            //private attribute
-            var isbn;
-            var title;
-            var author;
+        var Book = (function(){
+            //Private static attributes
+            var numOfBooks = 0;
+
+            //Private static method
             function checkIsbn(isbn){
                 if(isbn == undefined || typeof isbn != "string"){
                     return false;
@@ -51,41 +51,59 @@
                 return true;    //All tests passed
             }
 
-            //Privileged methods
-            this.getIsbn = function(){
-                return isbn;
-            };
+            //Return the constructor
+            return function(newIsbn, newTitle, newAuthor){  //Implements Publication
+                //Private attributes
+                var isbn;
+                var title;
+                var author;
 
-            this.setIsbn = function(newIsbn){
-                if(!checkIsbn(newIsbn)){
-                    throw new Error("Book: Invalid ISBN");
+                //Privileged methods
+                this.getIsbn = function(){
+                    return isbn;
+                };
+
+                this.setIsbn = function(newIsbn){
+                    if(!checkIsbn(newIsbn)){
+                        throw new Error("Book: Invalid ISBN");
+                    }
+                    isbn = newIsbn;
+                };
+
+                this.getTitle = function(){
+                    return title;
+                };
+
+                this.setTitle = function(newTitle){
+                    title = newTitle || "No title specified";
+                };
+
+                this.getAuthor = function(){
+                    return author;
+                };
+
+                this.setAuthor = function(newAuthor){
+                    author = newAuthor || "No author specified";
+                };
+
+                //Constructor code
+                numOfBooks++;   //Keep track of how many Books have been instantiated with the private static attribute.
+                if(numOfBooks > 50){
+                    throw new Error("Book: Only 50 instances of Book can be created");
                 }
-                isbn = newIsbn;
-            };
 
-            this.getTitle = function(){
-                return title;
+                this.setIsbn(newIsbn);
+                this.setTitle(newTitle);
+                this.setAuthor(newAuthor);
             };
+        })();
 
-            this.setTitle = function(newTitle){
-                title = newTitle || "No title specified";
-            };
+        //Public static method
+        Book.convertToTitleCase = function(inputString){
 
-            this.getAuthor = function(){
-                return author;
-            };
-
-            this.setAuthor = function(newAuthor){
-                author = newAuthor || "No author specified";
-            };
-
-            //Constructor code
-            this.setIsbn(newIsbn);
-            this.setTitle(newTitle);
-            this.setAuthor(newAuthor);
         };
 
-        //public, no-privileged methods.
+        //Public, non-privileged methods
         Book.prototype = {
             display:function(){
 

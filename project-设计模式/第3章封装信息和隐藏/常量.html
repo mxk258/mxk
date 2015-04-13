@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        //特权静态方法
+        /*var Class = (function(){
+            //Constants(created as private static attribute)
+            var UPPER_BOUND = 100;
+            //Constructor
+            var ctor = function(constructorArgument){
+
+            };
+            //Privileged static method
+            ctor.getUPPER_BOUND = function(){
+                return UPPER_BOUND;
+            };
+            return ctor;
+        })();*/
+
+        var Class = (function(){
+            //Private static attributes
+            var constants = {
+                UPPER_BOUND: 100,
+                LOWER_BOUND:-100
+            };
+            //Constructor
+            var ctor = function(constructorArgument){
+                this.constructorArgument = constructorArgument;
+            };
+            //Privileged static method
+            ctor.getConstant = function(name){
+                return constants[name];
+            };
+            //return the constructor
+            return ctor;
+        })();
+
+        document.write(Class.getConstant("UPPER_BOUND"));
+
+    </script>
+</body>
+</html>
