@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Modal Window - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="../../jquery-easyui-1.4.2/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="../../jquery-easyui-1.4.2/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="../../jquery-easyui-1.4.2/demo.css">
+    <script type="text/javascript" src="../../jquery-easyui-1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../../jquery-easyui-1.4.2/jquery.easyui.min.js"></script>
+</head>
+<body>
+<h2>Modal Window</h2>
+<p>Click the open button below to open the modal window.</p>
+<div style="margin:20px 0;">
+    <input id="open" type="button" value="open" />
+    <input id="close" type="button" value="close" />
+</div>
+<div id="w" class="easyui-window" title="Modal Window" data-options="modal:true,closed:true,iconCls:'icon-save'" style="width:500px;height:200px;padding:10px;">
+    The window content.
+</div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#open").bind({
+                click:function(){
+                    $('#w').window('open');
+                }
+            });
+            $("#close").bind({
+                click:function(){
+                    $('#w').window('close')
+                }
+            });
+        });
+    </script>
+</body>
+</html>

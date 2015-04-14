@@ -203,10 +203,10 @@ Builder.constructCanvasPropertiesPanel = function(DOMObject, canvasProps){
 
     div.appendChild(divHeight);
 
-    //button block: Update and Fit options
+    //form block: Update and Fit options
     var divButton = document.createElement("div");
 
-    //update button
+    //update form
     var btnUpdate = document.createElement("input");
     btnUpdate.setAttribute("type", "button");
     btnUpdate.setAttribute("value", "Update");
@@ -247,7 +247,7 @@ Builder.constructCanvasPropertiesPanel = function(DOMObject, canvasProps){
 
     divButton.appendChild(btnUpdate);
 
-    //fit button
+    //fit form
     var btnFit = document.createElement("input");
     btnFit.setAttribute("type", "button");
     btnFit.setAttribute("value", "Fit");
@@ -380,11 +380,11 @@ BuilderProperty.CONNECTOR_ENDS = [{Text:'Normal', Value:'Normal'},{Text:'Arrow',
 /**Display separator*/
 BuilderProperty.SEPARATOR = 'SEPARATOR';
 
-/**Css class for button checking control*/
-BuilderProperty.BUTTON_CHECKER_CLASS = 'button-checker';
+/**Css class for form checking control*/
+BuilderProperty.BUTTON_CHECKER_CLASS = 'form-checker';
 
 /**Name of attribute to define is property checked or not*/
-BuilderProperty.BUTTON_CHECKED_ATTRIBUTE = 'button-checked';
+BuilderProperty.BUTTON_CHECKED_ATTRIBUTE = 'form-checked';
 
 /**Label for text underlined property*/
 BuilderProperty.TEXT_UNDERLINED_LABEL = 'U';
@@ -797,7 +797,7 @@ BuilderProperty.prototype = {
     },
 
 
-    /**Generate the code to edit the boolean property with button.
+    /**Generate the code to edit the boolean property with form.
      *Result control has 2 modes: checked/unchecked.
      *The property got updated on click
      *
@@ -814,7 +814,7 @@ BuilderProperty.prototype = {
         buttonChecker.type = "button";
         buttonChecker.id = this.property; // for DOM manipulation
         buttonChecker.className = BuilderProperty.BUTTON_CHECKER_CLASS;
-        buttonChecker.value = BuilderProperty.TEXT_UNDERLINED_LABEL; // for now we have button checking only for underlined text property
+        buttonChecker.value = BuilderProperty.TEXT_UNDERLINED_LABEL; // for now we have form checking only for underlined text property
         // property value stores in custom attribute
         buttonChecker.setAttribute(BuilderProperty.BUTTON_CHECKED_ATTRIBUTE, value);
         div.appendChild(buttonChecker);

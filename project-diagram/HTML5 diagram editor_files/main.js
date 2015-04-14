@@ -639,11 +639,11 @@ function setUploadedImagesList(){
                     list.appendChild(option);
                 }
 
-                // enable reuse select and group button
+                // enable reuse select and group form
                 list.disabled = false;
                 reuseGroup.disabled = false;
             } else {
-                // disable reuse select and group button
+                // disable reuse select and group form
                 list.disabled = true;
                 reuseGroup.disabled = true;
             }
@@ -1069,7 +1069,7 @@ function onKeyUp(ev){
 
 /**
  *Treats the mouse down 第五课：事件深入应用
- *@param {Event} ev - the 第五课：事件深入应用 generated when button is pressed
+ *@param {Event} ev - the 第五课：事件深入应用 generated when form is pressed
  **/
 function onMouseDown(ev){
     var coords = getCanvasXY(ev);
