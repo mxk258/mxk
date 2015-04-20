@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript" src="clone.js"></script>
+    <script type="text/javascript" src="extend.js"></script>
+    <script type="text/javascript" src="agument.js"></script>
+    <script type="text/javascript">
+        /*Class Person*/
+        function Person(name){
+            this.name = name;
+        }
+
+        Person.prototype.getName = function(){
+            return this.name;
+        };
+
+        /* Class Author*/
+        function Author(name, books){
+            Author.superClass.constructor.call(this, name);
+            this.books = books;
+        }
+        extend(Author, Person);
+        Author.prototype.getBooks = function(){
+            return this.books;
+        };
+        Author.prototype.getName = function(){
+            var name = Author.superClass.getName.call(this);
+            return name + ", Author of " + this.getBooks().join(", ");
+        };
+        /*Mixin class*/
+        var Mixin = function(){};
+        Mixin.prototype = {
+            serialize:function(){
+                var output = [];
+                for(var key in this){
+                    output.push(key + ": " + this[key]);
+                }
+                return output.join(", ");
+            },
+            sayName:function(){
+                alert(this.name);
+            }
+        };
+
+        agument(Author, Mixin, "serialize");
+
+        var author = new Author("Ross Harmes", ["Javascript Design Patterns"]);
+        var serializedString = author.serialize();
+        debugger;
+        alert(serializedString);
+    </script>
+</body>
+</html>

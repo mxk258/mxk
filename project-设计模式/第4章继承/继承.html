@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        //类式继承
+        (function(){
+            /*Class Person*/
+            function Person(name){
+                this.name = name;
+            }
+
+            Person.prototype.getName = function(){
+                return this.name;
+            };
+
+            var render = new Person("John Smith");
+            render.getName();
+
+            //原型链继承
+            /*Class Author*/
+            function Author(name, books){
+                Person.call(this, name);
+                this.books = books;
+            }
+
+            Author.prototype = new Person();
+            Author.prototype.constructor = Author;
+            Author.prototype.getBooks = function(){
+                return this.books;
+            };
+
+            var author = [];
+            author[0] = new Author("Dustin Diaz", ["JavaScript Design Patterns"]);
+            author[1] = new Author("Ross Harms", ["JavaScript Design Patterns"]);
+            author[0].getName();
+            author[0].getBooks();
+        })();
+
+        (function(){
+            //extend函数
+            function extend(subClass, superClass){
+                var F = function(){};
+                F.prototype = superClass.prototype;
+                subClass.prototype = new F();
+                subClass.prototype.constructor = subClass;
+            }
+
+            /*Class Person*/
+            function Person(name){
+                this.name = name;
+            }
+
+            Person.prototype.getName = function(){
+                return this.name;
+            };
+
+            /*Class Author*/
+            function Author(name, books){
+                Person.call(this, name);
+                this.books = books;
+            }
+            extend(Author, Person);
+            Author.prototype.getBooks = function(){
+                return this.books;
+            };
+
+            var author = [];
+            author[0] = new Author("Dustin Diaz", ["JavaScript Design Patterns"]);
+            author[1] = new Author("Ross Harms", ["JavaScript Design Patterns"]);
+            author[0].getName();
+            author[0].getBooks();
+        })();
+
+        (function(){
+            /* Extend function, improved*/
+            function extend(subClass, superClass){
+                var F = function(){};
+                F.prototype = superClass.prototype;
+                subClass.prototype = new F();
+                subClass.prototype.constructor = superClass;
+                subClass.superClass = superClass.prototype;
+
+                if(superClass.prototype.constructor == Object.prototype.constructor){
+                    superClass.prototype.constructor = superClass;
+                }
+            }
+
+            /*Class Person*/
+            function Person(name){
+                this.name = name;
+            }
+
+            Person.prototype.getName = function(){
+                return this.name;
+            };
+
+            /* Class Author*/
+            function Author(name, books){
+                Author.superClass.constructor.call(this, name);
+                this.books = books;
+            }
+            extend(Author, Person);
+            Author.prototype.getBooks = function(){
+                return this.books;
+            };
+            Author.prototype.getName = function(){
+                var name = Author.superClass.getName.call(this);
+                return name + ", Author of " + this.getBooks().join(", ");
+            };
+
+            var author = [];
+            author[0] = new Author("Dustin Diaz", ["JavaScript Design Patterns"]);
+            author[1] = new Author("Ross Harms", ["JavaScript Design Patterns"]);
+            author[0].getName();
+            author[0].getBooks();
+            debugger;
+        })();
+    </script>
+</body>
+</html>

@@ -2,69 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e05400-512d-4932-88ea-bc71243615a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/btn-fbcg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/btn-fbxq-b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/btn-fbxq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cg-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cg-10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cg-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cg-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cg-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cg-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cg-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cg-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cg-8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cg-9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cxxq-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cxxq-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cxxq-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cxxq-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cxxq-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cxxq-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/cxxq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/hd-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/hd-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/hd-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/kj-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/kj-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/kj-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/kj-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/kj-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/kj-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/kj-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/kj-8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/kj-9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/kjcg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/kjfwxh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zh-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zh-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zh-03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zh-04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/zxtj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/agument.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/clone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/extend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/原型式继承.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技服务协会.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技成果.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/继承.html" />
-      <change type="DELETED" beforePath="G:\workSpace\mxk\project-ui.rar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/css/base.css" afterPath="$PROJECT_DIR$/project-科淘网/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-ui/custom/webContent/form/form.html" afterPath="$PROJECT_DIR$/project-ui/custom/webContent/form/form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-ui/custom/webContent/form/css/main.css" afterPath="$PROJECT_DIR$/project-ui/custom/webContent/form/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/kjfw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html" />
+      <change type="DELETED" beforePath="G:\workSpace\mxk\project-ui\custom\webContent\form\images\btn_search_hover.gif.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-在线展会.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-在线展会.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-定制服务.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-定制服务.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-企业.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-企业.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-科研院所.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-科研院所.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-高校.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-高校.html" />
-      <change type="MOVED" beforePath="G:\workSpace\mxk\project-ui\custom\webContent\form\images\btn_search_hover.gif.png" afterPath="$PROJECT_DIR$/project-ui/custom/webContent/form/images/btn_search_hover.gif" />
     </list>
     <ignored path="mxk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,11 +49,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-科技资源-科技成果.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="科淘网-科技资源-科技成果.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技成果.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="11916">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="90" max-vertical-offset="11916">
               <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="科淘网-科技资源-创新需求.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16157989" vertical-offset="0" max-vertical-offset="10476">
+              <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="科淘网-科技资源-科技服务.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="10476">
+              <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -131,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project-设计模式/第1章富有表现力的javascript/Function.prototype.method.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第1章富有表现力的javascript/对象的易变性.html" />
         <option value="$PROJECT_DIR$/project-设计模式/接口/什么是接口.html" />
         <option value="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/用注视描述接口.html" />
@@ -173,7 +133,6 @@
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/继承.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技成果.html" />
         <option value="$PROJECT_DIR$/project-科淘网/css/base.css" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/原型式继承.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/argument.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/extend.js" />
@@ -182,6 +141,8 @@
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html" />
         <option value="$PROJECT_DIR$/project-ui/custom/webContent/modalwindow.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html" />
       </list>
     </option>
   </component>
@@ -542,13 +503,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-ui/custom/webContent/form/formButton.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="414">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-ui/custom/webContent/form/formInput.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="450">
@@ -691,13 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9403973" vertical-offset="12770" max-vertical-offset="13446">
           <caret line="741" column="76" selection-start-line="741" selection-start-column="76" selection-end-line="741" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15517241" vertical-offset="108" max-vertical-offset="10512">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -896,6 +843,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="11916">
           <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="10476">
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16157989" vertical-offset="0" max-vertical-offset="10476">
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
           <folding />
         </state>
       </provider>

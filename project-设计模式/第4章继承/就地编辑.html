@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        /*类式继承解决方案*/
+        function EditInPlaceField(id, parent, value){
+            this.id = id;
+            this.value = value || "default value";
+            this.parentElement = parent;
+
+            this.createElements(this.id);
+            this.attachEvents();
+        }
+
+        EditInPlaceField.prototype = {
+            createElement:function(id){
+                this.containerElement = document.createElement("div");
+                this.parentElement.appendChild(this.containerElement);
+
+                this.staticElement = document.createElement("span");
+                this.containerElement
+            }
+        };
+    </script>
+</body>
+</html>

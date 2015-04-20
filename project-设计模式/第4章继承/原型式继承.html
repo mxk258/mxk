@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript" src="clone.js"></script>
+    <script type="text/javascript">
+        //原型式继承
+        /*Person prototype Object*/
+        var Person = {
+            name: "default name",
+            getName: function(){
+                return this.name;
+            }
+        };
+        debugger;
+        var reader = clone(Person);
+        //alert(reader.getName());
+        reader.name = "Jshn Smith";
+        //alert(reader.getName());
+
+        /*Author prototype Object*/
+        var Author = clone(Person);
+        Author.books = [];
+        Author.getBooks = function(){
+            return this.books;
+        };
+        (function(){
+            var author = [];
+            author[0] = clone(Author);
+            author[0].name = "Dustin Diaz";
+            author[0].books = ["JavaScript Design Patterns"];
+            author[0].getName();
+            author[0].getBooks();
+        })();
+
+        //对继承而来的成员读和写的不对等性
+        (function(){
+            /*var authorClone = clone(Author);
+            alert(authorClone.name);
+            authorClone.name = "new Name";
+            alert(authorClone.name);
+            authorClone.books.push("new book");
+            alert(authorClone.getBooks());  //new book
+            alert(Author.getBooks());   //new book
+            authorClone.books = [];
+            alert(authorClone.getBooks());  //null
+            alert(Author.getBooks());   //new book*/
+        })();
+
+        (function(){
+            var CompoundObject = {
+                string1: "default value",
+                childObject:{
+                    bool:true,
+                    num:10
+                }
+            };
+            var compoundObjectClone = clone(CompoundObject);
+            //Bad! Changes the value of CompundObject.childObject.num
+            compoundObjectClone.childObject.num = 5;
+            alert(CompoundObject.childObject.num);
+            //Better!
+            compoundObjectClone.childObject = {
+                bool:true,
+                num:5
+            };
+        })();
+
+        (function(){
+            //最好的处理方案
+            var CompoundObject = {};
+            CompoundObject.string1 = "default value";
+            CompoundObject.createChildObject = function(){
+                return {
+                    bool:true,
+                    num:10
+                };
+            };
+
+            CompoundObject.childObject = CompoundObject.createChildObject();
+
+            var compoundObjectClone = clone(CompoundObject);
+            compoundObjectClone.childObject = CompoundObject.createChildObject();
+            compoundObjectClone.childObject.num = 5;
+            alert(CompoundObject.childObject.num);
+        })();
+    </script>
+</body>
+</html>
