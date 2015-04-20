@@ -5,6 +5,7 @@
     <title>科淘网-供需对接-在线展会</title>
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <style type="text/css">
+		/*流程图*/
 		.box-liucheng{ padding:0 52px; background:#f9f9f9;}
     	.box-liucheng h2{ height:73px; line-height:77px;color:#c00; font-size:26px; text-indent:8px;}
 		.box-liucheng a{ float:left; width:190px; height:94px; line-height:94px; font-size:22px; color:#c00; text-indent:75px;}
@@ -12,9 +13,40 @@
 		.box-liucheng .link-01{ background:url(../images/btn-liucheng1.png);}
 		.box-liucheng .link-02{background:url(../images/btn-liucheng2.png);}
 		.box-liucheng .link-03{background:url(../images/btn-liucheng3.png);}
+		
+		/*近期展会*/
+		.box-h3-h52{ position:relative; z-index:1; height:52px; line-height:52px; font-size:20px; text-indent:3px;}
+		.box-h3-h52 .more{ position:absolute; top:0; right:0; height:52px; line-height:52px; font-family:"宋体"; font-size:14px;}
+		.box-zhanhui{ padding:11px 13px 11px 10px;}
+		.box-zhanhui div.pl15{ width:425px;}
+		.box-zhanhui h4{ padding:0 0 10px 0; height:34px; line-height:34px; font-size:16px; font-weight:bold;}
+		.box-zhanhui p{ line-height:24px; font-size:15px; font-family:"宋体"; color:#666;}
+		.btn-red{ display:block; width:112px; height:40px; line-height:40px; text-align:center; background:#c00; color:#fff; font-size:16px;}
+		.btn-red:hover{ color:#fff;}
+		.box-zhanhui .btn-red{ margin:42px 0 0 0;}
+		.box-zhanhui .article{ font-size:14px; text-indent:2em;}
+		.btn-w-190{ display:block; width:190px; height:30px; line-height:30px; text-align:center; color:#fff;}
+		.btn-w-190 b{ color:#fff;}
+		/*往期展会*/
+		.box-wangqi{ padding:0 21px 23px 21px; border-top:1px dashed #ababa7; background:#ffffe8;}
+		.box-wangqi h4{ height:47px; line-height:54px; font-size:16px; font-family:"宋体"; font-weight:bold;}
+		.box-wangqi a:hover{ color:#fff;}
+		/*举办展会*/
+		.ls-juban li{ width:190px; height:110px;}
+		.ls-juban li .link{ height:69px; text-align:center; border:1px solid #ffeb8c; border-bottom:0; font-size:16px; color:#f90; background:#ffffe8;}
+		.ls-juban li .link a{ position:relative; z-index:1; padding-right:20px; display:inline-block;height:69px; line-height:72px; font-size:42px; color:#f90;}
+		.ls-juban li .link a:hover{ color:#c00;}
+		.ls-juban li .link a span{ position:absolute; top:0; right:0; color:#f90; font-size:16px;}
+		.ls-juban li .title{ height:40px; line-height:40px; text-align:center; color:#f90; font-size:16px; background:#fff1b0;}
+		/*分区平台*/
+		.ls_fenqu{ height:138px;border:1px solid #ddd; border-right:none; border-bottom:none; overflow:hidden;}
+		.ls_fenqu li{ border:1px solid #ddd; border-top:none; border-left:none;}
+		.ls_fenqu li a{ display:block; width:168px; height:68px; line-height:68px; text-align:center; color:#666; font-weight:bold; font-size:15px;}
+		.ls_fenqu li a:hover,
+		.ls_fenqu li.selected a{ color:#fff; background:#c00;}
     </style>
 </head>
-<body style="background: url(../images/bg/zxzh.png) -20px 3px;">
+<body>
 <!-- header start -->
 <div id="header">
     <div class="pc clearfix fm_s">
@@ -153,7 +185,7 @@
                     </li>
                 </ol>
             </li>
-            <li class="nav-l">
+            <li class="nav-l selected">
                 <a class="nav-b nav-b-04" href="#">供需对接</a>
                 <ol>
                     <li>
@@ -212,9 +244,269 @@
                     </div>
                 </div>
                 <!-- 参展流程 end -->
+                <!-- 近期展会 start -->
+                <h3 class="box-h3-h52">
+                    近期展会
+                    <a class="more" href="#">更多>></a>
+                </h3>
+                <div class="bor_1_ddd box-zhanhui clearfix">
+                	<a class="fl" href="#">
+                    	<img src="../images/zh-01.png" />
+                    </a>
+                    <div class="fl pl15">
+                    	<h4>新型节能环保产业科技成果在线对接会</h4>
+                        <p>展会时间：05月13日 09：00-11:30</p>
+                        <p>主办单位：科淘网</p>
+                        <p>相关行业：高效节能环保技术 污水处理技术</p>
+                    </div>
+                    <a class="btn-red fr">我要参展</a>
+                </div>
+                <div class="bor_1_ddd box-zhanhui clearfix mt9">
+                	<a class="fl" href="#">
+                    	<img src="../images/zh-02.png" />
+                    </a>
+                    <div class="fl pl15">
+                    	<h4>新型节能环保产业科技成果在线对接会</h4>
+                        <p>展会时间：05月13日 09：00-11:30</p>
+                        <p>主办单位：科淘网</p>
+                        <p>相关行业：高效节能环保技术 污水处理技术</p>
+                    </div>
+                    <a class="btn-red fr">我要参展</a>
+                </div>
+                <div class="bor_1_ddd box-zhanhui clearfix mt9">
+                	<a class="fl" href="#">
+                    	<img src="../images/zh-03.png" />
+                    </a>
+                    <div class="fl pl15">
+                    	<h4>新型节能环保产业科技成果在线对接会</h4>
+                        <p>展会时间：05月13日 09：00-11:30</p>
+                        <p>主办单位：科淘网</p>
+                        <p>相关行业：高效节能环保技术 污水处理技术</p>
+                    </div>
+                    <a class="btn-red fr">我要参展</a>
+                </div>
+                <!-- 近期展会 end -->
+                <!-- 往期展会 start -->
+                <h3 class="box-h3-h52">
+                    往期展会
+                </h3>
+                <div class="bor_1_ddd">
+                	<div class="box-wangqi noBor">
+                    	<h4>哈尔滨工业大学-成果转化网上对接会</h4>
+                        <div class="clearfix">
+                        	<a class="btn-w-190 bg_f90 fl" href="#">实现对接<b>25</b>次</a>
+                            <a class="btn-w-190 bg_20b fl ml8" href="#">产生意向<b>195</b>次</a>
+                            <a class="btn-w-190 bg_f30 fl ml8" href="#">达成意向<b>96</b>次</a>
+                        </div>
+                    </div>
+                    <div class="box-wangqi">
+                    	<h4>哈尔滨工业大学-成果转化网上对接会</h4>
+                        <div class="clearfix">
+                        	<a class="btn-w-190 bg_f90 fl" href="#">实现对接<b>25</b>次</a>
+                            <a class="btn-w-190 bg_20b fl ml8" href="#">产生意向<b>195</b>次</a>
+                            <a class="btn-w-190 bg_f30 fl ml8" href="#">达成意向<b>96</b>次</a>
+                        </div>
+                    </div>
+                    <div class="box-wangqi">
+                    	<h4>哈尔滨工业大学-成果转化网上对接会</h4>
+                        <div class="clearfix">
+                        	<a class="btn-w-190 bg_f90 fl" href="#">实现对接<b>25</b>次</a>
+                            <a class="btn-w-190 bg_20b fl ml8" href="#">产生意向<b>195</b>次</a>
+                            <a class="btn-w-190 bg_f30 fl ml8" href="#">达成意向<b>96</b>次</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 往期展会 end -->
+                <!-- 在线展会 start -->
+                <h3 class="box-h3-h52">
+                    在线展会活动体验
+                    <a class="more" href="#">更多>></a>
+                </h3>
+                <div class="bor_1_ddd box-zhanhui clearfix">
+                	<a class="fl" href="#">
+                    	<img src="../images/zh-01.png" />
+                    </a>
+                    <div class="fl pl15">
+                    	<h4 class="p0">新型节能环保产业科技成果在线对接会</h4>
+                        <p class="article">为整合优质科技成果资源，加快科技成果转化和产业化，促进新兴产业发展，助推企业转型升级，科淘网定于2015年5月13日举办“新型节能环保产业在线科技成果对接会”。欢迎广大用户报名参与。... </p>
+                    </div>
+                    <a class="btn-red fr">我要参展</a>
+                </div>
+                <!-- 在线展会 end -->
             </div>
-            <div class="fr"></div>
+            <div class="fr w385">
+            	<!-- 举办展会 start -->
+            	<ul class="ls_fl clearfix ls-juban h225">
+                	<li>
+                    	<p class="link">
+                        	<a>108<span>次</span></a>
+                        </p>
+                        <div class="title">举办展会</div>
+                    </li>
+                    <li class="ml5">
+                    	<p class="link">
+                        	<a>356<span>次</span></a>
+                        </p>
+                        <div class="title">实现对接</div>
+                    </li>
+                    <li class="mt5">
+                    	<p class="link">
+                        	<a>199<span>次</span></a>
+                        </p>
+                        <div class="title">产生意向</div>
+                    </li>
+                    <li class="ml5 mt5">
+                    	<p class="link">
+                        	<a>152<span>次</span></a>
+                        </p>
+                        <div class="title">达成意向</div>
+                    </li>
+                </ul>
+                <!-- 举办展会 end -->
+                <!-- 参展成果 start -->
+                <h3 class="h-more-red mt10">参展成果</h3>
+                <div class="p0-30 h278 bor_1_ddd">
+                	<ul class="ls_fl clearfix ls-fwxq pt15">
+                    	<li>
+                        	<a href="#">三江平原农作物育种有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">中药剂型改革实验室</a>
+                        </li>
+                        <li>
+                        	<a href="#">电工仪器仪表工程技术开发有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">哈南科技开发有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">出租车特色服务公司</a>
+                        </li>
+                        <li>
+                            <a href="#">电工仪器仪表工程技术开发有限公司</a>
+                        </li>
+                        <li>
+                            <a href="#">哈南科技开发有限公司</a>
+                        </li>
+                        <li>
+                            <a href="#">出租车特色服务公司</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 参展成果 end -->
+                <!-- 参展需求 start -->
+                <h3 class="h-more-red mt12">参展需求</h3>
+                <div class="p0-30 h278 bor_1_ddd">
+                	<ul class="ls_fl clearfix ls-fwxq pt15">
+                    	<li>
+                        	<a href="#">三江平原农作物育种有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">中药剂型改革实验室</a>
+                        </li>
+                        <li>
+                        	<a href="#">电工仪器仪表工程技术开发有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">哈南科技开发有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">出租车特色服务公司</a>
+                        </li>
+                        <li>
+                            <a href="#">电工仪器仪表工程技术开发有限公司</a>
+                        </li>
+                        <li>
+                            <a href="#">哈南科技开发有限公司</a>
+                        </li>
+                        <li>
+                            <a href="#">出租车特色服务公司</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 参展需求 end -->
+                <!-- 常见问题 start -->
+                <h3 class="h-more-red mt15">常见问题</h3>
+                <div class="p0-30 h278 bor_1_ddd">
+                	<ul class="ls_fl clearfix ls-fwxq pt15">
+                    	<li>
+                        	<a href="#">三江平原农作物育种有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">中药剂型改革实验室</a>
+                        </li>
+                        <li>
+                        	<a href="#">电工仪器仪表工程技术开发有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">哈南科技开发有限公司</a>
+                        </li>
+                        <li>
+                        	<a href="#">出租车特色服务公司</a>
+                        </li>
+                        <li>
+                            <a href="#">电工仪器仪表工程技术开发有限公司</a>
+                        </li>
+                        <li>
+                            <a href="#">哈南科技开发有限公司</a>
+                        </li>
+                        <li>
+                            <a href="#">出租车特色服务公司</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 常见问题 end -->
+            </div>
         </div>
+        <!-- 分区平台 start -->
+        <h3 class="box-h3">
+            分区平台
+        </h3>
+        <ul class="ls_fl clearfix ls_fenqu">
+        	<li class="selected">
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+            <li>
+            	<a href="#">分区平台</a>
+            </li>
+        </ul>
+        <!-- 分区平台 end -->
         <!-- link start -->
         <h3 class="box-h3">
             友情链接
