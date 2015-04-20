@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>科技人才</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <style type="text/css">
+	.ls-kjrc li{ margin:10px 12px 0 0; width:407px; height:150px;}
+    .ls-kjrc li .pad{ padding:14px 14px 15px 14px; border:1px solid #ddd;}
+	.ls-kjrc li .pad:hover{ border:1px solid #20b2aa;}
+	.ls-kjrc li .img{ display:block; width:120px; height:120px;}
+	.ls-kjrc li .box-detail{ width:245px;}
+	.ls-kjrc li .box-detail a{ display:block; height:18px; line-height:18px; font-size:16px; color:#1c958e;}
+	.ls-kjrc li .box-detail .fx{ height:30px; line-height:30px; font-size:14px; margin-top:7px;}
+	.ls-kjrc li .box-detail .detail{ line-height:19px; font-family:"宋体"; color:#666;}
+    </style>
+</head>
+<body style="background: url(../images/bg/kjrc.png) -20px 3px;">
+<!-- header start -->
+<div id="header">
+    <div class="pc clearfix fm_s">
+        <div class="fl">
+            <span>您好，欢迎光临科服汇！</span>
+            <a class="fc_c00 ml15" href="#">免费注册</a>
+            <a class="fc_c00 ml12" href="#">登录</a>
+            <a class="pr15 pr15 ml17 pr mykfh" href="#">
+                我的科淘网
+                <b class="arrowDown pa"></b>
+            </a>
+        </div>
+        <div class="fr pr link">
+            <a class="fl pa" href="#">
+                <img src="../images/icon_44.png" alt="微信"/>
+            </a>
+            <a class="fl pa ml40" href="#">
+                <img src="../images/icon_45.png" alt="新浪微博"/>
+            </a>
+            <a class="ml10" href="#">科淘网首页</a>
+            <a class="ml20" href="#">帮助中心</a>
+        </div>
+    </div>
+</div>
+<!-- header end -->
+<!-- content start -->
+<div id="content">
+    <!-- search start -->
+    <div id="box_search" class="clearfix pc pt17">
+        <div class="clearfix">
+            <div class="fl logo">
+                <a class="fl" href="index.html">
+                    <img src="../images/logo-shop.png" alt="科淘网" title="科淘网"/>
+                </a>
+                <a class="fl logo2" href="#">科技资源</a>
+            </div>
+            <div class="fr clearfix w848">
+                <div class="fl">
+                    <ul id="searchList" class="ls_fl ls_search ls_search_c00 clearfix fm_s">
+                        <li>
+                            <a class="selected" value="kjfw">全部</a>
+                        </li>
+                        <li>
+                            <a value="jmjg">成果</a>
+                        </li>
+                        <li>
+                            <a value="zwxx">需求</a>
+                        </li>
+                        <li>
+                            <a value="zwxx">展会</a>
+                        </li>
+                        <li>
+                            <a value="zwxx">专家</a>
+                        </li>
+                    </ul>
+                    <form id="searchForm" action="kjfw" method="post">
+                        <div class="tab_1 bor_2_c00 box_searchInput clearfix">
+                            <input class="text fl" type="text" value="搜索"/>
+                            <input class="submit fl bg_c00 f18" type="submit" value="搜索"/>
+                        </div>
+                    </form>
+                    <ul class="ls_fl clearfix ls-search">
+                        <li>
+                            <a href="#">检验检测</a>
+                        </li>
+                        <li>
+                            <a href="#">技术转移</a>
+                        </li>
+                        <li>
+                            <a href="#">成果公告</a>
+                        </li>
+                        <li>
+                            <a href="#">科技奖励</a>
+                        </li>
+                        <li>
+                            <a href="#">服务信息</a>
+                        </li>
+                        <li>
+                            <a href="#">科技金融</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fr clearfix box03 pt30">
+                    <div class="fl">
+                        <a class="a_sqjm  a_sqjm2 f14 fm_s" href="#">申请加盟</a>
+
+                        <p class="fc_f60 f16">8009-170-114</p>
+                    </div>
+                    <div class="fl ml8">
+                        <a class="a_gxfb f14 fm_s" href="#">供需发布</a>
+
+                        <p class="fc_f60 f16">4008-970-114</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- search end -->
+    <!-- nav start -->
+    <div id="nav">
+        <ul class="ls_fl clearfix pc">
+            <li class="nav-l bor_l_none pr20">
+                <a class="nav-b nav-b-01 pl50" href="#">首页</a>
+            </li>
+            <li class="nav-l">
+                <a class="nav-b nav-b-02" href="#">创新主体</a>
+                <ol>
+                    <li>
+                        <a href="#">企业</a>
+                    </li>
+                    <li>
+                        <a href="#">高校</a>
+                    </li>
+                    <li>
+                        <a href="#">科研院所</a>
+                    </li>
+                    <li>
+                        <a href="#">服务机构</a>
+                    </li>
+                </ol>
+            </li>
+            <li class="nav-l selected">
+                <a class="nav-b nav-b-03" href="#">科技资源</a>
+                <ol>
+                    <li>
+                        <a href="#">科技成果</a>
+                    </li>
+                    <li>
+                        <a href="#">创新需求</a>
+                    </li>
+                    <li>
+                        <a href="#">科技人才</a>
+                    </li>
+                    <li>
+                        <a href="#">科技服务</a>
+                    </li>
+                </ol>
+            </li>
+            <li class="nav-l">
+                <a class="nav-b nav-b-04" href="#">供需对接</a>
+                <ol>
+                    <li>
+                        <a href="#">在线会展</a>
+                    </li>
+                    <li>
+                        <a href="#">自主推荐</a>
+                    </li>
+                    <li>
+                        <a href="#">系统匹配</a>
+                    </li>
+                    <li>
+                        <a href="#">定制服务</a>
+                    </li>
+                </ol>
+            </li>
+            <li class="nav-l bor_r_none">
+                <a class="nav-b nav-b-05" href="#">作价交易</a>
+                <ol>
+                    <li>
+                        <a href="#">技术评估</a>
+                    </li>
+                    <li>
+                        <a href="#">线下服务</a>
+                    </li>
+                    <li>
+                        <a href="#">在线支付</a>
+                    </li>
+                    <li>
+                        <a href="#">政策支持</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+    <!-- nav end -->
+    <div class="pc">
+        <!-- address start -->
+        <div id="address">
+            <a href="#">首页</a><span>  > </span>
+            <a href="#">科技资源</a><span>  > </span>
+            <a class="current" href="#">科技人才</a>
+        </div>
+        <!-- address end -->
+        <!-- 类型 start -->
+        <div class="clearfix box-hylb box-chanye">
+            <div class="clearfix bor-t-1-eee">
+                <div class="head fl">类型</div>
+                <ul class="ls_fl fl clearfix">
+                    <li class="selected">
+                        <a>全部</a>
+                    </li>
+                    <li>
+                    	<a href="#">个人</a>
+                    </li>
+                    <li>
+                    	<a href="#">研究机构</a>
+                    </li>
+                    <li>
+                    	<a href="#">高校</a>
+                    </li>
+                    <li>
+                    	<a href="#">企业</a>
+                    </li>
+                    <li>
+                    	<a href="#">技术交易专员</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix">
+                <div class="head fl">领域</div>
+                <ul class="ls_fl fl clearfix">
+                    <li class="selected">
+                        <a>全部</a>
+                    </li>
+                    <li>
+                        <a>生物医药</a>
+                    </li>
+                    <li>
+                        <a>环保和资源</a>
+                    </li>
+                    <li>
+                        <a>食品饮料</a>
+                    </li>
+                    <li>
+                        <a>新型材料</a>
+                    </li> 
+                    <li>
+                        <a>农林牧业</a>
+                    </li>
+                    <li>
+                        <a>化学化工</a>
+                    </li>
+                    <li>
+                        <a>机械制造</a>
+                    </li>
+                    <li>
+                        <a>电子信息</a>
+                    </li>
+                    <li>
+                        <a class="more">更多>></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix">
+                <div class="head fl">所在领域</div>
+                <ul class="ls_fl fl clearfix">
+                    <li class="selected">
+                        <a>全部</a>
+                    </li>
+                    <li>
+                        <a>哈尔滨</a>
+                    </li>
+                    <li>
+                        <a>大庆</a>
+                    </li>
+                    <li>
+                        <a>牡丹江</a>
+                    </li>
+                    <li>
+                        <a>佳木斯</a>
+                    </li> 
+                    <li>
+                        <a>齐齐哈尔</a>
+                    </li>
+                    <li>
+                        <a>黑河</a>
+                    </li>
+                    <li>
+                        <a>大兴安岭</a>
+                    </li>
+                    <li>
+                        <a>鹤岗</a>
+                    </li>
+                    <li>
+                        <a class="more">更多>></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 类型 end -->
+        <div class="clearfix mt5">
+        	<!-- 科技人才 start -->
+        	<div class="fl w846">
+            	<ul class="ls_fl clearfix ls-kjrc">
+                	<li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-1.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-2.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-3.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-4.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-5.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-6.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-7.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-8.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-9.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-10.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-11.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-12.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-13.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-14.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-15.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-16.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-17.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="clearfix pad">
+                        	<a class="fl img">
+                                <img src="../images/kjrc-18.png" />
+                            </a>
+                            <div class="fr box-detail">
+                                <a href="#">石英尧</a>
+                                <p class="fx" href="#">研究方向：水稻分子育种</p>
+                                <p class="detail">简介:石英尧，男，1973年12月生，博士，副教授，安徽省学术与技术带头人后备人选，承担《作物育种...</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="page mt10">
+                	<a class="prev" href="#">上一页</a>
+                    <a class="selected" href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <span>...</span>
+                    <a class="next" href="#">下一页</a>
+                </div>
+            </div>
+            <!-- 科技人才 end -->
+            <div class="fr w343"></div>
+        </div>
+        <!-- link start -->
+        <h3 class="box-h3">
+            友情链接
+        </h3>
+        <ul class="ls_fl clearfix ls-friend">
+            <li class="ml5">
+                <a href="#">
+                    <img src="../images/ad-1.png" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../images/ad-2.png" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../images/ad-3.png" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../images/ad-4.png" />
+                </a>
+            </li>
+        </ul>
+        <!-- link end -->
+    </div>
+</div>
+<!-- footer start -->
+<div id="footer" class="w">
+    <div class="pc">
+        <p class="tc f_link pt20">
+            <a href="#">关于我们</a>|
+            <a href="#">网站地图</a>|
+            <a href="#">合作伙伴</a>|
+            <a href="#">法律声明</a>|
+            <a href="#">联系我们</a>
+        </p>
+        <p class="tc">
+            黑龙江省科技成果转化中心&nbsp;&nbsp;&nbsp;&nbsp;联系电话： 0451-51920911 <span class="ml15">黑ICP备047814858</span>
+        </p>
+        <p class="tc f_link_img mt5">
+            <a href="#">
+                <img src="../images/i_police.png" alt="police"/>
+            </a>
+            <a href="#">
+                <img src="../images/i_emblem.png" alt="emblem"/>
+            </a>
+            <a href="#">
+                <img src="../images/i_credibleWeb.png" alt="_credibleWeb"/>
+            </a>
+            <a href="#">
+                <img src="../images/i_recordWeb.png" alt="recordWeb"/>
+            </a>
+        </p>
+    </div>
+</div>
+<!-- footer end -->
+<script src="../js/jquery-1.9.1.js"></script>
+<script src="../js/base.js"></script>
+<script type="text/javascript">
+    $(document).ready(function (e) {
+        //初始化搜索
+        GLOBAL.Search.init();
+    });
+</script>
+</body>
+</html>
