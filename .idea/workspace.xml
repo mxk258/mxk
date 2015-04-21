@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e05400-512d-4932-88ea-bc71243615a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/btn-xxfw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/link-circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/xxfw.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/css/base.css" afterPath="$PROJECT_DIR$/project-科淘网/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-政策支持.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" />
     </list>
     <ignored path="mxk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +40,8 @@
       <file leaf-file-name="科淘网-作价交易-线下服务.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-线下服务.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0" vertical-offset="252" max-vertical-offset="5670">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="6246">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -134,11 +129,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-创新主体-服务机构.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="科淘网-创新主体-服务机构.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39317775" vertical-offset="1797" max-vertical-offset="11556">
-              <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
+            <state vertical-scroll-proportion="-2.0" vertical-offset="5558" max-vertical-offset="11556">
+              <caret line="318" column="16" selection-start-line="318" selection-start-column="16" selection-end-line="322" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="科淘网-作价交易-政策支持.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-政策支持.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6631579" vertical-offset="378" max-vertical-offset="4770">
+              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -157,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/用属性检查模仿接口.html" />
         <option value="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/用鸭式辩型模仿接口.html" />
         <option value="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/本书使用接口.html" />
         <option value="$PROJECT_DIR$/project-javascriptDesign/webContent/tryCatch.html" />
@@ -208,6 +212,7 @@
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-线下服务.html" />
         <option value="$PROJECT_DIR$/project-科淘网/css/base.css" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-政策支持.html" />
       </list>
     </option>
   </component>
@@ -362,24 +367,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-科淘网" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -428,9 +415,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\workSpace\mxk\project-科淘网\images" />
-      <recent name="G:\workSpace\mxk\project-科淘网\images\bg" />
       <recent name="G:\workSpace\mxk\project-科淘网\webContent" />
+      <recent name="G:\workSpace\mxk\project-科淘网\images\bg" />
+      <recent name="G:\workSpace\mxk\project-科淘网\images" />
       <recent name="G:\workSpace\mxk\project-ui\custom\webContent\form\images" />
       <recent name="G:\workSpace\mxk\project-ui" />
     </key>
@@ -618,13 +605,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-ui/bootstrap-3.3.4/dist/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1682243" vertical-offset="0" max-vertical-offset="428">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-ui/bootstrap-3.3.4/docs/_includes/css/forms.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.062068965" vertical-offset="0" max-vertical-offset="18558">
@@ -891,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-线下服务.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0" vertical-offset="252" max-vertical-offset="5670">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="6246">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -981,8 +961,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39317775" vertical-offset="1797" max-vertical-offset="11556">
-          <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
+        <state vertical-scroll-proportion="-2.0" vertical-offset="5558" max-vertical-offset="11556">
+          <caret line="318" column="16" selection-start-line="318" selection-start-column="16" selection-end-line="322" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-政策支持.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6631579" vertical-offset="378" max-vertical-offset="4770">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
           <folding />
         </state>
       </provider>
