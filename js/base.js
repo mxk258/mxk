@@ -180,39 +180,18 @@ GLOBAL.Method.inherit = function (p) {
     f.prototype = p;
     return new f();
 };
-//复制
-//将第二个以及后续参数复制至第一个参数
-GLOBAL.Method.extend = (function () {
-    for (var p in {
-        toString: null
-    }) {
-        return function extend(o) {
-            for (var i = 1, iLen = arguments.length; i < iLen; i++) {
-                var source = arguments[i];
-                for (var prop in source) {
-                    o[prop] = source[prop];
-                }
-            }
-            return o;
-        };
+//类式集成
+GLOBAL.Method.extend = function (subClass, superClass){
+    var F = function(){};
+    F.prototype = superClass.prototype;
+    subClass.prototype = new F();
+    subClass.prototype.constructor = subClass;
+    subClass.superClass = superClass.prototype;
+
+    if(superClass.prototype.constructor == Object.prototype.constructor){
+        superClass.prototype.constructor = superClass;
     }
-    return function patched_extend(o) {
-        var protoprops = ["toString", "valueOf", "constructor", "hasOwnProperty", "isPrototypeOf", "propertyIsEnumerable", "toLocalString"];
-        for (var i = 1, iLen = arguments.length; i < iLen; i++) {
-            var source = arguments[i];
-            for (var prop in source) {
-                o[prop] = source[prop];
-            }
-            for (var j = 0, jLen = protoprops.length; j < jLen; j++) {
-                prop = protoprops[j];
-                if (source.hasOwnProperty(prop)) {
-                    o[prop] = source[prop];
-                }
-            }
-            return o;
-        }
-    };
-})();
+}
 
 //清除冒泡
 GLOBAL.Method.stopPropagation = function (e) {
@@ -285,7 +264,7 @@ GLOBAL.Interface = GLOBAL.Interface || function (name, methods) {
     }
 };
 
-// Static class method.
+// 接口
 GLOBAL.Interface.ensureImplements = function (object) {
     if (arguments.length < 2) {
         throw new Error("Function Interface.ensureImplements called with " +

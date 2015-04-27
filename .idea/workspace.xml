@@ -2,136 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e05400-512d-4932-88ea-bc71243615a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-cg-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-fbcxxq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-wyjm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-zjk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/alje-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/alje-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/alje-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/alje-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/alje-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/banner-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner-index-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner-index-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner-zj-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/banner_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/banner_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/banner_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/banner_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/bg-nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg-rcjk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/fwpp-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/fwpp-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/fwpp-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/fwpp-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/fwpp-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/fwpp-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/gy-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/gy-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/gy-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/i_circle2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/i_credibleWeb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/i_emblem.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/i_police.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/i_recordWeb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/i_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-black-diamonds-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-black-diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-chengguo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon-circle-gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-diqiu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-fbcg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-fbcxxq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-jiaotan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon-lb-detail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon-lb-selected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon-lb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon-li-0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon-nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-qizi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-wyjm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-xuanzhuan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zjk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zykfl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon_44.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon_45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/bg/index.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/bg/jsscxxg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/bg/kjcgtg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/kjtg-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/kjtg-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/kjtg-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/kjtg-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/ktw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/bg/lb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/tgtj-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/tgtj-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/tgtj-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/wsdj-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/wsdj-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/wsdj-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zj-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zj-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zj-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zj-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zj-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zj-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/js/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/js/jquery-1.9.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/模板.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-首页.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/龙转网-科技推广.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/龙转网列表.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/龙转网详细.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/css/base.css" afterPath="$PROJECT_DIR$/project-科淘网/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.css" afterPath="$PROJECT_DIR$/test.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.js" afterPath="$PROJECT_DIR$/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceArea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-设计模式/第4章继承/agument.js" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/agument.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base.js" afterPath="$PROJECT_DIR$/js/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-设计模式/第4章继承/extend.js" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/extend.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技服务协会.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技服务协会.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html" />
     </list>
     <ignored path="mxk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -155,212 +34,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="科淘网-首页.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-首页.html">
+      <file leaf-file-name="就地编辑.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="29466">
-              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="522">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-科技资源-科技服务.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html">
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="9396">
-              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.3380783" vertical-offset="3086" max-vertical-offset="7272">
+              <caret line="182" column="6" selection-start-line="182" selection-start-column="6" selection-end-line="182" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-科技服务协会.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技服务协会.html">
+      <file leaf-file-name="EditInPlaceField.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="90" max-vertical-offset="12222">
-              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="科淘网-科技资源-科技人才.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="12060">
-              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="科淘网-创新主体-高校.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-高校.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="8640">
-              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="2070">
+              <caret line="50" column="53" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="53" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-创新主体-企业.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-企业.html">
+      <file leaf-file-name="EditInPlaceArea.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceArea.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12132">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc;n#EditInPlaceArea#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditInPlaceField2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1094" max-vertical-offset="1674">
+              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#49#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clone.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/clone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-供需对接-自主推荐.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html">
+      <file leaf-file-name="extend.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/extend.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="6606">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="科淘网-供需对接-定制服务.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-定制服务.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="5706">
-              <caret line="237" column="43" selection-start-line="237" selection-start-column="43" selection-end-line="237" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="科淘网-供需对接-在线展会.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-在线展会.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="9756">
-              <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="科淘网-作价交易-线下服务.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-线下服务.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="6246">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="科淘网-作价交易-政策支持.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-政策支持.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="11322">
-              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/css/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="13726" max-vertical-offset="19746">
-              <caret line="776" column="0" selection-start-line="776" selection-start-column="0" selection-end-line="784" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="龙转网详细.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网详细.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22105263" vertical-offset="0" max-vertical-offset="5202">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.686747" vertical-offset="14087" max-vertical-offset="14598">
-              <caret line="825" column="0" selection-start-line="825" selection-start-column="0" selection-end-line="833" selection-end-column="9" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="龙转网-技术市场信息港.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="8514">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="龙转网列表.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网列表.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.5" vertical-offset="180" max-vertical-offset="5148">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-              <folding>
-                <marker date="1430054499694" expanded="true" signature="8269:8608" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-龙转网/js/base.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6030" max-vertical-offset="6624">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="模板.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/模板.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.9583335" vertical-offset="217" max-vertical-offset="2430">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-              <folding>
-                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="龙转网-科技推广.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网-科技推广.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.75" vertical-offset="684" max-vertical-offset="9090">
-              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="科淘网-作价交易-技术评估.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-技术评估.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="7200">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -379,10 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/创建对象的基本模式.html" />
-        <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用命名规范区别私用成员.html" />
-        <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/作用域、嵌套函数和闭包.html" />
-        <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用闭包实现私用成员.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/静态方法和属性.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/常量.html" />
         <option value="$PROJECT_DIR$/project-ui/custom/webContent/button/main.css" />
@@ -402,10 +142,7 @@
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技成果.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/原型式继承.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/argument.html" />
-        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/extend.js" />
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/argument.js" />
-        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/agument.js" />
-        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html" />
         <option value="$PROJECT_DIR$/project-ui/custom/webContent/modalwindow.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html" />
@@ -419,7 +156,6 @@
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/test.css" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-首页.html" />
-        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" />
         <option value="$PROJECT_DIR$/project-龙转网/webContent/index.html" />
         <option value="$PROJECT_DIR$/project-龙转网/webContent/header.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" />
@@ -430,6 +166,14 @@
         <option value="$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html" />
         <option value="$PROJECT_DIR$/project-龙转网/webContent/龙转网列表.html" />
         <option value="$PROJECT_DIR$/project-龙转网/webContent/龙转网详细.html" />
+        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/agument.js" />
+        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/extend.js" />
+        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html" />
+        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField.js" />
+        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceArea.js" />
+        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" />
+        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField2.js" />
+        <option value="$PROJECT_DIR$/js/base.js" />
       </list>
     </option>
   </component>
@@ -437,10 +181,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="338" />
+    <option name="y" value="2" />
+    <option name="width" value="1024" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -502,6 +246,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Changed Files" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -530,29 +277,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project-龙转网" />
+              <option name="myItemId" value="project-设计模式" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-龙转网" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="第4章继承" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,11 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project-龙转网" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="project-设计模式" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -584,15 +309,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project-龙转网" />
+              <option name="myItemId" value="project-设计模式" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bg" />
+              <option name="myItemId" value="第2章接口" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -606,7 +327,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project-龙转网" />
+              <option name="myItemId" value="project-设计模式" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第2章接口" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="在javascript中模仿接口" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -620,68 +349,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project-科淘网" />
+              <option name="myItemId" value="project-设计模式" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-科淘网" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-科淘网" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-科淘网" />
+              <option name="myItemId" value="第1章富有表现力的javascript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Changed Files" />
       </pane>
     </panes>
   </component>
@@ -696,7 +372,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/workSpace/mxk/project-设计模式/接口/在javascript中模仿接口/用属性检查模仿接口.html&#10;node&#9;ACTION&#9;ShowNodeJSSettingsAction" />
+    <property name="SearchEverywhereHistoryKey" value="a&#9;FILE&#9;file://G:/workSpace/mxk/js/base.js&#10;node&#9;ACTION&#9;ShowNodeJSSettingsAction" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="159" />
@@ -767,10 +443,14 @@
       <ConfigurationWrapper RunnerId="debuggableProgram" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -778,10 +458,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -864,29 +540,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="338" y="2" width="1024" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5049669" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21803127" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21056548" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28701827" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.49962825" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28330892" sideWeight="0.23219815" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46548957" sideWeight="0.50037175" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.256" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27244583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.49962825" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.49962825" order="13" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -907,9 +583,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2827381" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.49962825" order="13" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -934,74 +610,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="153" />
+      <option name="time" value="154" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/tree/formatting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="96" max-vertical-offset="666">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/tree/editable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.5" vertical-offset="0" max-vertical-offset="576">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/tree/dnd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/tree/contextmenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.0" vertical-offset="216" max-vertical-offset="1260">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/tree/checkbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.75" vertical-offset="186" max-vertical-offset="756">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/tree/actions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.5" vertical-offset="96" max-vertical-offset="936">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/tree/animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/treegrid/actions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="132" max-vertical-offset="1242">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/treegrid/basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="132" max-vertical-offset="702">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/treegrid/clientpagination.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="29.541666" vertical-offset="1735" max-vertical-offset="2988">
@@ -1041,13 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/原型式继承.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.0" vertical-offset="1176" max-vertical-offset="1746">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1107,25 +713,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3655" max-vertical-offset="7650">
-          <caret line="217" column="0" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.541667" vertical-offset="743" max-vertical-offset="2304">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="648">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7920" max-vertical-offset="11916">
           <caret line="441" column="25" selection-start-line="293" selection-start-column="8" selection-end-line="441" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="10476">
           <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2016" max-vertical-offset="11160">
           <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="11556">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,14 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="9756">
           <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-线下服务.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="6246">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1248,7 +827,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/模板.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.9583335" vertical-offset="217" max-vertical-offset="2430">
+        <state vertical-scroll-proportion="0.0" vertical-offset="217" max-vertical-offset="2430">
           <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
           <folding>
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1258,7 +837,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网-科技推广.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.75" vertical-offset="684" max-vertical-offset="9090">
+        <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="9090">
           <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding />
         </state>
@@ -1266,7 +845,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="9396">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="9396">
           <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
           <folding />
         </state>
@@ -1274,7 +853,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.686747" vertical-offset="14087" max-vertical-offset="14598">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14087" max-vertical-offset="14598">
           <caret line="825" column="0" selection-start-line="825" selection-start-column="0" selection-end-line="833" selection-end-column="9" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1284,7 +863,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="8514">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="8514">
           <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
@@ -1292,10 +871,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网列表.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.5" vertical-offset="180" max-vertical-offset="5148">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="5148">
           <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding>
-            <marker date="1430054499694" expanded="true" signature="8269:8608" placeholder="..." />
+            <marker date="1430054499694" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1310,7 +889,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="12060">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="12060">
           <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
           <folding />
         </state>
@@ -1326,8 +905,118 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网详细.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22105263" vertical-offset="0" max-vertical-offset="5202">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.67863554" vertical-offset="36" max-vertical-offset="3852">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-线下服务.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="6246">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/agument.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/原型式继承.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.0" vertical-offset="1152" max-vertical-offset="1746">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/继承.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2322">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第2章接口/在javascript中模仿接口/本书使用接口.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05096661" vertical-offset="241" max-vertical-offset="810">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="1134">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1094" max-vertical-offset="1674">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/clone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/extend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceArea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#EditInPlaceArea#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="2070">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="522">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3380783" vertical-offset="3086" max-vertical-offset="7272">
+          <caret line="182" column="6" selection-start-line="182" selection-start-column="6" selection-end-line="182" selection-end-column="6" />
           <folding />
         </state>
       </provider>

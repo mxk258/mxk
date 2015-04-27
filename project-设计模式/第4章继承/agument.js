@@ -1,5 +1,7 @@
 /**
  * Created by Administrator on 2015/4/17.
+ * 传2个参数则复制givingClass的所有属性和方法
+ * 传3个参数，第三个参数为方法名，复制givingClass的制定方法
  */
 function agument(receivingClass, givingClass){
     receivingClass.prototype = receivingClass.prototype || {};

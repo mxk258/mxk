@@ -1,3 +1,6 @@
+/**
+ * Created by Administrator on 2015/4/17.
+ */
 function extend(subClass, superClass){
     var F = function(){};
     F.prototype = superClass.prototype;
@@ -8,6 +11,4 @@ function extend(subClass, superClass){
     if(superClass.prototype.constructor == Object.prototype.constructor){
         superClass.prototype.constructor = superClass;
     }
-}/**
- * Created by Administrator on 2015/4/17.
- */
+}
