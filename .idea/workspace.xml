@@ -2,8 +2,136 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e05400-512d-4932-88ea-bc71243615a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-政策支持.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-cg-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-fbcxxq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/ad-index-9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-wyjm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad-zjk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/ad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/alje-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/alje-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/alje-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/alje-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/alje-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/banner-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner-index-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner-index-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/banner-zj-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/banner_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/banner_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/banner_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/banner_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/bg-nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg-rcjk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/fwpp-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/fwpp-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/fwpp-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/fwpp-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/fwpp-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/fwpp-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/gy-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/gy-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/gy-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/i_circle2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/i_credibleWeb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/i_emblem.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/i_police.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/i_recordWeb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/i_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-black-diamonds-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-black-diamonds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-chengguo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon-circle-gray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-diqiu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-fbcg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-fbcxxq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-jiaotan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon-lb-detail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon-lb-selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon-lb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon-li-0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon-nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-qizi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-wyjm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-xuanzhuan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zj-9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zjk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon-zykfl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon_44.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/icon_45.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/bg/index.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/bg/jsscxxg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/bg/kjcgtg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/kjtg-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/kjtg-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/kjtg-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/kjtg-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/ktw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/bg/lb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/tgtj-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/tgtj-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/tgtj-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/wsdj-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/wsdj-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/images/wsdj-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zj-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zj-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zj-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zj-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zj-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/zj-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/js/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/js/jquery-1.9.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/模板.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-首页.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/龙转网-科技推广.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/龙转网列表.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-龙转网/webContent/龙转网详细.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/css/base.css" afterPath="$PROJECT_DIR$/project-科淘网/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.css" afterPath="$PROJECT_DIR$/test.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.js" afterPath="$PROJECT_DIR$/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技服务协会.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技服务协会.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" />
     </list>
     <ignored path="mxk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,51 +155,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="就地编辑.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html">
+      <file leaf-file-name="科淘网-首页.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-首页.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="384" max-vertical-offset="954">
-              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="29466">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-作价交易-线下服务.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-线下服务.html">
+      <file leaf-file-name="科淘网-科技资源-科技服务.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="6246">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="9396">
+              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-作价交易-技术评估.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-技术评估.html">
+      <file leaf-file-name="科淘网-科技服务协会.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技服务协会.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="180" max-vertical-offset="7200">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="科淘网-供需对接-自主推荐.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0" vertical-offset="594" max-vertical-offset="6606">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="原型式继承.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/原型式继承.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="19.0" vertical-offset="1176" max-vertical-offset="1746">
-              <caret line="40" column="44" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="44" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="90" max-vertical-offset="12222">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -81,69 +189,178 @@
         <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="12060">
-              <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-科技资源-科技成果.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技成果.html">
+      <file leaf-file-name="科淘网-创新主体-高校.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-高校.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-221.25" vertical-offset="0" max-vertical-offset="9288">
-              <caret line="441" column="25" selection-start-line="293" selection-start-column="8" selection-end-line="441" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="8640">
+              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
               <folding>
-                <element signature="n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-科技资源-科技服务.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html">
+      <file leaf-file-name="科淘网-创新主体-企业.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-企业.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-45.75" vertical-offset="0" max-vertical-offset="9396">
-              <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12132">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-科技资源-创新需求.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html">
+      <file leaf-file-name="科淘网-供需对接-自主推荐.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="10476">
+            <state vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="6606">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="科淘网-供需对接-定制服务.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-定制服务.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="5706">
+              <caret line="237" column="43" selection-start-line="237" selection-start-column="43" selection-end-line="237" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="科淘网-供需对接-在线展会.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-在线展会.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="9756">
               <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-创新主体-科研院所.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-科研院所.html">
+      <file leaf-file-name="科淘网-作价交易-线下服务.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-线下服务.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.125" vertical-offset="1797" max-vertical-offset="11160">
-              <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="6246">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="科淘网-创新主体-服务机构.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0" vertical-offset="5558" max-vertical-offset="11556">
-              <caret line="318" column="16" selection-start-line="318" selection-start-column="16" selection-end-line="322" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="科淘网-作价交易-政策支持.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="科淘网-作价交易-政策支持.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-政策支持.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6631579" vertical-offset="378" max-vertical-offset="4770">
-              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="11322">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="13726" max-vertical-offset="19746">
+              <caret line="776" column="0" selection-start-line="776" selection-start-column="0" selection-end-line="784" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="龙转网详细.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网详细.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22105263" vertical-offset="0" max-vertical-offset="5202">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.686747" vertical-offset="14087" max-vertical-offset="14598">
+              <caret line="825" column="0" selection-start-line="825" selection-start-column="0" selection-end-line="833" selection-end-column="9" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="龙转网-技术市场信息港.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="8514">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="龙转网列表.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网列表.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.5" vertical-offset="180" max-vertical-offset="5148">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+              <folding>
+                <marker date="1430054499694" expanded="true" signature="8269:8608" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-龙转网/js/base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6030" max-vertical-offset="6624">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="模板.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/模板.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.9583335" vertical-offset="217" max-vertical-offset="2430">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="龙转网-科技推广.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网-科技推广.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.75" vertical-offset="684" max-vertical-offset="9090">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="科淘网-作价交易-技术评估.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-技术评估.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="7200">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,19 +379,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/用鸭式辩型模仿接口.html" />
-        <option value="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/本书使用接口.html" />
-        <option value="$PROJECT_DIR$/project-javascriptDesign/webContent/tryCatch.html" />
-        <option value="$PROJECT_DIR$/project-javascriptDesign/js/interface.js" />
-        <option value="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/Interface.js" />
-        <option value="$PROJECT_DIR$/project-设计模式/接口/在javascript中模仿接口/示例：使用Interface类.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/header.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/js/base.js" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/footer.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/css/index.css" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/index.html" />
-        <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/模板.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/创建对象的基本模式.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/用命名规范区别私用成员.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/作用域、嵌套函数和闭包.html" />
@@ -188,7 +392,6 @@
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-科研院所.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-定制服务.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技服务协会.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/clone.js" />
         <option value="$PROJECT_DIR$/project-ui/custom/webContent/form/css/main.css" />
         <option value="$PROJECT_DIR$/project-ui/custom/webContent/form/form.html" />
@@ -208,11 +411,25 @@
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-在线展会.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-技术评估.html" />
-        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-线下服务.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/css/base.css" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-政策支持.html" />
+        <option value="$PROJECT_DIR$/project-龙转网/css/base.css" />
+        <option value="$PROJECT_DIR$/project-龙转网/webContent/footer.html" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/test.css" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-首页.html" />
+        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" />
+        <option value="$PROJECT_DIR$/project-龙转网/webContent/index.html" />
+        <option value="$PROJECT_DIR$/project-龙转网/webContent/header.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技服务协会.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/css/base.css" />
+        <option value="$PROJECT_DIR$/project-龙转网/webContent/模板.html" />
+        <option value="$PROJECT_DIR$/project-龙转网/webContent/龙转网-科技推广.html" />
+        <option value="$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html" />
+        <option value="$PROJECT_DIR$/project-龙转网/webContent/龙转网列表.html" />
+        <option value="$PROJECT_DIR$/project-龙转网/webContent/龙转网详细.html" />
       </list>
     </option>
   </component>
@@ -313,11 +530,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project-设计模式" />
+              <option name="myItemId" value="project-龙转网" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第4章继承" />
+              <option name="myItemId" value="webContent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -331,7 +548,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project-设计模式" />
+              <option name="myItemId" value="project-龙转网" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-龙转网" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-龙转网" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-龙转网" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,6 +625,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-科淘网" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-科淘网" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,11 +726,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\workSpace\mxk\project-科淘网\webContent" />
-      <recent name="G:\workSpace\mxk\project-科淘网\images\bg" />
+      <recent name="G:\workSpace\mxk\project-龙转网\webContent" />
+      <recent name="G:\workSpace\mxk\project-龙转网\images" />
+      <recent name="G:\workSpace\mxk\project-龙转网\images\bg" />
+      <recent name="G:\workSpace\mxk\project-龙转网\js" />
       <recent name="G:\workSpace\mxk\project-科淘网\images" />
-      <recent name="G:\workSpace\mxk\project-ui\custom\webContent\form\images" />
-      <recent name="G:\workSpace\mxk\project-ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\workSpace\mxk\project-科淘网\images\bg" />
@@ -553,7 +864,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -561,9 +872,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21803127" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2827381" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21056548" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28330892" sideWeight="0.23219815" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4656" sideWeight="0.50037175" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46548957" sideWeight="0.50037175" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.256" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -578,6 +889,29 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.49962825" order="13" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27244583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.49962825" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28330892" sideWeight="0.23219815" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4656" sideWeight="0.50037175" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.256" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21803127" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2827381" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.49962825" order="13" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -605,151 +939,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-ui/bootstrap-3.3.4/docs/_includes/css/forms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.062068965" vertical-offset="0" max-vertical-offset="18558">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/bootstrap-3.3.4/docs/_includes/customizer-variables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21724138" vertical-offset="0" max-vertical-offset="33696">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/bootstrap-3.3.4/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.397351" vertical-offset="113502" max-vertical-offset="118620">
-          <caret line="6319" column="2" selection-start-line="6319" selection-start-column="0" selection-end-line="6319" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/images/btn-liucheng1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="3834">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/custom/webContent/form/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2610">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/custom/webContent/form/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.5" vertical-offset="0" max-vertical-offset="5184">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技服务协会.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="12528">
-          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-企业.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45868465" vertical-offset="7990" max-vertical-offset="9648">
-          <caret line="597" column="32" selection-start-line="597" selection-start-column="32" selection-end-line="597" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-高校.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9797639" vertical-offset="3469" max-vertical-offset="7794">
-          <caret line="321" column="28" selection-start-line="321" selection-start-column="28" selection-end-line="321" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/clone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17504051" vertical-offset="0" max-vertical-offset="617">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/继承.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.0" vertical-offset="1512" max-vertical-offset="2322">
-          <caret line="112" column="14" selection-start-line="91" selection-start-column="12" selection-end-line="112" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/extend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/agument.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.458334" vertical-offset="469" max-vertical-offset="1116">
-          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/custom/webContent/modalwindow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.958333" vertical-offset="163" max-vertical-offset="756">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/tree/lines.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.75" vertical-offset="0" max-vertical-offset="450">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/tree/icons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/tree/basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5" vertical-offset="150" max-vertical-offset="1044">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/tree/lazyload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-53.0" vertical-offset="24" max-vertical-offset="1566">
-          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/tree/formatting.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.75" vertical-offset="96" max-vertical-offset="666">
@@ -855,97 +1044,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-在线展会.html">
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/原型式继承.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16157989" vertical-offset="0" max-vertical-offset="9756">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+        <state vertical-scroll-proportion="19.0" vertical-offset="1176" max-vertical-offset="1746">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-定制服务.html">
+    <entry file="file://$PROJECT_DIR$/project-科淘网/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.4842105" vertical-offset="0" max-vertical-offset="5706">
-          <caret line="237" column="43" selection-start-line="237" selection-start-column="43" selection-end-line="237" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-线下服务.html">
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="6246">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="0.41578948" vertical-offset="249" max-vertical-offset="3834">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-龙转网/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5869191" vertical-offset="5581" max-vertical-offset="8784">
+          <caret line="329" column="5" selection-start-line="329" selection-start-column="5" selection-end-line="329" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="324">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="432">
+          <caret line="13" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="955" max-vertical-offset="1746">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3655" max-vertical-offset="7650">
+          <caret line="217" column="0" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="384" max-vertical-offset="954">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-          <folding />
+        <state vertical-scroll-proportion="-9.541667" vertical-offset="743" max-vertical-offset="2304">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-技术评估.html">
+    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="180" max-vertical-offset="5760">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="594" max-vertical-offset="6606">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/原型式继承.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.0" vertical-offset="1176" max-vertical-offset="1746">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38037866" vertical-offset="15547" max-vertical-offset="16380">
-          <caret line="876" column="0" selection-start-line="876" selection-start-column="0" selection-end-line="876" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="12060">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="648">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技成果.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-221.25" vertical-offset="0" max-vertical-offset="9288">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7920" max-vertical-offset="11916">
           <caret line="441" column="25" selection-start-line="293" selection-start-column="8" selection-end-line="441" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-45.75" vertical-offset="0" max-vertical-offset="9396">
-          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="10476">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="10476">
           <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
           <folding />
         </state>
@@ -953,7 +1147,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-科研院所.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.125" vertical-offset="1797" max-vertical-offset="11160">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2016" max-vertical-offset="11160">
           <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
           <folding />
         </state>
@@ -961,16 +1155,179 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0" vertical-offset="5558" max-vertical-offset="11556">
-          <caret line="318" column="16" selection-start-line="318" selection-start-column="16" selection-end-line="322" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="11556">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-企业.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12132">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="6606">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-定制服务.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="5706">
+          <caret line="237" column="43" selection-start-line="237" selection-start-column="43" selection-end-line="237" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-在线展会.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="9756">
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-线下服务.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="6246">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-技术评估.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="7200">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-高校.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="8640">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-龙转网/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6624">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-首页.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="29466">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-政策支持.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6631579" vertical-offset="378" max-vertical-offset="4770">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="11322">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/模板.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9583335" vertical-offset="217" max-vertical-offset="2430">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网-科技推广.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.75" vertical-offset="684" max-vertical-offset="9090">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="9396">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.686747" vertical-offset="14087" max-vertical-offset="14598">
+          <caret line="825" column="0" selection-start-line="825" selection-start-column="0" selection-end-line="833" selection-end-column="9" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="8514">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网列表.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.5" vertical-offset="180" max-vertical-offset="5148">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <marker date="1430054499694" expanded="true" signature="8269:8608" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技服务协会.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="12222">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="12060">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13726" max-vertical-offset="19746">
+          <caret line="776" column="0" selection-start-line="776" selection-start-column="0" selection-end-line="784" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网详细.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22105263" vertical-offset="0" max-vertical-offset="5202">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding />
         </state>
       </provider>
