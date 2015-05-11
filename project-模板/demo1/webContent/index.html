@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="../resource/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="../resource/css/style.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+        #start{ display:block; width: 100px; height:50px; line-height: 50px; text-align:center; background:blue; color:#fff;}
+        #nav ul{ display:none;}
+        #nav ul li{ position: relative; z-index:1; width: 140px; list-style-type: none;}
+        #nav ul li a{ position:relative; display: block;  padding:0 2.5em; height: 32px; line-height: 32px; text-align: left; background:rgb(235, 239, 242); border:1px solid rgb(216, 224, 230);}
+        #nav ul li a .badge{ display: block; position: absolute; z-index:1; top:5px; right:5px; background:rgb(73, 91, 121);}
+        #nav ul li a.selected,
+        #nav ul li a:hover{ text-decoration: none; background:rgb(73, 91, 121); color:#fff;}
+        #nav ul li ul{ position: absolute; z-index: 1; top:0; left: 100%; margin:0; padding:0; border-left:4px solid rgb(73, 91, 121);}
+        #nav ul li ul li{ display: inline-block; width: 100%; word-break: keep-all;}
+        #nav ul li ul.left{ left:auto; right:100%; border-right:4px solid rgb(73, 91, 121); border-left:none; }
+    </style>
+</head>
+<body>
+<div class="site-holder">
+    <!-- navbar start -->
+    <div class="navbar">
+        <div id="nav">
+            <a id="start">开始</a>
+            <ul>
+                <li>
+                    <a href="#">一级菜单</a>
+                    <ul>
+                        <li>
+                            <a href="#">二级菜单</a>
+                        </li>
+                        <li>
+                            <a href="#">二级菜单二级菜单二级菜单二级菜单二级菜单二级菜单二级菜单二级菜单二级菜单二级菜单二级菜单二级菜单二级菜单二级菜单二级菜单</a>
+                            <ul>
+                                <li>
+                                    <a href="#">三级菜单</a>
+                                </li>
+                                <li>
+                                    <a href="#">三级菜单三级菜单</a>
+                                </li>
+                                <li>
+                                    <a href="#">三级菜单</a>
+                                </li>
+                                <li>
+                                    <a href="#">三级菜单</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">四级菜单</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">四级菜单</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">五级菜单</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">五级菜单</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">六级菜单</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">六级菜单</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">一级菜单</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- navbar end -->
+    <!-- box-holder start -->
+    <div class="box-holder">
+        <!-- left start -->
+        <div class="left-sidebar">
+            <div class="sidebar-holder">
+                <ul class="nav  nav-list">
+                    <!-- sidebar to mini Sidebar toggle -->
+                    <li class="nav-toggle">
+                        <img class="toggle-left" src="../resource/images/fa-angle-double-left.png" />
+                    </li>
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="fa fa-dashboard"></i>
+                            <span class="hidden-minibar"> Dashboard </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-indent"></i>
+                            <span class="hidden-minibar"> Top Navbar </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-book"></i>
+                            <span class="hidden-minibar">
+                                Pages <span class="badge bg-primary pull-right">14</span>
+                            </span>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-calendar"></i>
+                                    <span>Calendar</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-comment"></i>
+                                    <span>Chat</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- left end -->
+        <!-- content start -->
+        <div class="content">
+            <!-- address start -->
+            <div class="row">
+                <div class="col-mod-12">
+                    <ul class="breadcrumb">
+                        <li><a href="index.html">Dashboard</a></li>
+                        <li><a href="icons.html">Icons</a></li>
+                        <li class="active">BreadCrumb</li>
+                    </ul>
+
+                    <div class="form-group hiddn-minibar pull-right">
+                        <input type="text" class="form-control form-cascade-control nav-input-search" size="20"
+                               placeholder="Search through site"/>
+
+                        <span class="input-icon fui-search"></span>
+                    </div>
+                    <h3 class="page-header"> Icons <span class="small">Font Awesome 4.1</span></h3>
+                </div>
+            </div>
+            <!-- address end -->
+            <iframe width="100%" height="600px" scrolling="no" frameborder="0" src="iframe1.html">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
+            <div class="footer">
+                &copy; 2013 <a href="http://bootstrapguru.com">Bootstrap Guru</a>
+            </div>
+        </div>
+        <!-- content end -->
+    </div>
+    <!-- box-holder end -->
+    <script type="text/javascript" src="../resource/js/jQuery/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../resource/js/base.js"></script>
+    <!--[if IE]>
+    <script type="text/javascript" src="../resource/js/CSS3/DOMAssistantCompressed-2.7.4.js"></script>
+    <script type="text/javascript" src="../resource/js/CSS3/ie-css3.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*开始菜单*/
+            $("#start").bind({
+                mouseover:function(){
+                    $(this).next("ul").show();
+                }
+            });
+            /*首页菜单*/
+            GLOBAL.Menu = GLOBAL.Menu || {};
+            GLOBAL.Menu.init = function(){
+                GLOBAL.Menu.addNumIcon();
+                GLOBAL.Menu.play();
+            };
+
+            //添加菜单个数icon
+            GLOBAL.Menu.addNumIcon = function(){
+                $("#nav ul li").each(function(){
+                    var $this = $(this);
+                    var $ul = $this.children("ul");
+                    if($ul.length === 1){
+                        var $a = $this.children("a");
+                        var $li = $ul.children("li");
+                        var str = "<b class='badge'>" + $li.length + "</b>"
+                        $a.append(str);
+                    }
+                });
+            };
+            //菜单交互
+            GLOBAL.Menu.play = function(){
+                $("#nav ul li").on({
+                    mouseover:function(){
+                        var $this = $(this);
+                        var $ul = $this.children("ul");
+                        if($ul.length === 1){
+                            var $a = $this.children("a");
+                            var iWindowWidth = $(window).width();
+                            var iThisWidth = $this.width();
+                            var iChildWidth = $ul.width();
+                            var iLeft = $this.offset().left;
+                            var oChildrenUl = $this.find("ul");
+                            $a.addClass("selected");
+                            console.log($this.offset().left + ":" + iLeft);
+                            $ul.show();
+                            if(iLeft + iThisWidth + iChildWidth > iWindowWidth){
+                                oChildrenUl.css({
+                                    left:"auto",
+                                    right:"100%",
+                                    borderRight:"4px solid rgb(73, 91, 121)",
+                                    borderLeft:"none"
+                                });
+                            }
+                        }
+                        return false;
+                    },
+                    mouseleave:function(){
+                        var $this = $(this);
+                        var $ul = $this.children("ul");
+                        if($ul.length === 1){
+                            var $a = $this.children("a");
+                            $a.removeClass("selected");
+                            $ul.hide();
+                        }
+                    }
+                });
+                $("#nav>ul").bind({
+                    mouseleave:function(){
+                        $(this).hide();
+                    }
+                });
+            };
+            GLOBAL.Menu.init();
+
+            /*iframe高度变化*/
+            GLOBAL.EventUtil.addHandler(window, "load", function () {
+                $("iframe").each(function (index, demEle) {
+                    var $this = $(this);
+                    var oChildBody = $this[0].contentWindow.document.body;
+                    var iHeight = oChildBody.scrollHeight;
+                    $this.css("height", iHeight + "px");
+                    $this.timer = setInterval(function(){
+                        var iNewHeight = oChildBody.scrollHeight;
+                        if(iHeight != iNewHeight){
+                            iHeight = iNewHeight;
+                            $this.css("height", iHeight + "px");
+                        }
+                    }, 1000);
+                });
+            });
+        });
+    </script>
+</div>
+</body>
+</html>

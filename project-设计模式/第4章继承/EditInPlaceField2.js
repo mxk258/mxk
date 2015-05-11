@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2015/4/27.
  */
-var EditInPlaceField = {
+var EditInPlaceField2 = {
     configure: function(id, parent, value){
         this.id = id;
         this.value = value || "default value";

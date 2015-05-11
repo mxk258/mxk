@@ -2,15 +2,728 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e05400-512d-4932-88ea-bc71243615a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceArea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-设计模式/第4章继承/agument.js" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/agument.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/bottom_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/box_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/btn_add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/btn_add_hover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/btn_config.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/btn_config_hover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/btn_del.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/btn_del_hover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/btn_res.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/btn_res_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/btn_save2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/btn_save2_hover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/btn_search.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/btn_search_hover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/cut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/edit_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/edit_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/ext_btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/ext_btn_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/images/fa-angle-double-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/filesave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/filter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/large_chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/large_clipart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/large_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/large_shapes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/large_smartart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/images/login1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/man.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/mini_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/mini_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/mini_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/images/modem.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/images/modem.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/images/more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/images/pda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/images/pda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/reload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/images/scanner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/images/scanner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/sum.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/images/tablet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/images/tablet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icons/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-权威指南/第8章/8.5作为命名空间的函数.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/自定义字体/DOMAssistantCompressed-2.7.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/js/CSS3/DOMAssistantCompressed-2.7.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/accordion/_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/panel/_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/accordion/_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/layout/_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/panel/_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tooltip/_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tooltip/_dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/droppable/accept.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/accordion/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combogrid/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combotree/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/menubutton/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/splitbutton/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/timespinner/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/treegrid/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/layout/addremove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/panel/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/accordion/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tooltip/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/messager/alert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/aligncolumns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/menubutton/alignment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combo/animation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/animation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/pagination/attaching.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/layout/autoheight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/autoheight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/js/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/accordion/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/animation/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/badge/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/button/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/datagrid/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/datalist/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/dialog/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/form/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/layout/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/menu/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/panel/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/simplelist/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/tabs/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/toolbar/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/tree/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/accordion/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/calendar/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combo/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combogrid/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combotree/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datalist/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datebox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datetimebox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datetimespinner/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/dialog/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/draggable/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/droppable/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/easyloader/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/filebox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/form/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/layout/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/linkbutton/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/menu/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/menubutton/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/messager/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/numberbox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/numberspinner/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/pagination/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/panel/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/progressbar/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/propertygrid/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/resizable/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/searchbox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/slider/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/splitbutton/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/textbox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/timespinner/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tooltip/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/treegrid/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/validatebox/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/window/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/badge/button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/simplelist/button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/toolbar/button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/textbox/button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/filebox/buttonalign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datebox/buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/cacheeditor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/searchbox/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/cellediting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/cellstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/changelog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/checkbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datalist/checkbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/checkbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datetimespinner/clearicon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/textbox/clearicon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/clientpagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/treegrid/clientpagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datebox/clone.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/color.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/columngroup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/combobox_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/combobox_data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/layout/complex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/complextoolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/dialog/complextoolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/draggable/constrain.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/contextmenu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/contextmenu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/treegrid/contextmenu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/calendar/custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/textbox/custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/pagination/custombuttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/propertygrid/customcolumns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tooltip/customcontent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/customformat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/menu/customitem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/custompager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tooltip/customstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/panel/customtools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/window/customtools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/validatebox/customtooltip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/accordion/datagrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combogrid/datagrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/datagrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/layout/datagrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/datagrid_data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/datalist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/datalist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/datalist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/datalist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/datalist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datalist/datalist_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datebox/dateformat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/calendar/disabledate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/tree/dnd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/dnd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/dropdown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/dynamicdata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/easyloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/easyloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-am.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-cz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-jp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-pt_BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-sv_SE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-zh_CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/locale/easyui-lang-zh_TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/editable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/treegrid/editable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datebox/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/menu/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/accordion/expandable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/animation/fade.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/filebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/calendar/firstday.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/fixedwidth.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/accordion/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/calendar/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combogrid/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combotree/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datebox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datetimebox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datetimespinner/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/dialog/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/filebox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/layout/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/linkbutton/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/numberbox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/numberspinner/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/panel/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/progressbar/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/searchbox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/slider/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/textbox/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/timespinner/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/treegrid/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/window/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/panel/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/treegrid/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/window/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/css/form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/form/form_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datetimespinner/format.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/numberbox/format.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/formatcolumns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/formatting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/slider/formattip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/frozencolumns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/frozenrows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/layout/full.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/button/group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/datalist/group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/simplelist/group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datalist/group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/linkbutton/group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/propertygrid/groupformat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/accordion/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/hover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/button/icon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/linkbutton/iconalign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/textbox/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/自定义字体/ie-css3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/js/CSS3/ie-css3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/webContent/iframe1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/simplelist/image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/numberspinner/increment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/webContent/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combogrid/initvalue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combotree/initvalue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datetimebox/initvalue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/menu/inline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/window/inlinewindow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/messager/interactive.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/js/jQuery/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery/jquery-1.11.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.combo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.combobox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.combobox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.combogrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.combotree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.datagrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.datalist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.datebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.datebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.datetimebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.datetimespinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.draggable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.draggable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.droppable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.droppable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/jquery.easyui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/jquery.easyui.mobile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.filebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.layout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.linkbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.linkbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.menubutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.messager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.mobile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.numberbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.numberspinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.pagination.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.progressbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.progressbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.propertygrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.propertygrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.resizable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.resizable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.searchbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.splitbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.textbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.timespinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.treegrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.validatebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/plugins/jquery.window.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/jquery.window.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/pagination/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/lazyload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/licence_gpl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/lines.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/treegrid/lines.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/simplelist/link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/pagination/links.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/badge/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/form/load.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/panel/loadcontent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/toolbar/menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/menu/menubar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/mergecells.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/dialog/message.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/mobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/window/modalwindow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/multiline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/textbox/multiline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/accordion/multiple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/multiple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combogrid/multiple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combotree/multiple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datalist/multiselect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/multisorting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/panel/nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/tabs/nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combogrid/navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/layout/nestedlayout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/panel/nestedpanel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/nestedtabs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/layout/nocollapsible.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/slider/nonlinear.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/numberbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/input/numberspinner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/panel/paneltools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/tabs/pill.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/linkbutton/plain.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/animation/pop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/messager/position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tooltip/position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/products.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/layout/propertygrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/propertygrid/propertygrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/numberbox/range.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/numberspinner/range.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/slider/range.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/timespinner/range.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/remotedata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datalist/remotedata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combobox/remotejsonp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/treegrid/reports.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datebox/restrict.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/rowborder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/datagrid/rowediting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/rowediting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/rowstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/slider/rule.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/datalist/selection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/selection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datebox/sharedcalendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datetimebox/showseconds.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/pagination/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/simpletoolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/linkbutton/size.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/textbox/size.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/animation/slide.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/draggable/snap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/droppable/sort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/striptools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/button/style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/linkbutton/style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/tabimage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/tabposition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/badge/tabs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/tabstools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/textbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo-mobile/input/textbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/linkbutton/toggle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tooltip/toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/dialog/toolbarbuttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/accordion/tools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tooltip/tooltipdialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datagrid/transform.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/combotree/tree_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/layout/tree_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tabs/tree_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/tree_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/tree_data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/treegrid/treegrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/treegrid/treegrid_data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/treegrid/treegrid_data3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/datebox/validate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/validatebox/validateonblur.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/form/validateonsubmit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/slider/vertical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/black/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/bootstrap/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/default/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/gray/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/themes/metro/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/window/windowlayout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField2.js" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base.js" afterPath="$PROJECT_DIR$/js/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-设计模式/第4章继承/extend.js" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/extend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-ui/bootstrap-3.3.4/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/project-ui/bootstrap-3.3.4/dist/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/自定义字体/字体.html" afterPath="$PROJECT_DIR$/project-妙味课堂练习/CSS3/自定义字体/字体.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html" />
+      <change type="MOVED" beforePath="G:\workSpace\mxk\project-设计模式\第4章继承\agument.js" afterPath="$PROJECT_DIR$/project-设计模式/第4章继承/augment.js" />
     </list>
     <ignored path="mxk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,67 +747,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="就地编辑.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="就地编辑.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="522">
+            <state vertical-scroll-proportion="0.2513181" vertical-offset="1" max-vertical-offset="594">
               <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/base.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3380783" vertical-offset="3086" max-vertical-offset="7272">
-              <caret line="182" column="6" selection-start-line="182" selection-start-column="6" selection-end-line="182" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditInPlaceField.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="2070">
-              <caret line="50" column="53" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="53" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditInPlaceArea.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceArea.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc;n#EditInPlaceArea#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditInPlaceField2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1094" max-vertical-offset="1674">
-              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clone.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/clone.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,6 +762,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3308" max-vertical-offset="8586">
+              <caret line="207" column="3" selection-start-line="207" selection-start-column="3" selection-end-line="207" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="augment.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/augment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clone.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/clone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+              <caret line="6" column="19" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -123,17 +810,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/静态方法和属性.html" />
-        <option value="$PROJECT_DIR$/project-设计模式/第3章封装信息和隐藏/常量.html" />
-        <option value="$PROJECT_DIR$/project-ui/custom/webContent/button/main.css" />
-        <option value="$PROJECT_DIR$/project-ui/custom/webContent/button/formButton.html" />
-        <option value="$PROJECT_DIR$/project-ui/custom/webContent/form/formInput.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-科研院所.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-定制服务.html" />
-        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/clone.js" />
-        <option value="$PROJECT_DIR$/project-ui/custom/webContent/form/css/main.css" />
         <option value="$PROJECT_DIR$/project-ui/custom/webContent/form/form.html" />
         <option value="$PROJECT_DIR$/project-ui/custom/webContent/form/form2.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-企业.html" />
@@ -152,7 +828,6 @@
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-政策支持.html" />
         <option value="$PROJECT_DIR$/project-龙转网/css/base.css" />
         <option value="$PROJECT_DIR$/project-龙转网/webContent/footer.html" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/test.css" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-首页.html" />
@@ -166,13 +841,25 @@
         <option value="$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html" />
         <option value="$PROJECT_DIR$/project-龙转网/webContent/龙转网列表.html" />
         <option value="$PROJECT_DIR$/project-龙转网/webContent/龙转网详细.html" />
-        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/agument.js" />
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/extend.js" />
-        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html" />
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField.js" />
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceArea.js" />
-        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" />
+        <option value="$PROJECT_DIR$/project-模板/demo1/webContent/Dashboard  Cascade Flat , Responsive Bootstrap 3_0 Admin Template.htm" />
+        <option value="$PROJECT_DIR$/project-模板/webContent/index.html" />
+        <option value="$PROJECT_DIR$/project-ui/bootstrap-3.3.4/dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/project-妙味课堂练习/CSS3/自定义字体/字体.html" />
+        <option value="$PROJECT_DIR$/project-模板/demo1/resource/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/project-模板/demo1/resource/css/style.css" />
         <option value="$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField2.js" />
+        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html" />
+        <option value="$PROJECT_DIR$/project-权威指南/第8章/8.5作为命名空间的函数.html" />
+        <option value="$PROJECT_DIR$/project-模板/demo1/webContent/index.html" />
+        <option value="$PROJECT_DIR$/project-模板/demo1/resource/css/base.css" />
+        <option value="$PROJECT_DIR$/project-模板/demo1/webContent/iframe1.html" />
+        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/agument.js" />
+        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/augment.js" />
         <option value="$PROJECT_DIR$/js/base.js" />
       </list>
     </option>
@@ -181,10 +868,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="338" />
-    <option name="y" value="2" />
-    <option name="width" value="1024" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="753" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -246,9 +933,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Changed Files" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,65 +983,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-设计模式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第2章接口" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-设计模式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第2章接口" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="在javascript中模仿接口" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mxk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-设计模式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="第1章富有表现力的javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Changed Files" />
       </pane>
     </panes>
   </component>
@@ -402,18 +1031,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\workSpace\mxk\project-龙转网\webContent" />
-      <recent name="G:\workSpace\mxk\project-龙转网\images" />
-      <recent name="G:\workSpace\mxk\project-龙转网\images\bg" />
-      <recent name="G:\workSpace\mxk\project-龙转网\js" />
-      <recent name="G:\workSpace\mxk\project-科淘网\images" />
+      <recent name="G:\workSpace\mxk" />
+      <recent name="G:\workSpace\mxk\project-模板\demo1\resource\css" />
+      <recent name="G:\workSpace\mxk\project-模板\demo1\resource\images" />
+      <recent name="G:\workSpace\mxk\project-模板\demo1" />
+      <recent name="G:\workSpace\mxk\project-模板\demo1\resource\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workSpace\mxk\project-模板\demo1\resource\js\CSS3" />
+      <recent name="G:\workSpace\mxk\project-模板\demo1" />
+      <recent name="G:\workSpace\mxk\project-模板\demo1\resource" />
       <recent name="G:\workSpace\mxk\project-科淘网\images\bg" />
       <recent name="G:\workSpace\mxk\project-ui\custom\webContent\button\images" />
-      <recent name="G:\workSpace\mxk\project-ui\custom\webContent\button\css" />
-      <recent name="G:\workSpace\mxk\project-妙味课堂练习\JS原创视频教程-知识点类\事件委托" />
-      <recent name="G:\workSpace\mxk\project-妙味课堂练习\CSS3" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app.js (1)">
@@ -540,16 +1169,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="338" y="2" width="1024" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="753" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5049669" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21803127" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28701827" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21056548" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.49962825" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28330892" sideWeight="0.23219815" order="2" side_tool="true" content_ui="tabs" />
@@ -557,6 +1185,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.256" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50482315" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -615,283 +1244,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/treegrid/clientpagination.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="29.541666" vertical-offset="1735" max-vertical-offset="2988">
-          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/treegrid/contextmenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="46.75" vertical-offset="1392" max-vertical-offset="1962">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/treegrid/editable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.75" vertical-offset="1194" max-vertical-offset="1764">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/treegrid/fluid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="114" max-vertical-offset="684">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/treegrid/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3249551" vertical-offset="523" max-vertical-offset="1080">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41578948" vertical-offset="249" max-vertical-offset="3834">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-龙转网/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5869191" vertical-offset="5581" max-vertical-offset="8784">
-          <caret line="329" column="5" selection-start-line="329" selection-start-column="5" selection-end-line="329" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="324">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="432">
-          <caret line="13" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="955" max-vertical-offset="1746">
-          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="648">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技成果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7920" max-vertical-offset="11916">
-          <caret line="441" column="25" selection-start-line="293" selection-start-column="8" selection-end-line="441" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="10476">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-科研院所.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2016" max-vertical-offset="11160">
-          <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-服务机构.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="11556">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-企业.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12132">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="6606">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-定制服务.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4266" max-vertical-offset="5706">
-          <caret line="237" column="43" selection-start-line="237" selection-start-column="43" selection-end-line="237" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-在线展会.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="9756">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-技术评估.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="7200">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-创新主体-高校.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="8640">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-龙转网/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6624">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-首页.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="29466">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-政策支持.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="11322">
-          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/模板.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="217" max-vertical-offset="2430">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网-科技推广.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="9090">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="9396">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="14087" max-vertical-offset="14598">
-          <caret line="825" column="0" selection-start-line="825" selection-start-column="0" selection-end-line="833" selection-end-column="9" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="8514">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-龙转网/webContent/龙转网列表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="5148">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <marker date="1430054499694" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技服务协会.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="12222">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="12060">
           <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="13726" max-vertical-offset="19746">
           <caret line="776" column="0" selection-start-line="776" selection-start-column="0" selection-end-line="784" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,7 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.67863554" vertical-offset="36" max-vertical-offset="3852">
           <caret line="23" column="42" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,15 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="6246">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/agument.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,7 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="18.0" vertical-offset="1152" max-vertical-offset="1746">
           <caret line="40" column="44" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,7 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2322">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,32 +1290,298 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05096661" vertical-offset="241" max-vertical-offset="810">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceArea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ui/bootstrap-3.3.4/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="24800" max-vertical-offset="28386">
+          <caret line="1570" column="42" selection-start-line="1570" selection-start-column="42" selection-end-line="1570" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/html5/canvas/canvas添加文字.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14586994" vertical-offset="223" max-vertical-offset="792">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/自定义字体/mxk-webfont.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4356">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="378">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/ie-css3.htc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="5904">
+          <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/自定义字体/ie-css3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/自定义字体/DOMAssistantCompressed-2.7.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-模板/demo1/resource/js/CSS3/DOMAssistantCompressed-2.7.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/自定义字体/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/CSS3/自定义字体/字体.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.75" vertical-offset="0" max-vertical-offset="396">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-模板/demo1/resource/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14726" max-vertical-offset="23814">
+          <caret line="831" column="21" selection-start-line="831" selection-start-column="1" selection-end-line="831" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1746">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/iframe/iframe1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-妙味课堂练习/JS原创视频教程-知识点类/iframe/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-模板/demo1/resource/js/jQuery/jquery-1.10.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery/jquery-1.11.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery/jquery-1.10.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060708262" vertical-offset="0" max-vertical-offset="2034">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8549747" vertical-offset="4209" max-vertical-offset="6624">
+          <caret line="262" column="13" selection-start-line="262" selection-start-column="10" selection-end-line="262" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-blog/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/connection/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4" vertical-offset="5816" max-vertical-offset="9162">
+          <caret line="336" column="10" selection-start-line="336" selection-start-column="7" selection-end-line="336" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-模板/demo1/resource/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3335" max-vertical-offset="7272">
+          <caret line="196" column="14" selection-start-line="196" selection-start-column="14" selection-end-line="196" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/src/easyloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7614">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-模板/demo1/jquery-easyui-1.4.2/demo/tree/basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50615114" vertical-offset="0" max-vertical-offset="1044">
+          <caret line="16" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-模板/demo1/resource/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5672414" vertical-offset="5063" max-vertical-offset="36108">
+          <caret line="364" column="19" selection-start-line="364" selection-start-column="12" selection-end-line="364" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-模板/demo1/resource/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4" vertical-offset="26156" max-vertical-offset="28386">
+          <caret line="1466" column="21" selection-start-line="1466" selection-start-column="11" selection-end-line="1466" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-recursion/webContent/walt_the_dom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18980668" vertical-offset="0" max-vertical-offset="846">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ui/custom/webContent/modalwindow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-模板/demo1/resource/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="1800">
+          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ui/custom/webContent/form/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22413793" vertical-offset="2030" max-vertical-offset="2610">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-模板/demo1/resource/css/form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2610">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ui/custom/webContent/form/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="108" max-vertical-offset="5184">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-模板/demo1/webContent/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="4806">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-模板/demo1/webContent/iframe1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25307557" vertical-offset="0" max-vertical-offset="569">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-权威指南/第8章/8.5作为命名空间的函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="1332">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/掺元类.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="1134">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1134">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField2.js">
+    <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1094" max-vertical-offset="1674">
-          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="450">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ui/jquery-easyui-1.4.2/demo/dialog/basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/augment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/clone.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <caret line="6" column="19" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -985,38 +1594,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceArea.js">
+    <entry file="file://$PROJECT_DIR$/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#EditInPlaceArea#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/EditInPlaceField.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="2070">
-          <caret line="50" column="53" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="3308" max-vertical-offset="8586">
+          <caret line="207" column="3" selection-start-line="207" selection-start-column="3" selection-end-line="207" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-设计模式/第4章继承/就地编辑.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="522">
+        <state vertical-scroll-proportion="0.2513181" vertical-offset="1" max-vertical-offset="594">
           <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3380783" vertical-offset="3086" max-vertical-offset="7272">
-          <caret line="182" column="6" selection-start-line="182" selection-start-column="6" selection-end-line="182" selection-end-column="6" />
           <folding />
         </state>
       </provider>

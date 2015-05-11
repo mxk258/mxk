@@ -7,7 +7,7 @@
 <body>
     <script type="text/javascript" src="clone.js"></script>
     <script type="text/javascript" src="extend.js"></script>
-    <script type="text/javascript" src="agument.js"></script>
+    <script type="text/javascript" src="augment.js"></script>
     <script type="text/javascript">
         /*Class Person*/
         function Person(name){
@@ -47,7 +47,7 @@
             }
         };
 
-        agument(Author, Mixin, "serialize");
+        augment(Author, Mixin, "serialize");
 
         var author = new Author("Ross Harmes", ["Javascript Design Patterns"]);
         var serializedString = author.serialize();

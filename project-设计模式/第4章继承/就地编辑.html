@@ -17,6 +17,10 @@
 
         //创建一个多行文本
         var areaElement = new EditInPlaceArea("areaElement", $("body")[0], "多行文本输入控件");
+
+        var titlePrototypal = clone(EditInPlaceField2);
+        titlePrototypal.configure("titlePrototypal", $("body")[0], "Title Here");
+
     });
 
 </script>

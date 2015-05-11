@@ -3,17 +3,18 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <style type="text/css">
+        .btn-e-2{ display:block; margin:0; padding:0; width:92px; height: 38px;  text-align: center; font:bold 14px/36px "宋体"; border:none; background:url(btn.png);  border:1px solid #858585;
+            cursor: pointer; border-radius: 2px; text-decoration: none;}
+        a.btn-e-2{width:90px; height: 36px;}
+        .btn-e-2-selected,
+        .btn-e-2:hover{ background-position: 0 -36px; color:#407c07; border:1px solid #78a241;}
+    </style>
 </head>
 <body>
-<div id="box">
-INSERT INTO ONI_ROLE_FIELD_REFER (ROLE_FIELD_REFER_ID, ROLE_ID, FIELD_ID, ROLE_FIELD_REFER_STATUS, ROLE_FIELD_REFER_REMARK, OPERATOR_NAME, OPERATOR_TIME, APPROVE_NAME, APPROVE_TIME) VALUES (799, 14, '122', 0, null, '', '2015-03-17 14:19:50', '', '2015-03-17 14:19:50');
-INSERT INTO ONI_ROLE_FIELD_REFER (ROLE_FIELD_REFER_ID, ROLE_ID, FIELD_ID, ROLE_FIELD_REFER_STATUS, ROLE_FIELD_REFER_REMARK, OPERATOR_NAME, OPERATOR_TIME, APPROVE_NAME, APPROVE_TIME) VALUES (800, 14, '123', 0, null, '', '2015-03-17 14:19:50', '', '2015-03-17 14:19:50');
-</div>
-<script type="text/javascript">
-    var oBox = document.getElementById("box");
-    var sStr = oBox.innerHTML;
-    var regexp = /(VALUES \(\d{0,5}\,)/g;
-    oBox.innerHTML = sStr.replace(regexp, "VALUES ( DEFAULT,");
-</script>
+    <input class="btn-e-2" type="button" value="完&nbsp;成" />
+    <input class="btn-e-2 btn-e-2-selected" type="button" value="完&nbsp;成" />
+    <a class="btn-e-2" href="#">完成</a>
+    <a class="btn-e-2 btn-e-2-selected" href="#">完成</a>
 </body>
 </html>
