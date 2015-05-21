@@ -361,3 +361,24 @@ GLOBAL.Title.init = function() {
 		}
 	});
 };
+
+//遮罩层
+GLOBAL.Shade = GLOBAL.Shade || {};
+GLOBAL.Shade.init = function() {
+    var $shade = $("#shade");
+    var $body = $("body");
+    if ($shade.length == 0) {
+        var sShade = "<div id='shade'></div>";
+        $("body").append(sShade);
+    }
+    $("#shade").fadeIn();
+    $("#shadeContent").fadeIn();
+    GLOBAL.Shade.close();
+};
+
+GLOBAL.Shade.close = function() {
+    $(".shade_close").bind("click", function(){
+        $("#shade").fadeOut();
+        $("#shadeContent").fadeOut();
+    });
+};

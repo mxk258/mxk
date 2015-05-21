@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+.box_nav1{ width:236px; height:416px; border:2px solid #cc0000;}
+.box_nav1 h2{ height:38px; line-height:38px; font-size:20px; color:#fff; background:#cc0000 url(../images/icon_64.png) 15px 8px no-repeat; text-indent:39px;}
+.box_nav1 ul li{ padding-left:65px; height:93px; background:url(../images/icon_65.png) 15px 0px no-repeat; border-top:1px dashed #e0e0e0; overflow:hidden;}
+.box_nav1 ul li:hover{ opacity:0.7; filter:alpha(opacity:70);}
+.box_nav1 ul li p{ height:23px; line-height:23px;}
+.box_nav1 ul li .p1{ padding-top:10px; height:28px; line-height:28px;}
+.box_nav1 ul li .p1 a{ font-weight:bold; color:#000; font-size:20px;}
+.box_nav1 ul li.li2{ background-position:15px -95px;}
+.box_nav1 ul li.li3{ background-position:15px -189px;}
+.box_nav1 ul li.li4{ background-position:15px -283px;}
+/*导航*/
+.box_nav2{ width:940px;}
+.ls02 { position:relative; z-index:1; border-bottom:2px solid #cc0000;}
+.ls02 li a{ padding:0 28px; display:block; height:38px; line-height:38px; font-size:12px; font-weight:bold; }
+.ls02 li.selected a,
+.ls02 li a:hover{ background:#cc0000; color:#fff; text-decoration:none;}
+/*轮播图*/
+#slide{ width:690px; height:370px;}
+#slide .ls_img{ width:100%; height:370px;}
+#slide .ls_img li{margin:0!important;}
+#slide .ls_img li img{ width:690px; height:370px;}
+#slide .ls_btn{ position:absolute; z-index:3; bottom:15px; left:50%;}
+#slide .ls_btn li{ margin-left:11px; width:14px; height:14px; background:url(../images/i_circle2.png) no-repeat; cursor:pointer; text-indent:-10000px;}
+#slide .ls_btn li.selected{ background:url(../images/i_circle2.png) 0 -14px  no-repeat;}
+#slide .bg{ position:absolute; z-index:1; left:0; bottom:0; width:100%; height:37px; background:#000; opacity:0.5; filter:alpha(opacity:50); }
+.ls03{ position:absolute; top:15px; left:120px;}
+.ls03 li { margin-right:5px; width:68px; height:30px; line-height:30px; text-align:center;}
+.ls03 li a{ font-size:14px; font-family:"宋体";}
+.ls03 li.selected{ background:url(../images/icon_59.png) left bottom no-repeat;}
+.ls03 li.selected a{ color:#690; font-size:14px;}
+
+.ls04{height:73px;}
+.ls04 li{ padding-left:13px; height:23px; line-height:23px; background:url(../images/icon_66.png) 0 7px no-repeat; }
+.ls04 li *	{color:#666;}
+
+.box04{ width:238px; height:120px; border:1px solid #ccc;}
+.box04 .p1{ padding:0 12px; line-height:18px; color:#999;}
+.box04 .link{ margin:0 auto; display:block; width:120px; height:30px; line-height:30px; color:#fff; background:#cc0000;}
+/*科淘展会*/
+.box05{ height:598px; background:#f5f5f5; border:1px solid #e8e8e8;}
+.ls05 li{ margin:11px 0 0 11px; width:218px; height:280px; border:1px solid #e3e3e3; background:#fff;}
+.ls05 li .hover{ position:relative; z-index:1; height:145px;}
+.ls05 li .hover .orange{ display:none; position:absolute; z-index:1; left:0; bottom:0; width:100%; height:41px; line-height:41px; text-align:center; font-size:14px; color:#fff; background:#e47226; opacity:0.9; filter:alpha(opacity:90); }
+.ls05 li .p1{ height:32px; line-height:32px; font-weight:bold; font-size:14px;}
+.ls05 li .p2{ padding:0 10px; height:21px; line-height:21px; color:#666;}
+.ls05 li .baoming{ margin:10px auto 0; display:block; width:110px; height:36px; line-height:36px; font-size:14px; color:#fff; text-align:center; background:url(../images/icon_71.png) no-repeat;}
+/*行业领域*/
+.ls06{ height:598px; border:1px solid #e8e8e8; border-top:none; border-left:none;}
+.ls06 li a{ display:block; width:118px; height:49px; line-height:50px; text-align:center; color:#000; font-family:"宋体"; border-top:1px solid #e8e8e8; border-left:1px solid #e8e8e8;}
+.ls06 li a:hover{ background:#cc0000; color:#fff; text-decoration:none;}
+
+/*科技成果*/
+.ls08 li{ margin:-1px 0 0 -1px; position:relative; z-index:1; padding:6px; width:183px; height:186px; border:1px solid #e3e3e3;}
+.ls08 li .p1{ margin-top:8px; height:22px; line-height:22px; color:#000; font-size:14px;}
+.ls08 li .p2{ height:22px; line-height:22px; color:#cc0000;}
+.ls08 li a:hover{ text-decoration:none;}
+.ls08 li:hover{ border:1px solid #cc0101; z-index:2;}
+
+/*技术需求*/
+.ls09{}
+.ls09 li{  position:relative; z-index:1; padding:0 14px; height:145px; border-bottom:1px dashed #e2e2e2;}
+.ls09 li .p1{ padding-top:5px; height:26px; line-height:26px;}
+.ls09 li .p1 a{ font-weight:bold; font-size:14px;}
+.ls09 li .p1 span{ padding:3px 5px; color:#ff4501; border:1px solid #ff4501;}
+.ls09 li .p2{ height:18px; line-height:18px; color:#666;}
+.ls09 li .link{ position:absolute; bottom:0; right:12px; width:80px; height:34px; line-height:34px; color:#fff; font-size:14px;}
+.a_wait{ background:url(../images/icon_73.png) no-repeat; text-indent:30px;}
+
+/*专题聚焦*/
+.ls10 li{ position:relative; z-index:1; margin-left:12px; width:280px; height:109px;}
+.ls10 li:hover{ opacity:0.7; filter:alpha(opacity:70);}
+.ls10 li img{width:280px; height:109px;}
+.ls10 li span{ position:absolute; left:0; bottom:0; width:100%; height:30px; line-height:30px; text-align:center; color:#fff; background:#000; opacity:0.7; filter:alpha(opacity:70);}
+/*科淘统计*/
+.ls11 li{margin:1px 0 0 -1px; border-left:1px solid #fff;}
+.ls11 li a{ display:block; width:156px; height:115px;}
+.ls11 li a:hover{ text-decoration:none; opacity:0.7; filter:alpha(opacity:70);}
+.ls11 li .p1{ padding-top:18px; height:31px; line-height:31px;}
+.ls11 li .p1 img{ margin:0 auto;}
+.ls11 li .p2{ height:35px; line-height:35px; font-size:22px; color:#fff;}
+.ls11 li .p3{ height:24px; line-height:24px; color:#fff;}
+

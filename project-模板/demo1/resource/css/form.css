@@ -88,7 +88,7 @@ select { }
 .list_table { border-right: 1px solid #d3dbde; border-top: 1px solid #d3dbde; width: 100%; }
 .list_table th { background: url("../images/box_top.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0); border-left: 1px solid #d3dbde; height: 37px; line-height: 37px; }
 .list_table td { border-bottom: 1px solid #d3dbde; border-left: 1px solid #d3dbde; padding: 5px; }
-.form_table td { padding: 5px; }
+.form_table td { padding: 5px; vertical-align: middle; }
 .td_center { text-align: center; }
 .td_left { text-align: left; }
 .td_right { text-align: right; }

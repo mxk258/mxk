@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.gwc_warp {margin:auto; width:1190px;}
+.gwc_list_title {width:1190px; height:44px; border-bottom:#dfdfdf 1px solid; border-right:#dfdfdf 1px solid; border-left:#dfdfdf 1px solid; border-top:#a2a2a2 2px solid; background:#f5f5f5;}
+.gwc_list_title ul li {display:block; float:left; color:#424242; font-size:14px; font-family:"微软雅黑"; text-align:left;height:44px; line-height:44px;}
+.gwc_list_title ul li.gwc_quanxuan {width:198px; padding-left:13px;}
+.gwc_list_title ul li.gwc_fwmc {width:433px;}
+.gwc_list_title ul li.gwc_fwjg {width:184px;}
+.gwc_list_title ul li.gwc_fwdj {width:135px;}
+.gwc_list_title ul li.gwc_fwsl {width:145px;}
+.gwc_list_title ul li.gwc_cz {width:80px;}
+
+.gwc_list_xunhuan {margin-top:8px; background:#fbfbfb; border:#dfdfdf 1px solid; height:193px;}
+.gwc_list_xunhuan p {height:33px; background:#FFF; border-bottom:#dfdfdf 1px solid; line-height:33px;padding-left:13px; color:#1369c0; font-size:12px; font-family:"宋体";}
+.gwc_list_xunhuan p a {height:33px; background:#FFF; color:#1369c0; font-size:12px; font-family:"宋体";}
+.gwc_list_xunhuan p span {color:#F00; font-size:12px; font-family:"宋体";}
+.gwc_list_xunhuan ul {padding:12px;}
+.gwc_list_xunhuan ul li {display:block; float:left;}
+.gwc_list_xunhuan ul li.gwc_quanxuan {width:198px;}
+.gwc_quanxuan span {display:block; float:left; padding-top:55px; width:20px; margin-right:5px;}
+.gwc_quanxuan img {border:#d4d4d4 1px solid; width:136px; height:136px;}
+.gwc_quanxuan img:hover { filter: alpha(opacity=70); /*For IE*/ -moz-opacity: 0.7; /*For Mozilla*/ opacity: 0.7; /*For FF*/ }
+.gwc_list_xunhuan ul li.gwc_fwmc {width:413px; line-height:24px; color:#424242;font-size:12px; font-family:"宋体"; margin-top:38px; padding-right:20px;}
+.gwc_fwmc a {color:#424242;font-size:12px; font-family:"宋体";}
+.gwc_fwmc a:hover {color:#ff6a06}
+.gwc_list_xunhuan ul li.gwc_fwjg {width:184px; color:#424242;font-size:12px; font-family:"宋体"; margin-top:55px;}
+.gwc_list_xunhuan ul li.gwc_fwdj {width:135px; color:#ff6a06; font-size:16px; font-family:"微软雅黑"; font-weight:bold; margin-top:52px;}
+.gwc_list_xunhuan ul li.gwc_fwsl {width:145px; margin-top:48px;}
+.gwc_list_xunhuan ul li.gwc_cz {width:50px; margin-top:55px;}
+.gwc_cz a {color:#1369c0; font-size:12px; font-family:"宋体";}
+
+.gwc_xzsl {width:44px; height:27px; border:#aeaeae 1px solid;}
+.gwc_xzsl_fl {float:left; width:25px; height:27px;}
+.gwc_xzsl_fl input {width:25px; height:26px; border:none; list-style-type:none; line-height:26px; text-indent:3px;}
+.gwc_xzsl_fr {float:right; width:16px; height:27px; border-left:#aeaeae 1px solid;}
+.gwc_xzsl_fr a {display:block; width:16px;}
+.gwc_xzsl_up {background:url(../images/gwc_top.jpg); display:block; height:13px;}
+.gwc_xzsl_up:hover {background:url(../images/gwc_top_h.jpg);}
+.gwc_xzsl_dow {background:url(../images/gwc_dow.jpg); display:block; height:14px;}
+.gwc_xzsl_dow:hover {background:url(../images/gwc_dow_h.jpg);}
+
+.gwc_jiesuan {height:98px; background:#f5f5f5; border:#dfdfdf 1px solid; margin-top:10px;}
+.gwc_jiesuan ul li {display:block; float:left;  font-family:"微软雅黑"; text-align:left;}
+.gwc_jiesuan_top {margin-top:40px; margin-left:13px;}
+.gwc_jiesuan_menu {display:block;width:700px; height:98px; border-right:#ececec 1px solid; line-height:98px;}
+.gwc_jiesuan_menu_red {background:url(../images/gwc_03.jpg) no-repeat left center; display:block; float:left; margin-left:60px; text-indent:25px; color:#ef3434; font-size:14px; font-family:"微软雅黑";}
+.gwc_jiesuan_menu_red:hover {color:#ef3434; text-decoration:underline;}
+.gwc_jiesuan_menu_blu {background:url(../images/gwc_05.jpg) no-repeat left center; display:block; float:left; margin-left:30px; text-indent:25px; color:#3695f6; font-size:14px; font-family:"微软雅黑";}
+.gwc_jiesuan_menu_shuzi {display:block;width:235px; height:98px; line-height:98px; margin-left:10px; color:#3a3a3a; font-size:22px; font-family:"微软雅黑";}
+.gwc_jiesuan_menu_shuzi span {color:#ff6a06;font-size:22px; font-family:"微软雅黑"; font-weight:bold;}
+.gwc_jiesuan_menu_big {display:block;width:185px; height:98px; line-height:98px;  color:#3a3a3a; font-size:22px; font-family:"微软雅黑"; background:url(../images/gwc_bigmenu.jpg) no-repeat;}
+.gwc_jiesuan_menu_big a {color:#FFF; font-size:22px; font-family:"微软雅黑"; padding-left:55px;}

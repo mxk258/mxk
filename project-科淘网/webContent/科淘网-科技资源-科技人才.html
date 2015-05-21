@@ -286,6 +286,30 @@
             </div>
         </div>
         <!-- 类型 end -->
+        <!-- 排序 start -->
+        <div class="box-info-total">
+            共找到
+            <a href="#">1235</a>
+            条信息
+        </div>
+        <div class="fwlb_px">
+            <ul id="ls_sort">
+                <li class="xuanzhong">更新时间从先到后</li>
+                <li>人气</li>
+                <li>价格</li>
+                <li>交易量</li>
+                <li>信誉度</li>
+            </ul>
+            <div class="fr lb_fy">
+                <span class="fc_f60">1</span>
+                /10
+                <a href="#">
+                    <img src="../images/jgfy_z.jpg" border="0" class="fy_z"></a>
+                <a href="#">
+                    <img src="../images/jgfy_y.jpg" border="0" class="fy_y"></a>
+            </div>
+        </div>
+        <!-- 排序 end -->
         <div class="clearfix mt5">
         	<!-- 科技人才 start -->
         	<div class="fl w846">
@@ -659,6 +683,83 @@
     $(document).ready(function (e) {
         //初始化搜索
         GLOBAL.Search.init();
+
+        //排序
+        $("#ls_sort li").bind({
+            click:function(){
+                var text = $(this).text();
+                var index = $(this).index();
+                var $this = $(this);
+                changeText();
+                switch(text){
+                    case "更新时间":
+                        $(this).text("更新时间从先到后");
+                        break;
+                    case "更新时间从后到先":
+                        $(this).text("更新时间从先到后");
+                        break;
+                    case "更新时间从先到后":
+                        $(this).text("更新时间从后到先");
+                        break;
+                    case "人气":
+                        $(this).text("人气从高到低");
+                        break;
+                    case "人气从高到低":
+                        $(this).text("人气从低到高");
+                        break;
+                    case "人气从低到高":
+                        $(this).text("人气从高到低");
+                        break;
+                    case "价格":
+                        $(this).text("价格从高到低");
+                        break;
+                    case "价格从高到低":
+                        $(this).text("价格从低到高");
+                        break;
+                    case "价格从低到高":
+                        $(this).text("价格从高到低");
+                        break;
+                    case "交易量":
+                        $(this).text("交易量从高到低");
+                        break;
+                    case "交易量从高到低":
+                        $(this).text("交易量从低到高");
+                        break;
+                    case "交易量低到高":
+                        $(this).text("交易量从高到低");
+                        break;
+                    case "信誉度":
+                        $(this).text("信誉度从高到低");
+                        break;
+                    case "信誉度从高到低":
+                        $(this).text("信誉度从低到高");
+                        break;
+                    case "信誉度从低到高":
+                        $(this).text("信誉度从高到低");
+                        break;
+                }
+                $(this).addClass("xuanzhong").siblings("li").removeClass("xuanzhong");
+                function changeText(){
+                    var $xuanzhong = $this.siblings(".xuanzhong");
+                    var textXuan = "";
+                    if($xuanzhong.length == 1){
+                        textXuan = $xuanzhong.text();
+                        if(textXuan.indexOf("更新时间") != -1){
+                            $xuanzhong.text("更新时间");
+                        }else if(textXuan.indexOf("人气") != -1){
+                            $xuanzhong.text("人气");
+                        }else if(textXuan.indexOf("价格") != -1){
+                            $xuanzhong.text("价格");
+                        }else if(textXuan.indexOf("交易量") != -1){
+                            $xuanzhong.text("交易量");
+                        }else if(textXuan.indexOf("信誉度") != -1){
+                            $xuanzhong.text("信誉度");
+                        }
+                    }
+                }
+            }
+        });
+        //排序结束
     });
 </script>
 </body>

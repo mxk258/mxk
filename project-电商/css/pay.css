@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* pay */
+.box_pay h2{ height:98px; line-height:98px; text-align:center; font-size:26px; color:#f60;}
+.box_payInfo{ padding:33px 0 28px 0; margin:0 auto; width:593px; border:1px solid #ff9a02; height:300px; background:#ffffce;}
+.box_payInfo ul li{ height:41px; line-height:41px;}
+.box_payInfo ul li label{ float:left; width:241px; text-align:right; font-size:18px; color:#ababa2;}
+.box_payInfo ul li span{ float:right; width:320px; font-size:18px;}
+.box_bank ul{ width:370px;}
+.box_bank ul li{ line-height:18px;}
+

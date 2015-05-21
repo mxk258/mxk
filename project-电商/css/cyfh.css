@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#f9f9f9;}
+.ls02{ width:230px; height:283px;}
+.ls02 li a{ display:block; width:100%; height:70px; line-height:70px; text-indent:95px; font-weight:bold; color:#fff; font-size:18px; background:#669900 url(../images/icon_58.png) 45px 0 no-repeat;}
+.ls02 li a:hover{ text-decoration:none; filter:alpha(opacity:70); opacity:0.7;}
+.ls02 li{ border-top:1px solid #fff;}
+.ls02 li.li2 a{ background-position:45px -71px;}
+.ls02 li.li3 a{ background-position:45px -142px;}
+.ls02 li.li4 a{ background-position:45px -213px;}
+
+#slide{ width:950px; height:283px;}
+#slide .ls_img{ width:100%; height:283px;}
+#slide .ls_img li{margin:0!important;}
+#slide .ls_img li img{ width:950px; height:283px;}
+#slide .ls_btn{ position:absolute; z-index:3; bottom:15px; left:50%;}
+#slide .ls_btn li{ margin-left:11px; width:14px; height:14px; background:url(../images/i_circle2.png) no-repeat; cursor:pointer; text-indent:-10000px;}
+#slide .ls_btn li.selected{ background:url(../images/i_circle2.png) 0 -14px  no-repeat;}
+#slide .bg{ position:absolute; z-index:1; left:0; bottom:0; width:100%; height:37px; background:#000; opacity:0.5; filter:alpha(opacity:50); }
+.ls03{ position:absolute; top:15px; left:120px;}
+.ls03 li { margin-right:5px; width:68px; height:30px; line-height:30px; text-align:center;}
+.ls03 li a{ font-size:14px; font-family:"宋体";}
+.ls03 li.selected{ background:url(../images/icon_59.png) left bottom no-repeat;}
+.ls03 li.selected a{ color:#690; font-size:14px;}
+/*最新服务*/
+.ls04 li{ margin-left:10px; position:relative; z-index:1; padding:9px 9px 0 9px; width:210px; height:269px; border:1px solid #ccc; background:#fff;}
+.ls04 li:hover{ opacity:0.7; filter:alpha(opacity:70);}
+.ls04 li .link2{ display:block; line-height:24px; font-size:14px; color:#000; font-family:"宋体"; font-weight:bold; letter-spacing:-1px; text-align:center;}
+.ls04 li .p1{ color:#999; line-height:21px; font-family:"宋体";}
+.ls04 li .link3{ position:absolute; z-index:1; bottom:0; right:0; width:72px; height:28px; line-height:28px; text-align:center; color:#fff; font-family:"宋体"; background:#669900; font-size:14px;}
+/*专业孵化器*/
+.ls_05 li{ padding:0 30px; width:328px; height:248px; border:1px solid #ccc; background:#fff; margin-left:10px;}
+.ls_05 li:hover{ opacity:0.7; filter:alpha(opacity:70);}
+.ls_05 li .link1{ display:block; height:100px; padding-top:20px;}
+.ls_05 li .link1 img{ margin:0 auto;}
+.ls_05 li .link2{ display:block; height:36px; line-height:36px; text-align:center; font-size:14px; color:#669900; font-family:"宋体";}
+.ls_05 li .p1{ line-height:17px; color:#999; font-family:"宋体";}
+.ls_05 li .link3{ padding:0 11px; height:25px; line-height:25px; color:#fff; text-align:center; font-family:"宋体"; background:#ff3741;}
+.ls_05 li .p2{margin-top:15px;}
+.ls_05 li .s1,
+.ls_05 li .s2{ margin-left:20px; padding-left:25px; height:25px; line-height:25px; background:url(../images/kjyf_yfjg_icon_42.jpg) 0 2px no-repeat; font-family:"宋体"; color:#333;}
+.ls_05 li .s2{ margin-left:15px; background:url(../images/kjyf_yfjg_icon_43.jpg) 0 2px no-repeat;}
+
+/*需求信息*/
+.w710{width:710px!important;}
+.box01{width:469px;}
+.box01 .box_tab{ width:467px; height:398px; border:1px solid #ccc; background:#fff;}
+.ls06 li{ padding:9px 9px 0 9px; height:90px; border-top:1px dashed #ccc;}
+.ls06 li:hover{ opacity:0.7; filter:alpha(opacity:70);}
+.ls06 li .left{ width:100px; height:80px; overflow:hidden;}
+.ls06 li .right{ width:335px;}
+.ls06 li .right h4{ line-height:20px; color:#333; font-size:14px;}
+.ls06 li .right p{ padding-top:5px; color:#999; line-height:20px;}
+.ls06 li .right p a{margin-left:5px; color:#f60;}
+/*服务机构*/
+.ls08 li{ margin-left:10px!important; padding:0 12px!important; width:200px!important; height:193px!important;}
+.ls08 li:hover{ opacity:0.7; filter:alpha(opacity:70);}
+.ls08 li .zs_xq_img{ height:75px;}
+.ls08 li .zs_xq_txt,
+.ls08 li .zs_xq_fwcs{ margin:5px 0 0 0; width:200px;}
+.ls08 li .zs_xq_icon1,
+.ls08 li .zs_xq_icon2{ margin-top:3px;}
+.ls08 li .b{ height:22px; line-height:22px;}
