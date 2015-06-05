@@ -676,7 +676,7 @@ a:hover { color: #c00; text-decoration:none; }
 /*服务需求*/
 .h-more-red{ position:relative;z-index:1; height:45px; line-height:45px; font-size:20px; color:#fff; text-indent:27px; background:#c00;}
 .h-more-red .more{ position:absolute; top:0; right:17px; height:45px; line-height:49px; color:#fff; font-size:14px; font-family:"宋体"; text-decoration:none;}
-.ls-fwxq li{ width:100%; height:31px; line-height:31px;}
+.ls-fwxq li{ width:100%; height:31px; line-height:31px; overflow: hidden;}
 .ls-fwxq li a{ font-size:14px; font-family:"宋体";}
 .ls-fwxq li a:hover{ color:#c00;}
 /*工业设计*/
@@ -748,7 +748,7 @@ a:hover { color: #c00; text-decoration:none; }
 .box-pipei h2{ height:125px; font:bold 38px/119px "微软雅黑"; text-align:center; color:#c00;}
 .box-pipei .box-xinxi{ position:relative; z-index:1; width:355px; height:276px;}
 .box-pipei .box-xinxi h3{ height:56px; line-height:56px; text-align:center; color:#fff; font-size:22px; background:#c00;}
-.box-pipei .box-xinxi .bor_1_ccc{ padding:0 23px; height:220px; border-top:none; background:#fff;}
+.box-pipei .box-xinxi .bor_1_ccc{ padding:0 280px 0 23px; height:220px; border-top:none; background:#fff;}
 .box-pipei .box-xinxi h4{ line-height:65px; color:#5e8c2f; font-size:14px;}
 .box-pipei .box-xinxi p{ line-height:22px; color:#666;}
 .box-pipei .box-xinxi .btn-c-red{position:absolute; z-index:1; bottom:-27px; left:65px;}
@@ -1270,3 +1270,10 @@ a:hover { color: #c00; text-decoration:none; }
 .lb_fy { font-size:14px; width:100px; padding-left:20px; color:#999; }
 .fy_z { margin-left:50px; margin-top:-28px;}
 .fy_y { margin-left:70px; margin-top:-21px; }
+
+/*自主推荐*/
+.box-pipei .box-xinxi .bor_1_ccc{ position:relative; z-index: 1;}
+.ls-star{ position:absolute; z-index: 1; top:15px; right:0; width:250px;}
+.ls-star li{ width: 100%; height: 31px; line-height: 31px;}
+.ls-star li b{ display: inline-block; margin:0 5px; width:20px; height:20px; background:url(../images/start-1.png) no-repeat; vertical-align: middle;}
+.ls-star li b.selected{ background:url(../images/start-2.png) no-repeat;}

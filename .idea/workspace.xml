@@ -2,591 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e05400-512d-4932-88ea-bc71243615a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/404.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/500.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_34.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_35.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/ad_40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_index1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_index2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_index3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_index4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/banner_index5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/bg01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/bg02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/bg03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/bg04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/bg05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/bg_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/bg_nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/bg_scrollBtn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/bg_scrollLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/bg_scrollRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/btn-guanzhu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/btn-rc-fbxq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/btn-xq-dzfw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/btn-xq-fbxq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/btn-zixun.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/btn_login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/btn_region.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cg-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/cg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/cp1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/cp2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/cp3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/cxxq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/dw-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/dw-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/dw-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/dw-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/dw-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/dw-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/dw-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/dw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/fwlb/fwl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/fwlb/fwlb_cp1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/fwlb/fwlb_icon1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/fwxx_112321.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/fwxx_dianhua.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/fwxx_images.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/fwxx_menu_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/fwxx_menu_05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/fwxx_xx_map.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/fwxx_xx_xgfw.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/gwc_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/gwc_05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/gwc_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/gwc_bigmenu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/gwc_dow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/gwc_dow_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/gwc_top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/gwc_top_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/i_article_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/i_article_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/i_article_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/i_circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/i_circle2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/i_credibleWeb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/i_emblem.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/i_police.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/i_recordWeb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/i_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/i_weixin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon10b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon11b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon12b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon13b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon14b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon1b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon2b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon3b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon4b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon5b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon6b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon7b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon8b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon9b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_01_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_02_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_03_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_04_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_05_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_06_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_07_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_08_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_101.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_102.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_103.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_104.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/icon_104.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_105.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_106.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_106_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_107.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_107_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_108.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_108_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_109.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_109_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_110.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_110_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_111.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_111_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_112.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_113.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_115.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_116.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_117.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_118.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_119.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_121.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_122.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_123.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_124.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_125.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_126.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_127.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_129.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_130.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_131.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_132.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_133.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_134.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_135.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_136.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_137.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_138.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_139.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_13_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_140.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_14_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/icon_26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_34.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_35.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_42.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_44.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_46.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_46_two.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_47.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_49.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_490.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_51.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_52.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_53.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_54.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_55.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_56.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_58.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_59.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_61.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_62.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_63.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_65.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_66.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_67.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_68.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_69.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_71.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_73.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_74.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_75.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_77.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_78.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_79.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_80.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_81.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_82.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_83.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_84.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_85.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_86.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_87.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_88.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_89.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_90.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_91.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_92.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_93.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_94.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_95.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_97.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_98.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_99.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_cxfh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_dsj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon_hsj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_jszy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_jyjc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_kjjr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_kjzx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_kxpj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_service_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_service_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_service_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_service_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_service_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_service_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_service_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_service_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_service_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_service_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/icon_ssj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_yffw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/icon_zscq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/img01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/img02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/img03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/img04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/bg/index-科服汇.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/jglb/jgfy_y.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/jgfy_y.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/jglb/jgfy_z.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/jgfy_z.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/jglb/jglb_logo1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/jglb/jglb_logo2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/jgxx/jgxx_icon1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/jgxx/jgxx_icon2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/jgxx/jgxx_icon3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/jgxx/jgxx_ph.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/jgxx/jgxx_top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/jgxx/jgxx_yq1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/fwlb/jjxx.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/fwlb/jjxx_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_cp9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_icon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_icon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_icon5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjjr/kjjr_icon6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjt_32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_fa_menu_23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_fa_menu_31.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_nav_07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_nav_10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_nav_12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_nav_14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_nav_16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_nav_18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_nav_20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_yfjg_icon_42.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_yfjg_icon_43.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_yfzy_icon_36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_yfzy_icon_38.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_yfzy_pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_zxxq_23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kjyf_zxxq_25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_37.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_42.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_44.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_49.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_53.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_kpcg_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_kpcg_map.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_kpjd_li.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_kpsys.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_kucg_pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_nav_05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_nav_07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_nav_09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_nav_11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_nav_13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_nav_15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_nav_28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_nav_40.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/kxpj_rw.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwpd/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/logo2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/nopic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/qq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/rc-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/rc-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/rc-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/rc-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/rc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/sb1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/sb2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/sb3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/sb4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/sb5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/sb6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/test.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/tjfw_pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/xq-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/xq-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/xq-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/xq-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/xq-btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/xq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/xxfb/xxfb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/xxfb/xxfb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/xxfb/xxfb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/xxfb/xxfb_icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/xxfb/xxfb_txt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zhuanti_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/zs_icon1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zscq/zs_icon2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwb01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwb02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/zwb03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/bg/支付成功.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/bg/政务版-资源展示.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/bg/政务版-资源统计.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/images/bg/服务详细-规格修改.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/js/163css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/js/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/js/base2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/calendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/cyfh.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/fwlb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/fwxx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/gwc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/header_wzpd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/iframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/iframe2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/iframe3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/jglb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/jgxx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/js/jquery-1.2.6.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/js/jquery-1.9.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/js/jquery.ui.core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/js/jquery.ui.datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/js/jquery.ui.widget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/kjjr.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/kjt.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/kjyf.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/kjzx.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/ktw.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/kxpj.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/js/lib.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/pay.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/zwpd/public.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/xxfb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/css/zscq.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/支付成功.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/支付页面.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/政务-资源列表.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/政务版-资源展示.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/政务版-资源统计.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/政务版.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/政务首页.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科技资源.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-信息发布-列表.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-信息发布-详细.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-创业孵化.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-服务列表.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-服务详情.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-机构列表.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-机构详细.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-科学普及.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-科技研发.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-科技金融.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-科检通频道 - 2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-科检通频道.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科服汇-购物车.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科检通-知识产权.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科检通-科技咨询.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-电商/webContent/科淘网.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/详细页面-人才.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/webContent/详细页面-需求.html" />
-      <change type="DELETED" beforePath="G:\workSpace\mxk\btn.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/images/bg/cxxq.png" afterPath="$PROJECT_DIR$/project-科淘网/images/bg/cxxq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/start-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-科淘网/images/start-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/css/base.css" afterPath="$PROJECT_DIR$/project-科淘网/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/js/base.js" afterPath="$PROJECT_DIR$/project-科淘网/js/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-模板/demo1/resource/css/form.css" afterPath="$PROJECT_DIR$/project-模板/demo1/resource/css/form.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-模板/demo1/webContent/index.html" afterPath="$PROJECT_DIR$/project-模板/demo1/webContent/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技成果.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技成果.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-首页.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/科淘网-首页.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html" afterPath="$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-龙转网/webContent/龙转网-科技推广.html" afterPath="$PROJECT_DIR$/project-龙转网/webContent/龙转网-科技推广.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/详细页面-人才.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/详细页面-人才.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/详细页面-成果.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/详细页面-成果.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-科淘网/webContent/详细页面-需求.html" afterPath="$PROJECT_DIR$/project-科淘网/webContent/详细页面-需求.html" />
     </list>
     <ignored path="mxk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -610,21 +33,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="科淘网-科技资源-创新需求.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="科淘网-科技资源-创新需求.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7111111" vertical-offset="12024" max-vertical-offset="12924">
+            <state vertical-scroll-proportion="-24.208334" vertical-offset="12019" max-vertical-offset="12924">
               <caret line="700" column="32" selection-start-line="700" selection-start-column="32" selection-end-line="700" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project-科淘网/css/base.css">
+      <file leaf-file-name="科淘网-供需对接-自主推荐.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.7118645" vertical-offset="12502" max-vertical-offset="22968">
-              <caret line="710" column="33" selection-start-line="710" selection-start-column="33" selection-end-line="710" selection-end-column="33" />
+            <state vertical-scroll-proportion="-4.2771087" vertical-offset="5495" max-vertical-offset="7758">
+              <caret line="325" column="29" selection-start-line="325" selection-start-column="29" selection-end-line="325" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="详细页面-成果.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/详细页面-成果.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-25.708334" vertical-offset="11389" max-vertical-offset="12258">
+              <caret line="667" column="11" selection-start-line="667" selection-start-column="11" selection-end-line="667" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="详细页面-需求.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/详细页面-需求.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-28.708334" vertical-offset="9841" max-vertical-offset="10710">
+              <caret line="585" column="11" selection-start-line="578" selection-start-column="8" selection-end-line="585" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="详细页面-人才.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/详细页面-人才.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.95857304" vertical-offset="9715" max-vertical-offset="10728">
+              <caret line="586" column="11" selection-start-line="586" selection-start-column="11" selection-end-line="586" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="详细页面-单位.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/详细页面-单位.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-28.708334" vertical-offset="9607" max-vertical-offset="10476">
+              <caret line="572" column="11" selection-start-line="565" selection-start-column="8" selection-end-line="572" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -643,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project-设计模式/第4章继承/argument.js" />
         <option value="$PROJECT_DIR$/project-ui/custom/webContent/modalwindow.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-在线展会.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-作价交易-技术评估.html" />
@@ -681,19 +143,20 @@
         <option value="$PROJECT_DIR$/project-模板/demo1/resource/css/index.css" />
         <option value="$PROJECT_DIR$/project-模板/demo1/webContent/index.html" />
         <option value="$PROJECT_DIR$/project-模板/demo1/resource/css/form.css" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/详细页面-需求.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/详细页面-人才.html" />
         <option value="$PROJECT_DIR$/project-龙转网/webContent/龙转网-科技推广.html" />
         <option value="$PROJECT_DIR$/project-龙转网/webContent/龙转网-技术市场信息港.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-首页.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技成果.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技服务.html" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-科技人才.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html" />
         <option value="$PROJECT_DIR$/project-科淘网/js/base.js" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/详细页面-单位.html" />
-        <option value="$PROJECT_DIR$/project-科淘网/css/base.css" />
         <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/css/base.css" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/详细页面-成果.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/详细页面-需求.html" />
+        <option value="$PROJECT_DIR$/project-科淘网/webContent/详细页面-人才.html" />
       </list>
     </option>
   </component>
@@ -766,6 +229,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Changed Files" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -826,14 +292,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="project-科淘网" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mxk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="project-电商" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Changed Files" />
       </pane>
     </panes>
   </component>
@@ -919,10 +400,14 @@
       <ConfigurationWrapper RunnerId="debuggableProgram" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -930,10 +415,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -1025,20 +506,20 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21803127" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14857745" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.49962825" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28330892" sideWeight="0.23219815" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46548957" sideWeight="0.50037175" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.256" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50482315" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.49962825" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.49962825" order="13" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1059,9 +540,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2827381" sideWeight="0.7678019" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.49962825" order="13" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1326,17 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5988" max-vertical-offset="9270">
           <caret line="353" column="22" selection-start-line="325" selection-start-column="16" selection-end-line="353" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/详细页面-人才.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="10188">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1382,11 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3185941" vertical-offset="7" max-vertical-offset="13266">
           <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="122" selection-end-column="20" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1394,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31632653" vertical-offset="18783" max-vertical-offset="28458">
           <caret line="1059" column="22" selection-start-line="1059" selection-start-column="22" selection-end-line="1059" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1402,9 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32199547" vertical-offset="526" max-vertical-offset="9324">
           <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1412,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4399093" vertical-offset="746" max-vertical-offset="9072">
           <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1420,31 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3834">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/详细页面-需求.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.253012" vertical-offset="3114" max-vertical-offset="10170">
-          <caret line="188" column="42" selection-start-line="188" selection-start-column="40" selection-end-line="188" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="6606">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/详细页面-成果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="11772">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1456,26 +891,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/详细页面-单位.html">
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0843374" vertical-offset="0" max-vertical-offset="10476">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        <state vertical-scroll-proportion="-24.208334" vertical-offset="12019" max-vertical-offset="12924">
+          <caret line="700" column="32" selection-start-line="700" selection-start-column="32" selection-end-line="700" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project-科淘网/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7118645" vertical-offset="12502" max-vertical-offset="22968">
-          <caret line="710" column="33" selection-start-line="710" selection-start-column="33" selection-end-line="710" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.8705036" vertical-offset="22260" max-vertical-offset="23094">
+          <caret line="1277" column="73" selection-start-line="1277" selection-start-column="73" selection-end-line="1277" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-科技资源-创新需求.html">
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/科淘网-供需对接-自主推荐.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7111111" vertical-offset="12024" max-vertical-offset="12924">
-          <caret line="700" column="32" selection-start-line="700" selection-start-column="32" selection-end-line="700" selection-end-column="32" />
+        <state vertical-scroll-proportion="-4.2771087" vertical-offset="5495" max-vertical-offset="7758">
+          <caret line="325" column="29" selection-start-line="325" selection-start-column="29" selection-end-line="325" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/详细页面-单位.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.708334" vertical-offset="9607" max-vertical-offset="10476">
+          <caret line="572" column="11" selection-start-line="565" selection-start-column="8" selection-end-line="572" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/详细页面-成果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.708334" vertical-offset="11389" max-vertical-offset="12258">
+          <caret line="667" column="11" selection-start-line="667" selection-start-column="11" selection-end-line="667" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/详细页面-需求.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.708334" vertical-offset="9841" max-vertical-offset="10710">
+          <caret line="585" column="11" selection-start-line="578" selection-start-column="8" selection-end-line="585" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-科淘网/webContent/详细页面-人才.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95857304" vertical-offset="9715" max-vertical-offset="10728">
+          <caret line="586" column="11" selection-start-line="586" selection-start-column="11" selection-end-line="586" selection-end-column="11" />
           <folding />
         </state>
       </provider>

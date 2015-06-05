@@ -200,7 +200,7 @@
                     	<div class="fwxx_xx_fdj fl" style="width:370px; height:347px;">
                             <div id="preview">
                                 <div class="jqzoom" id="spec-n1">
-                                    <img src="../images/cg-0-1.png" jqimg="../images/img04.jpg" />
+                                    <img src="../images/cg-0-1.png" jqimg="../images/img02.jpg" />
                                 </div>
                                 <div id=spec-n5>
                                     <div class=control id=spec-left>
@@ -581,6 +581,28 @@
     </div>
 </div>
 <!-- footer end -->
+<div id="shadeContent" class="shadeContent">
+    <div class="shade_h4 clearfix">
+        <h4 class="fl f14 fm_s">机构简介</h4>
+        <a class="shade_close fr">×</a>
+    </div>
+    <div class="shade_text">
+        新华社德国汉堡10月11日电（记者 俞铮 何梦舒）国务院总理李克强当地时间11日上午在出席中欧论坛汉堡峰会前会见卢森堡首相贝特
+        尔。<br>
+        <p class="text">李克强表示，中卢关系堪称东西方不同幅员、人口国家之间友好相处的典范。两国政治互信水平高，经济合作力度大，金融合作关系
+            深。中方愿同卢方扩大交流对话，深化务实合作，使两国关系更具活力。</p>
+        <p class="text">李克强强调，中方重视卢森堡国际金融中心的地位和作用，支持在双边贸易和投资中扩大本币使用，支持卢森堡发展离岸人民币市
+            场。欢迎卢金融机构和制造业企业赴华投资，希望卢方为中国企业在卢投资经营提供便利。</p>
+        <p class="text">贝特尔表示，卢中关系是相互尊重、互利共赢的，始终充满活力。卢方愿与中方加强金融等领域合作，愿做中国企业和金融机构进入
+            欧洲和欧元区的门户，欢迎更多中国企业和银行赴卢发展业务，并将为此提供便利。卢方愿为欧中关系发展发挥积极推动作用。</p>
+        <p class="text">贝特尔表示，卢中关系是相互尊重、互利共赢的，始终充满活力。卢方愿与中方加强金融等领域合作，愿做中国企业和金融机构进入
+            欧洲和欧元区的门户，欢迎更多中国企业和银行赴卢发展业务，并将为此提供便利。卢方愿为欧中关系发展发挥积极推动作用。</p>
+        <p class="text">贝特尔表示，卢中关系是相互尊重、互利共赢的，始终充满活力。卢方愿与中方加强金融等领域合作，愿做中国企业和金融机构进入
+            欧洲和欧元区的门户，欢迎更多中国企业和银行赴卢发展业务，并将为此提供便利。卢方愿为欧中关系发展发挥积极推动作用。</p>
+        <p class="text">贝特尔表示，卢中关系是相互尊重、互利共赢的，始终充满活力。卢方愿与中方加强金融等领域合作，愿做中国企业和金融机构进入
+            欧洲和欧元区的门户，欢迎更多中国企业和银行赴卢发展业务，并将为此提供便利。卢方愿为欧中关系发展发挥积极推动作用。</p>
+    </div>
+</div>
 <script src="../js/jquery-1.9.1.js"></script>
 <script src="../js/jquery-1.2.6.pack.js"></script>
 <script src="../js/base.js"></script>
@@ -641,8 +663,13 @@
 			$(this).css({
 				"border":"1px solid #ccc"
 			});
-		});	
-		
+		});
+        //遮罩层
+        $(".box-xqms .detail .more").bind("click", function(){
+            //初始化遮罩层
+            GLOBAL.Shade.init();
+            return false;
+        });
     });
 </script>
 </body>
