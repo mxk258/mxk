@@ -801,8 +801,9 @@
         $(".box-detail-more .more").bind("click", function(){
             var $this = $(this);
             var $list = $this.siblings(".ls_fl");
+            debugger;
             var iListHeight = parseInt($list.css("height"));
-            var iNewHeight = $list.find("li:eq(0)").height();
+            var iNewHeight = $list.find("li:eq(0) a").height();
             var str = "更多>>";
             if(iListHeight == iNewHeight){
                 iNewHeight = "auto";
