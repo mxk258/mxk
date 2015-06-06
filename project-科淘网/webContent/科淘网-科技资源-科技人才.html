@@ -193,7 +193,7 @@
         <div class="clearfix box-hylb box-chanye">
             <div class="clearfix">
                 <div class="head fl">类型</div>
-                <ul class="ls_fl fl clearfix">
+                <ul class="ls_fl clearfix">
                     <li class="selected">
                         <a>全部</a>
                     </li>
@@ -216,7 +216,7 @@
             </div>
             <div class="clearfix bor-t-1-eee">
                 <div class="head fl">领域</div>
-                <ul class="ls_fl fl clearfix">
+                <ul class="ls_fl clearfix">
                     <li class="selected">
                         <a>全部</a>
                     </li>
@@ -245,13 +245,35 @@
                         <a>电子信息</a>
                     </li>
                     <li>
-                        <a class="more">更多>></a>
+                        <a>生物医药</a>
+                    </li>
+                    <li>
+                        <a>环保和资源</a>
+                    </li>
+                    <li>
+                        <a>食品饮料</a>
+                    </li>
+                    <li>
+                        <a>新型材料</a>
+                    </li> 
+                    <li>
+                        <a>农林牧业</a>
+                    </li>
+                    <li>
+                        <a>化学化工</a>
+                    </li>
+                    <li>
+                        <a>机械制造</a>
+                    </li>
+                    <li>
+                        <a>电子信息</a>
                     </li>
                 </ul>
+                <a class="more">更多>></a>
             </div>
             <div class="clearfix bor-t-1-eee">
                 <div class="head fl">所在领域</div>
-                <ul class="ls_fl fl clearfix">
+                <ul class="ls_fl clearfix">
                     <li class="selected">
                         <a>全部</a>
                     </li>
@@ -280,9 +302,55 @@
                         <a>鹤岗</a>
                     </li>
                     <li>
-                        <a class="more">更多>></a>
+                        <a>哈尔滨</a>
+                    </li>
+                    <li>
+                        <a>大庆</a>
+                    </li>
+                    <li>
+                        <a>牡丹江</a>
+                    </li>
+                    <li>
+                        <a>佳木斯</a>
+                    </li> 
+                    <li>
+                        <a>齐齐哈尔</a>
+                    </li>
+                    <li>
+                        <a>黑河</a>
+                    </li>
+                    <li>
+                        <a>大兴安岭</a>
+                    </li>
+                    <li>
+                        <a>鹤岗</a>
+                    </li>
+                    <li>
+                        <a>哈尔滨</a>
+                    </li>
+                    <li>
+                        <a>大庆</a>
+                    </li>
+                    <li>
+                        <a>牡丹江</a>
+                    </li>
+                    <li>
+                        <a>佳木斯</a>
+                    </li> 
+                    <li>
+                        <a>齐齐哈尔</a>
+                    </li>
+                    <li>
+                        <a>黑河</a>
+                    </li>
+                    <li>
+                        <a>大兴安岭</a>
+                    </li>
+                    <li>
+                        <a>鹤岗</a>
                     </li>
                 </ul>
+                <a class="more">更多>></a>
             </div>
         </div>
         <!-- 类型 end -->
@@ -760,6 +828,21 @@
             }
         });
         //排序结束
+
+        //更多
+        $(".box-chanye .more").bind("click", function(){
+            var $this = $(this);
+            var $list = $this.siblings(".ls_fl");
+            var iListHeight = parseInt($list.css("height"));
+            var iNewHeight = $list.find("li:eq(0)").height();
+            var str = "更多>>";
+            if(iListHeight == iNewHeight){
+                iNewHeight = "auto";
+                str = "收起&nbsp;";
+            }
+            $list.css("height", iNewHeight);
+            $this.html(str);
+        });
     });
 </script>
 </body>

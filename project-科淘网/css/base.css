@@ -400,7 +400,8 @@ a:hover { color: #c00; text-decoration:none; }
 .a_weixin, .a_sina { display: inline-block; width: 62px; height: 22px; line-height: 22px; background: url(../images/i_weixin.png) no-repeat; text-indent: 23px; }
 .a_sina { background-position: 0 -22px; }
 .a_weixin:hover, .a_sina:hover { text-decoration: none; }
-.mykfh .pa { top: 5px; right: 8px; }
+.mykfh{ padding:0!important;}
+.mykfh .pa { top: 5px; right: -13px; }
 .car { background: url(../images/icon_43.png) left 0 no-repeat; }
 #content{ min-width:1190px;}
 /* header end */
@@ -708,9 +709,9 @@ a:hover { color: #c00; text-decoration:none; }
 .box-hylb .head{ position:absolute; z-index: 1; top:0; left: 0;  width:98px; height:100%; line-height:38px; text-indent:19px; font-size:14px; font-family:"宋体"; border-right:1px solid #eee; background:#f9f9f9; color:#999;}
 .box-hylb .bor-t-1-eee{ position:relative; z-index: 1;}
 .box-hylb .more{ position:absolute; z-index: 1; top:8px; right: 0; display:block; height:25px; line-height:25px; padding:0 13px; font-size:14px; font-family:"宋体";}
-.box-hylb ul{ padding:7px 0 6px 0; margin: 0 99px; height:25px; overflow: hidden;}
+.box-hylb ul{ padding:7px 0 6px 0; margin: 0 99px; height:26px; overflow: hidden;}
 .box-hylb ul li{ margin-left:9px;}
-.box-hylb ul li a{ display:block; height:25px; line-height:25px; padding:0 13px; font-size:14px; font-family:"宋体";}
+.box-hylb ul li a{ display:block; height:26px; line-height:26px; padding:0 13px; font-size:14px; font-family:"宋体";}
 .box-hylb ul li.selected{ margin-left:12px;}
 .box-hylb ul li.selected a{ background:#c00; color:#fff;}
 .box-hylb ul li.more a{ color:#c00;}

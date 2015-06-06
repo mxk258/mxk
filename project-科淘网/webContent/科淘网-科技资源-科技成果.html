@@ -292,10 +292,10 @@
         <!-- slide end -->
         <!-- 产业 start -->
         <!-- 行业类别 start -->
-        <div class="clearfix box-hylb box-chanye mt10">
-        	<div class="clearfix">
+        <div class="clearfix box-hylb box-chanye box-detail-more mt10">
+            <div class="clearfix">
                 <div class="head fl">十大产业</div>
-                <ul class="ls_fl fl clearfix">
+                <ul class="ls_fl clearfix">
                     <li class="selected">
                         <a>全部</a>
                     </li>
@@ -330,42 +330,88 @@
             </div>
             <div class="clearfix bor-t-1-eee">
                 <div class="head fl">行业类别</div>
-                <ul class="ls_fl fl clearfix">
+                <ul class="ls_fl clearfix">
                     <li class="selected">
                         <a>全部</a>
                     </li>
                     <li>
-                    	<a href="#">生物医药</a>
+                        <a href="#">生物医药</a>
                     </li>
                     <li>
-                    	<a href="#">环保和资源</a>
+                        <a href="#">环保和资源</a>
                     </li>
                     <li>
-                    	<a href="#">食品饮料</a>
+                        <a href="#">食品饮料</a>
                     </li>
                     <li>
-                    	<a href="#">新型材料</a>
+                        <a href="#">新型材料</a>
                     </li>
                     <li>
-                    	<a href="#">农林牧业</a>
+                        <a href="#">农林牧业</a>
                     </li>
                     <li>
-                    	<a href="#">化学化工</a>
+                        <a href="#">化学化工</a>
                     </li>
                     <li>
-                    	<a href="#">机械制造</a>
+                        <a href="#">机械制造</a>
                     </li>
                     <li>
-                    	<a href="#">电子信息</a>
+                        <a href="#">电子信息</a>
                     </li>
-                    <li class="more">
-                        <a>更多>></a>
+                    <li>
+                        <a href="#">生物医药</a>
+                    </li>
+                    <li>
+                        <a href="#">环保和资源</a>
+                    </li>
+                    <li>
+                        <a href="#">食品饮料</a>
+                    </li>
+                    <li>
+                        <a href="#">新型材料</a>
+                    </li>
+                    <li>
+                        <a href="#">农林牧业</a>
+                    </li>
+                    <li>
+                        <a href="#">化学化工</a>
+                    </li>
+                    <li>
+                        <a href="#">机械制造</a>
+                    </li>
+                    <li>
+                        <a href="#">电子信息</a>
+                    </li>
+                    <li>
+                        <a href="#">生物医药</a>
+                    </li>
+                    <li>
+                        <a href="#">环保和资源</a>
+                    </li>
+                    <li>
+                        <a href="#">食品饮料</a>
+                    </li>
+                    <li>
+                        <a href="#">新型材料</a>
+                    </li>
+                    <li>
+                        <a href="#">农林牧业</a>
+                    </li>
+                    <li>
+                        <a href="#">化学化工</a>
+                    </li>
+                    <li>
+                        <a href="#">机械制造</a>
+                    </li>
+                    <li>
+                        <a href="#">电子信息</a>
                     </li>
                 </ul>
+                <a class="more">更多>></a>
             </div>
             <div class="clearfix bor-t-1-eee">
                 <div class="head fl">发明人所在地</div>
-                <ul class="ls_fl fl clearfix">
+                <ul class="ls_fl clearfix">
                     <li class="selected">
                         <a>全部</a>
                     </li>
@@ -393,14 +439,12 @@
                     <li>
                         <a>鹤岗</a>
                     </li>
-                    <li class="more">
-                        <a>更多>></a>
-                    </li>
                 </ul>
+                <a class="more">更多>></a>
             </div>
             <div class="clearfix bor-t-1-eee">
                 <div class="head fl">技术类型</div>
-                <ul class="ls_fl fl clearfix">
+                <ul class="ls_fl clearfix">
                     <li class="selected">
                         <a>全部</a>
                     </li>
@@ -417,7 +461,7 @@
             </div>
             <div class="clearfix bor-t-1-eee">
                 <div class="head fl">技术成熟度</div>
-                <ul class="ls_fl fl clearfix">
+                <ul class="ls_fl clearfix">
                     <li class="selected">
                         <a>全部</a>
                     </li>
@@ -752,6 +796,22 @@
             }
         });
         //排序结束
+
+        //更多
+        $(".box-detail-more .more").bind("click", function(){
+            var $this = $(this);
+            var $list = $this.siblings(".ls_fl");
+            var iListHeight = parseInt($list.css("height"));
+            var iNewHeight = $list.find("li:eq(0)").height();
+            var str = "更多>>";
+            if(iListHeight == iNewHeight){
+                iNewHeight = "auto";
+                str = "收起&nbsp;";
+            }
+            $list.css("height", iNewHeight);
+            $this.html(str);
+            
+        });
     });
 </script>
 </body>

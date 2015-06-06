@@ -280,6 +280,30 @@
                     <li>
                         <a href="#">电子信息</a>
                     </li>
+                    <li>
+                        <a href="#">生物医药</a>
+                    </li>
+                    <li>
+                        <a href="#">环保和资源</a>
+                    </li>
+                    <li>
+                        <a href="#">食品饮料</a>
+                    </li>
+                    <li>
+                        <a href="#">新型材料</a>
+                    </li>
+                    <li>
+                        <a href="#">农林牧业</a>
+                    </li>
+                    <li>
+                        <a href="#">化学化工</a>
+                    </li>
+                    <li>
+                        <a href="#">机械制造</a>
+                    </li>
+                    <li>
+                        <a href="#">电子信息</a>
+                    </li>
                 </ul>
                 <a class="more">更多>></a>
             </div>
@@ -697,15 +721,16 @@
         $(".box-detail-more .more").bind("click", function(){
             var $this = $(this);
             var $list = $this.siblings(".ls_fl");
-            var iHeight = parseInt($list.css("height"));
-            var iNewHeight = "25px";
+            var iListHeight = parseInt($list.css("height"));
+            var iNewHeight = $list.find("li:eq(0)").height();
             var str = "更多>>";
-            if(iHeight == 25){
+            if(iListHeight == iNewHeight){
                 iNewHeight = "auto";
-                str = "收起&nbsp;&nbsp;";
+                str = "收起&nbsp;";
             }
             $list.css("height", iNewHeight);
             $this.html(str);
+            
         });
     });
 </script>
